@@ -1,0 +1,73 @@
+
+const services_data_digital_marketing = [
+  // home three
+  {
+    id:8,
+    duration:'1s',
+    delay:'.3s',
+    img:'/assets/img/new-service/email-marketing/1.png',
+    title:'SEO',
+    color:'service-color-1',
+    text_1:" With Digital Cappuccino's digital marketing services, you can jump start your conversions and drive more traffic from the internet. Optimize your site for the latest search engine algorithms to get a better place on Google's rankings and make it more responsive. We'll do it all from the building of links and keyword optimization, to mobile Search Engine Optimization or Local SEO.",
+    home_3:true,
+    service_p_4:true,
+  },
+  {
+    id:9,
+    duration:'1s',
+    delay:'.5s',
+    img:'/assets/img/new-service/email-marketing/2.png',
+    title:'Social Media Marketing',
+    color:'service-color-1',
+    text_1:"Digital Cappuccino, top digital marketing company, offers a full range of social media marketing services, including Facebook, Instagram, Twitter and LinkedIn which are designed to help businesses take advantage of the popularity of these platforms. Our team creates custom campaigns to drive results in the areas of creation of media, ad management and Analytics. Contact us now to increase the visibility of your brand on social media.",
+    home_3:true,
+    service_p_4:true,
+  },
+  {
+    id:10,
+    duration:'1s',
+    delay:'.7s',
+    img:'/assets/img/new-service/email-marketing/3.png',
+    title:'PPC Marketing',
+    color:'service-color-1',
+    text_1:"With the PPC services provided by Digital Cappuccino, you will generate qualified leads and raise your revenue. Digital Cappuccino is one of the best digital marketing companies which takes care of generating leads, eCommerce sales, attracting traffic and so on. We monitor and control the running of PCC campaigns through data analysis in order to plan your marketing strategy and aim for higher ad placements at lower costs.",
+    home_3:true,
+    service_p_4:true,
+  },
+    {
+    id:11,
+    duration:'1s',
+    delay:'.7s',
+    img:'/assets/img/new-service/email-marketing/4.png',
+    title:'Email Marketing',
+    color:'service-color-1',
+    text_1:"Digital Cappuccino’s Team comprises of innovative and dedicated workers who are try their best  in reaching your target customers by email campaigns. It is our belief that each customer has particular needs and so we develop customized solutions to meet them. Digital Cappuccino characterized by cost efficient, convenient support, tailored solution and Hassle-Free email services. ",
+    home_3:true,
+    service_p_4:true,
+  },
+    {
+    id:12,
+    duration:'1s',
+    delay:'.7s',
+    img:'/assets/img/new-service/email-marketing/5.png',
+    title:'Graphic design',
+    color:'service-color-1',
+    text_1:"At Digital Cappuccino, the digital marketing agency, we focus on developing appealing visuals that capture the attention of the target audience and strategically use visual design techniques to convey the message of the campaign. By using various digital marketing techniques such as SEO, content marketing, Social media marketing etc. we help build relations with the customers.",
+    home_3:true,
+    service_p_4:true,
+  },
+    {
+    id:13,
+    duration:'1s',
+    delay:'.7s',
+    img:'/assets/img/new-service/email-marketing/6.png',
+    title:'Online Reputation Management (ORM)',
+    color:'service-color-1',
+    text_1:" Fostering trust and increasing the credibility of your company will help you attract customers. Our ORM professionals use a mix of paid and organic advertising techniques to enhance your brand image with the targeted audience. Our website services mitigate the risk of negative publicity with our analytical review monitoring and influencer strategies to ensure that your brand is well known in the digital world, without any setbacks.",
+    home_3:true,
+    service_p_4:true,
+  },
+
+]
+
+export default services_data_digital_marketing;

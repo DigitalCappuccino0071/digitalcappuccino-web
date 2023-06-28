@@ -1,0 +1,6 @@
+# serverless.yml
+
+DigitalCappuccinoWebsite:
+  component: "./node_modules/@sls-next/serverless-component"
+  inputs:
+    domain: ["www", "digitalcappuccino.com"]

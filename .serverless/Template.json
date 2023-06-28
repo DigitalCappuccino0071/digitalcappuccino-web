@@ -1,0 +1,5 @@
+{
+  "components": {
+    "DigitalCappuccinoWebsite": "./node_modules/@sls-next/serverless-component"
+  }
+}

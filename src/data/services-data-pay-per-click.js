@@ -1,0 +1,73 @@
+
+const services_data_pay_per_click = [
+  // home three
+  {
+    id:8,
+    duration:'1s',
+    delay:'.3s',
+    img:'/assets/img/new-service/pay-per/1.png',
+    title:'Display Advertising',
+    color:'service-color-1',
+    text_1:'Digital Cappuccino, pay per click company’s, pay per click marketing services create Google Display Ads that can be displayed in a variety of ways, including photographs, videos and interactive content, which is visible on websites and apps within the Google Display Network. These ads may be seen in different formats, e.g. banner or responsive advertising, as well as display advertisements of some kind.' ,
+    home_3:true,
+    service_p_4:true,
+  },
+  {
+    id:9,
+    duration:'1s',
+    delay:'.5s',
+    img:'/assets/img/new-service/pay-per/2.png',
+    title:'Search Advertising',
+    color:'service-color-1',
+    text_1:'Google Search Ads are the most lucrative and widely used kind of internet advertising. They are also complicated, constantly changing, and time demanding. Digital Cappuccino, Best PPC Marketing Agency, has cobbled together a dedicated group of industry professionals with the skills to execute and grow complicated PPC campaigns. Our in-house, profit-driven Google Ads experts have assisted over 100+ businesses in converting inefficient ad expenditure into long-term revenue.',
+    home_3:true,
+    service_p_4:true,
+  },
+  {
+    id:10,
+    duration:'1s',
+    delay:'.7s',
+    img:'/assets/img/new-service/pay-per/3.png',
+    title:'Google Shopping Advertising',
+    color:'service-color-1',
+    text_1:<>Google Shopping advertising are advertisements for products that include product images, prices, and a brief description. If you oversee an eCommerce site and aren&apos;t employing Google Shopping Ads, you are giving up an enormous chance to sell your items.  Our Pay Per Click Management agency has helped numerous e-commerce businesses increase product sales.</>,
+    home_3:true,
+    service_p_4:true,
+  },
+    {
+    id:11,
+    duration:'1s',
+    delay:'.7s',
+    img:'/assets/img/new-service/pay-per/4.png',
+    title:'Video Advertising',
+    color:'service-color-1',
+    text_1:<>Digital Cappuccino, PPC Management Services Agency, creates video marketing strategies based on your company&apos;s vision. We make digital films in a variety of styles and forms, including animated explainers, software tutorials, commercial advertising, and social media videos. We aim at improving  your customers&apos; comprehension of your goods and brand and explain your most complex topics using audiovisuals that are basic and straightforward.</>,
+    home_3:true,
+    service_p_4:true,
+  },
+    {
+    id:12,
+    duration:'1s',
+    delay:'.7s',
+    img:'/assets/img/new-service/pay-per/5.png',
+    title:'Remarketing Services',
+    color:'service-color-1',
+    text_1:'Being the best PPC Company, we relaunch your ads by actively staying in touch with website visitors. This improves their user experience, and we can deliver personalized display adverts in accordance to their requirements. Our team of experts provide best PPC services to effectively increase conversions and sales on your website.  We appreciate professional partnerships and want to help you connect with reputable sources and platforms.',
+    home_3:true,
+    service_p_4:true,
+  },
+    {
+    id:13,
+    duration:'1s',
+    delay:'.7s',
+    img:'/assets/img/new-service/pay-per/6.png',
+    title:'App Promotion',
+    color:'service-color-1',
+    text_1:'App promotion, often known as mobile marketing, is the process through which app developers advertise their apps.  These short-term initiatives are designed to satisfy your goals and expand the reach of your desired application. Our pay per click marketing services also ensure that our clients are kept up up-to-date on promotional techniques and methods, so that they can keep up with current events.',
+    home_3:true,
+    service_p_4:true,
+  },
+
+]
+
+export default services_data_pay_per_click;

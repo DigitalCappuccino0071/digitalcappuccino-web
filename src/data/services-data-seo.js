@@ -1,0 +1,73 @@
+
+const services_data_seo = [
+  // home three
+  {
+    id:8,
+    duration:'1s',
+    delay:'.3s',
+    img:'/assets/img/new-service/seo/1.png',
+    title:'Report & Tracking',
+    color:'service-color-1',
+    text_1:" Report and tracking is the process of determining a campaign's performance and advancement. For optimum outcomes, Digital Cappuccino , the Best SEO Company, has a SEO strategy in place before beginning a client's campaign. To do so, we ask our clients a series of questions that direct our attempts, and then customise the strategy to get the best outcome.",
+    home_3:true,
+    service_p_4:true,
+  },
+  {
+    id:9,
+    duration:'1s',
+    delay:'.5s',
+    img:'/assets/img/new-service/seo/2.png',
+    title:'Local SEO',
+    color:'service-color-1',
+    text_1:"Being a local SEO expert, we comprehend the various difficulties and possibilities encountered with marketing a business in a particular region of the nation. As a consequence, we use our comprehensive knowledge and skills to assist you in earning the highest rankings in Google's results for local searches, resulting in improved exposure and sales.",
+    home_3:true,
+    service_p_4:true,
+  },
+  {
+    id:10,
+    duration:'1s',
+    delay:'.7s',
+    img:'/assets/img/new-service/seo/3.png',
+    title:'Ecommerce SEO',
+    color:'service-color-1',
+    text_1:"Ecommerce SEO is the process of increasing the visibility of an online business in search engine results pages.Digital Cappuccino, an SEO Company, with its team of  E-commerce experts design strategies  that focus on increasing traffic and sales by ranking the product listings as highly possible in search engines. Ecommerce SEO is critical to the success of a storefront on the internet.",
+    home_3:true,
+    service_p_4:true,
+  },
+    {
+    id:11,
+    duration:'1s',
+    delay:'.7s',
+    img:'/assets/img/new-service/seo/4.png',
+    title:'International SEO',
+    color:'service-color-1',
+    text_1:"An International SEO agency like ours,provides affordable SEO services and aids in developing localized content for websites, which include language transitions and creating versions of the website that match the local culture and sensibilities. We offer a wide range of services to enable websites succeed in global markets and reach the international audience.",
+    home_3:true,
+    service_p_4:true,
+  },
+    {
+    id:12,
+    duration:'1s',
+    delay:'.7s',
+    img:'/assets/img/new-service/seo/5.png',
+    title:'On-Page SEO',
+    color:'service-color-1',
+    text_1:"Digital cappuccino, the best SEO Agency, uses a variety of techniques to ensure that your website is optimised for search engine algorithms and are better suited for organic search results. Keyword research, content optimisation, link building etc are employed in an organised manner to help improve the overall visibility in the online space.",
+    home_3:true,
+    service_p_4:true,
+  },
+    {
+    id:13,
+    duration:'1s',
+    delay:'.7s',
+    img:'/assets/img/new-service/seo/6.png',
+    title:'Technical SEO',
+    color:'service-color-1',
+    text_1:"As a Technical SEO specialist, we specialise in optimising websites. We also provide recommendations on how to make a website more user friendly and help identify potential issues that could be hindering a website’s ranking such as duplicate content, broken links, incorrect redirects and slow page loading speed.",
+    home_3:true,
+    service_p_4:true,
+  },
+
+]
+
+export default services_data_seo;

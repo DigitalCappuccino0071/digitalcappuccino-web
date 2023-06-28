@@ -1,0 +1,73 @@
+
+const services_data_email_marketing = [
+  // home three
+  {
+    id:8,
+    duration:'1s',
+    delay:'.3s',
+    img:'/assets/img/new-service/digital-marketing/1.png',
+    title:'Email List Management',
+    color:'service-color-1',
+    text_1:"In order to obtain valuable information about the subscribers, Digital Cappuccino, best email marketing company uses a combination of activities. By creating an overarching strategy for customer understanding, ensuring email viability, maintaining clean lists and avoiding the typical churn rate of 86 %, enterprises gain a better understanding of their customers." ,
+    home_3:true,
+    service_p_4:true,
+  },
+  {
+    id:9,
+    duration:'1s',
+    delay:'.5s',
+    img:'/assets/img/new-service/digital-marketing/2.png',
+    title:'Customer Email Retention',
+    color:'service-color-1',
+    text_1:" Existing customers are sent a customer retention email to encourage their continued use of your product. The importance of maintaining existing customers is the same as obtaining new ones. Digital Cappuccino’s best email marketing services play a huge role in re-engaging past buyers before they fabricate.",
+    home_3:true,
+    service_p_4:true,
+  },
+  {
+    id:10,
+    duration:'1s',
+    delay:'.7s',
+    img:'/assets/img/new-service/digital-marketing/3.png',
+    title:'Custom Email',
+    color:'service-color-1',
+    text_1:"Your branding process includes the creation of a custom email domain. You're more trusted by people because you have a personalised email address, which is superior to the standard one. Digital Cappuccino, the best email marketing agency, has the expertise of formatting emails, creating personalised content etc that help businesses grow their list of contacts.",
+    home_3:true,
+    service_p_4:true,
+  },
+    {
+    id:11,
+    duration:'1s',
+    delay:'.7s',
+    img:'/assets/img/new-service/digital-marketing/4.png',
+    title:'Email Segregation',
+    color:'service-color-1',
+    text_1:" Digital Cappuccino employs the best email marketing services that split your email recipients into smaller, targeted groups and send them the most recent information. These smaller groups are usually based on the behavioral or demographic data, which include their place of residence, past purchases and tasks performed in your website thereby increasing conversion rates.",
+    home_3:true,
+    service_p_4:true,
+  },
+    {
+    id:12,
+    duration:'1s',
+    delay:'.7s',
+    img:'/assets/img/new-service/digital-marketing/5.png',
+    title:'Track Your Analytics',
+    color:'service-color-1',
+    text_1:"By monitoring various metrics relating to the delivery, engagement and conversion of emails, Digital Cappuccino, email marketing agency, monitors how subscribers interact with your email. In this way, data analysis allows email marketing companies like ours to generate useful insights which can be used for better optimization and planning of campaigns. The email metrics now collect valuable information on the various parts of your marketing campaign.",
+    home_3:true,
+    service_p_4:true,
+  },
+    {
+    id:13,
+    duration:'1s',
+    delay:'.7s',
+    img:'/assets/img/new-service/digital-marketing/6.png',
+    title:'Tracking Your Email Campaigns',
+    color:'service-color-1',
+    text_1:"Email monitoring checks the relevant activity and actions carried out after it has been sent. You'll be able to trace who opens the mails and who doesn't. By targeting those who are more interested in your business, Digital Cappuccino, email marketing company, provides more personalised email campaigns, analyses results, saves time by targeting those who are more likely to respond.",
+    home_3:true,
+    service_p_4:true,
+  },
+
+]
+
+export default services_data_email_marketing;

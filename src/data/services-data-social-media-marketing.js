@@ -1,0 +1,73 @@
+
+const services_data_web_2 = [
+  // home three
+  {
+    id:8,
+    duration:'1s',
+    delay:'.3s',
+    img:'/assets/img/new-service/social-media-marketing/1.png',
+    title:'Lead Generation',
+    color:'service-color-1',
+    text_1:'Lead generation is important since it is the initial step in getting clients to the organisation. Digital Cappuccino’s Social Media management services generate leads for the firm in order to get more customers.  In order to generate validated leads, our team creates and implements lead generation campaigns. The qualifying leads are then emailed to the clients or their marketing/sales manager.' ,
+    home_3:true,
+    service_p_4:true,
+  },
+  {
+    id:9,
+    duration:'1s',
+    delay:'.5s',
+    img:'/assets/img/new-service/social-media-marketing/2.png',
+    title:'Traffic Boost',
+    color:'service-color-1',
+    text_1:<p>Increasing traffic to a social media post necessitates a planned strategy. We use eye opening images, vivid captions, interacting with the target audiences, building up support for posts and tracking results as some of the strategies used by our social media marketing and management agency to enhance clients&#39; benefits.</p>,
+    home_3:true,
+    service_p_4:true,
+  },
+  {
+    id:10,
+    duration:'1s',
+    delay:'.7s',
+    img:'/assets/img/new-service/social-media-marketing/3.png',
+    title:'Social Media Management',
+    color:'service-color-1',
+    text_1:'As a social media management agency, we provide a comprehensive range of social media management services, including altering your social media presence with outstanding content, everyday operations, participation monitoring, and increased follower counts. To convert followers to customers, it is important that they become acquainted with the brand and see content on a more frequent basis so as to acquire value. These three criteria are met when we create content for our clients.',
+    home_3:true,
+    service_p_4:true,
+  },
+    {
+    id:11,
+    duration:'1s',
+    delay:'.7s',
+    img:'/assets/img/new-service/social-media-marketing/4.png',
+    title:'Brand Awareness',
+    color:'service-color-1',
+      text_1:<p>Digital Cappuccino, social media marketing agency’s, campaign is designed to increase awareness of your brand with the target audience, thereby making it more recognizable. We&#39;ll make sure your ideal customers feel as if they have a good impression of you. They&#39;re going to be associating your company with a specific product or service. We strive to promote your unique selling point (USP) and what makes your business catch the eye.</p>,
+    home_3:true,
+    service_p_4:true,
+  },
+    {
+    id:12,
+    duration:'1s',
+    delay:'.7s',
+    img:'/assets/img/new-service/social-media-marketing/5.png',
+    title:'Facebook Ads',
+    color:'service-color-1',
+    text_1:<p>Working with one of the biggest Facebook marketing agencies like ours can boost post engagement by multiple times. Digital Cappuccino, best social media marketing agency, has proven to be driven by our goal of driving growth strategies and solutions to enhance your business. Sales have been boosted by our strategy experts. They&#39;ve done this before, and they can do it for your business, too, through Facebook advertising.</p>,
+    home_3:true,
+    service_p_4:true,
+  },
+    {
+    id:13,
+    duration:'1s',
+    delay:'.7s',
+    img:'/assets/img/new-service/social-media-marketing/6.png',
+    title:'YouTube Ads',
+    color:'service-color-1',
+    text_1:'For companies of virtually any size, sector or business model, we have provided best social media marketing services to build and manage campaigns on YouTube. The right ad formats for your business are selected through an examination of the data surrounding your audience. Subsequently, our PPC experts collaborate with you to create unique, powerful videos that drive people to your site and purchase your product.',
+    home_3:true,
+    service_p_4:true,
+  },
+
+]
+
+export default services_data_web_2;
