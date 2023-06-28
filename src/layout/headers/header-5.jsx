@@ -12,9 +12,14 @@ const HeaderFive = () => {
   return (
     <React.Fragment>
       <Head>
+        <meta
+          name="google-site-verification"
+          content="ILs5xsVp4CFP9OqfmzWejeNMwRFRwTIwQGfNXl5OTpc"
+        />
         <title>
           Digital Marketing & Website Development Company | Digital Cappuccino
         </title>
+
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
           name="description"
@@ -41,10 +46,6 @@ const HeaderFive = () => {
         <meta name="twitter:title" content="TITLE_FOR_YOUR_PAGE" />
         <meta name="twitter:description" content="DESCRIPTION_FOR_YOUR_PAGE" />
         <meta name="twitter:image" content="URL_FOR_YOUR_IMAGE" />
-        <meta
-          name="google-site-verification"
-          content="ILs5xsVp4CFP9OqfmzWejeNMwRFRwTIwQGfNXl5OTpc"
-        />
       </Head>
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=AW-11192435865`}
