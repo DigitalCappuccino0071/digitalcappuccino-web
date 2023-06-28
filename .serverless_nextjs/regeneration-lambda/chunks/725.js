@@ -1553,15 +1553,7 @@ const OurAffiliates = ()=>{
 };
 /* harmony default export */ const our_affiliates = ((/* unused pure expression or super */ null && (OurAffiliates)));
 
-// EXTERNAL MODULE: ./node_modules/next/head.js
-var head = __webpack_require__(9008);
-var head_default = /*#__PURE__*/__webpack_require__.n(head);
-// EXTERNAL MODULE: ./node_modules/next/script.js
-var script = __webpack_require__(4298);
-var script_default = /*#__PURE__*/__webpack_require__.n(script);
 ;// CONCATENATED MODULE: ./src/components/homes/home-5/index.jsx
-
-
 
 
 
@@ -1584,80 +1576,6 @@ const HomeFive = ()=>{
     }, []);
     return /*#__PURE__*/ (0,jsx_runtime.jsxs)(layout/* Wrapper */.im, {
         children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)((head_default()), {
-                children: [
-                    /*#__PURE__*/ jsx_runtime.jsx("title", {
-                        children: "Digital Marketing & Website Development Company | Digital Cappuccino"
-                    }),
-                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
-                        httpEquiv: "x-ua-compatible",
-                        content: "ie=edge"
-                    }),
-                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
-                        name: "description",
-                        content: "Digital Cappuccino is a digital marketing Company in India. We provides website Development, Social Media Marketing, PPC Marketing, SEO and Email Marketing Services."
-                    }, "desc"),
-                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
-                        name: "robots",
-                        content: "index, follow"
-                    }),
-                    /*#__PURE__*/ jsx_runtime.jsx("link", {
-                        rel: "canonical",
-                        href: "https://www.digitalcappuccino.com/"
-                    }, "canonical"),
-                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
-                        property: "og:title",
-                        content: "Social Title for Cool Page"
-                    }),
-                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
-                        property: "og:description",
-                        content: "And a social description for our cool page"
-                    }),
-                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
-                        property: "og:image",
-                        content: "https://example.com/images/cool-page.jpg"
-                    }),
-                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
-                        name: "twitter:card",
-                        content: "summary_large_image"
-                    }),
-                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
-                        name: "twitter:site",
-                        content: "@YOUR_TWITTER_USERNAME"
-                    }),
-                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
-                        name: "twitter:title",
-                        content: "TITLE_FOR_YOUR_PAGE"
-                    }),
-                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
-                        name: "twitter:description",
-                        content: "DESCRIPTION_FOR_YOUR_PAGE"
-                    }),
-                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
-                        name: "twitter:image",
-                        content: "URL_FOR_YOUR_IMAGE"
-                    }),
-                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
-                        name: "google-site-verification",
-                        content: "U9aKcrxVP2tdcuqCiLv34-jTZaj3CZ7Zew92miNTyIA"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ jsx_runtime.jsx((script_default()), {
-                src: `https://www.googletagmanager.com/gtag/js?id=AW-11192435865`,
-                strategy: "afterInteractive"
-            }),
-            /*#__PURE__*/ jsx_runtime.jsx((script_default()), {
-                id: "gtag-init",
-                strategy: "afterInteractive",
-                children: `
-           window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-11192435865');
-        `
-            }),
             /*#__PURE__*/ jsx_runtime.jsx(layout/* HeaderFive */.Aj, {}),
             /*#__PURE__*/ jsx_runtime.jsx(hero_area, {}),
             /*#__PURE__*/ jsx_runtime.jsx(feature_area, {}),
