@@ -5,7 +5,7 @@ exports.id = 4585;
 exports.ids = [4585];
 exports.modules = {
 
-/***/ 9696:
+/***/ 74561:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -95,11 +95,11 @@ __webpack_require__.r(__webpack_exports__);
         rewrites: rewrites,
         i18n: undefined,
         page: "/product-details/[id]",
-        buildId: "GUufdFi_6lYWVhihiJT6k",
-        escapedBuildId: "GUufdFi_6lYWVhihiJT6k",
+        buildId: "TlJS9zH64lV9YO3QKt3EQ",
+        escapedBuildId: "TlJS9zH64lV9YO3QKt3EQ",
         basePath: "",
         pageIsDynamic: true,
-        encodedPreviewProps: {previewModeId:"a87849536e33ff8ac540a90edd03a398",previewModeSigningKey:"3bc9d583c7fe7f3964bb6418e1b57d67a318876ad2b295408090db732b8f225e",previewModeEncryptionKey:"6c2d609c798b75a136222d8824c89cc92c48e4847ed30d8d1e3be067001302cd"}
+        encodedPreviewProps: {previewModeId:"7cd5929129cf4b5cc4af0f5ce812f35b",previewModeSigningKey:"9b3cacabb44825a723101ccd17ccadc827a4380e434f2636b538822c1da7fba9",previewModeEncryptionKey:"6e6152c4bb5b5b830dcd917694ef0c00ed15e9634505f641af6fb7ec9bc90b2f"}
       })
       
     
@@ -287,7 +287,7 @@ module.exports = require("zlib");
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [4648,8494,8576,1163,5596,6562,4575,6323,735], () => (__webpack_exec__(9696)));
+var __webpack_exports__ = __webpack_require__.X(0, [4648,8494,8576,1163,5596,6562,4575,6323,735], () => (__webpack_exec__(74561)));
 module.exports = __webpack_exports__;
 
 })();
