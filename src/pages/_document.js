@@ -1,14 +1,8 @@
-import React from "react";
-// import SEO from '../components/seo';
-import { Wrapper } from "../layout";
-import HomeFiveMain from "../components/homes/home-5";
-import Head from "next/head";
-import Script from "next/script";
+import { Html, Head, Main, NextScript } from "next/document";
 
-const index = () => {
+export default function _document() {
   return (
-    <Wrapper>
-      {/* <SEO pageTitle={'Home Five'} /> */}
+    <Html lang="en">
       <Head>
         <title>
           Digital Marketing & Website Development Company | Digital Cappuccino
@@ -44,6 +38,10 @@ const index = () => {
           content="U9aKcrxVP2tdcuqCiLv34-jTZaj3CZ7Zew92miNTyIA"
         />
       </Head>
+      <body>
+        <Main />
+        <NextScript />
+      </body>
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=AW-11192435865`}
         strategy="afterInteractive"
@@ -57,9 +55,6 @@ const index = () => {
   gtag('config', 'AW-11192435865');
         `}
       </Script>
-      <HomeFiveMain />
-    </Wrapper>
+    </Html>
   );
-};
-
-export default index;
+}
