@@ -53,6 +53,10 @@ const HomeFive = () => {
         <meta name="twitter:title" content="TITLE_FOR_YOUR_PAGE" />
         <meta name="twitter:description" content="DESCRIPTION_FOR_YOUR_PAGE" />
         <meta name="twitter:image" content="URL_FOR_YOUR_IMAGE" />
+        <meta
+          name="google-site-verification"
+          content="U9aKcrxVP2tdcuqCiLv34-jTZaj3CZ7Zew92miNTyIA"
+        />
       </Head>
       {/* Global Site Tag (gtag.js) - Google Analytics */}
       <Script
