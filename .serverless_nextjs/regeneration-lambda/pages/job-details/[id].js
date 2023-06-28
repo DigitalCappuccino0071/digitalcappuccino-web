@@ -5,7 +5,7 @@ exports.id = 9668;
 exports.ids = [9668];
 exports.modules = {
 
-/***/ 60506:
+/***/ 63187:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -43,7 +43,7 @@ __webpack_require__.r(__webpack_exports__);
       const runtimeConfig = {}
       ;
 
-      const documentModule = __webpack_require__(23105)
+      const documentModule = __webpack_require__(74178)
 
       const appMod = __webpack_require__(71412)
       let App = appMod.default || appMod.then && appMod.then(mod => mod.default);
@@ -95,11 +95,11 @@ __webpack_require__.r(__webpack_exports__);
         rewrites: rewrites,
         i18n: undefined,
         page: "/job-details/[id]",
-        buildId: "duPjwuxDY01Z8_I_IXMc2",
-        escapedBuildId: "duPjwuxDY01Z8_I_IXMc2",
+        buildId: "BrsoBkr4oiKF8uWo7Ljx9",
+        escapedBuildId: "BrsoBkr4oiKF8uWo7Ljx9",
         basePath: "",
         pageIsDynamic: true,
-        encodedPreviewProps: {previewModeId:"f5072bba7e6bec342838303043a42241",previewModeSigningKey:"7ddb877f6b545f6519a315325ad04ad4d070162a8833395f00aaadd2dc5f7b38",previewModeEncryptionKey:"355733d8135ac46910a25ad76f3a9ade2239a4928773a051f0746c11f068a930"}
+        encodedPreviewProps: {previewModeId:"8fe76906515fb8518d96e336fb76ab64",previewModeSigningKey:"e2f6811224c001d960eb38d9d35eb2e85df53851f2b0a13aa5bbe3298c954bb9",previewModeEncryptionKey:"7111b59f0f2e2839e003a78865a1830c75c42e259946c8fe9069253a5cdd65b2"}
       })
       
     
@@ -287,7 +287,7 @@ module.exports = require("zlib");
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [4648,8576,1163,6562,4575,6323,5477], () => (__webpack_exec__(60506)));
+var __webpack_exports__ = __webpack_require__.X(0, [9883,8576,1163,8000,4575,6323,5477], () => (__webpack_exec__(63187)));
 module.exports = __webpack_exports__;
 
 })();
