@@ -1636,6 +1636,10 @@ const HomeFive = ()=>{
                     /*#__PURE__*/ jsx_runtime.jsx("meta", {
                         name: "twitter:image",
                         content: "URL_FOR_YOUR_IMAGE"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
+                        name: "google-site-verification",
+                        content: "U9aKcrxVP2tdcuqCiLv34-jTZaj3CZ7Zew92miNTyIA"
                     })
                 ]
             }),
