@@ -21,19 +21,6 @@ const index = () => {
           href="https://www.digitalcappuccino.com/about-us"
           key="canonical"
         />
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=AW-11192435865`}
-          strategy="afterInteractive"
-        />
-        <Script id="gtag-init" strategy="afterInteractive">
-          {`
-           window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-11192435865');
-        `}
-        </Script>
       </Head>
       <AboutMain />
     </Wrapper>
