@@ -165,7 +165,8 @@ const blog_data = [
     // home 5
     {
         id: 13,
-        img: "/assets/img/blog_1/pheli_baarish.png",
+        img: "/assets/img/blog_1/pehli_baarish.png",
+        alt: "Top Digital Marketing Agency",
         // meta_tag:'Development',
         date: "April 22, 2022",
         author: "SHAHNEAJ",
@@ -181,6 +182,7 @@ const blog_data = [
     {
         id: 14,
         img: "/assets/img/blog_1/wish.png",
+        alt: "Website Development Company",
         // meta_tag:'Web Design',
         date: "January 25, 2022",
         author: "FARHAN",
@@ -196,6 +198,7 @@ const blog_data = [
     {
         id: 15,
         img: "/assets/img/blog_1/top_trucker.png",
+        alt: "Web Development Company",
         // meta_tag:'UI UX Design',
         date: "February 18, 2022",
         author: "NAIM",
@@ -1056,7 +1059,7 @@ const services_data = [
         title: /*#__PURE__*/ jsx_runtime.jsx(jsx_runtime.Fragment, {
             children: "Website Development"
         }),
-        path: "./service-website-development",
+        path: "./website-development-company",
         text_1: "At Digital Cappuccino we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast",
         home_5: true
     },
@@ -1067,7 +1070,7 @@ const services_data = [
         title: /*#__PURE__*/ jsx_runtime.jsx(jsx_runtime.Fragment, {
             children: "Digital Marketing"
         }),
-        path: "/service-digital-marketing",
+        path: "/digital-marketing-company",
         text_1: "At Digital Cappuccino we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast",
         home_5: true
     },
@@ -1078,7 +1081,7 @@ const services_data = [
         title: /*#__PURE__*/ jsx_runtime.jsx(jsx_runtime.Fragment, {
             children: "Social Media Marketing"
         }),
-        path: "/service-social-media-marketing",
+        path: "/social-media-marketing-services",
         text_1: "At Digital Cappuccino we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast",
         home_5: true
     },
@@ -1089,7 +1092,7 @@ const services_data = [
         title: /*#__PURE__*/ jsx_runtime.jsx(jsx_runtime.Fragment, {
             children: "SEO Services"
         }),
-        path: "/service-seo",
+        path: "/seo-services",
         text_1: "At Digital Cappuccino we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast",
         home_5: true
     },
@@ -1100,7 +1103,7 @@ const services_data = [
         title: /*#__PURE__*/ jsx_runtime.jsx(jsx_runtime.Fragment, {
             children: "PPC Marketing"
         }),
-        path: "/service-pay-per-click",
+        path: "/ppc-marketing-comapny",
         text_1: "At Digital Cappuccino we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast",
         home_5: true
     },
@@ -1111,7 +1114,7 @@ const services_data = [
         title: /*#__PURE__*/ jsx_runtime.jsx(jsx_runtime.Fragment, {
             children: "Email Marketing"
         }),
-        path: "/service-email-marketing",
+        path: "/email-marketing-services",
         text_1: "At Digital Cappuccino we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast",
         home_5: true
     },
@@ -1565,42 +1568,6 @@ const team_data = [
     },
     // about page
     {
-        id: 13,
-        duration: ".5s",
-        delay: ".7s",
-        img: "/assets/img/team_1/avatar/vibhor.jpeg",
-        name: "Vibhor Sharma",
-        title: "Sales Executive",
-        hashTag: "#coffee&friends",
-        social_links: [
-            {
-                link: "http://facebook.com",
-                target: "_blank",
-                icon: "fab fa-facebook-f",
-                name: "Facebook"
-            },
-            {
-                link: "http://twitter.com",
-                target: "_blank",
-                icon: "fab fa-twitter",
-                name: "Twitter"
-            },
-            {
-                link: "https://www.youtube.com/",
-                target: "_blank",
-                icon: "fab fa-youtube",
-                name: "Youtube"
-            },
-            {
-                link: "https://www.skype.com/en/",
-                target: "_blank",
-                icon: "fab fa-skype",
-                name: "Skype"
-            }, 
-        ],
-        about_p: true
-    },
-    {
         id: 15,
         duration: ".9s",
         delay: "1s",
@@ -1679,7 +1646,7 @@ const team_data = [
         delay: "1s",
         img: "/assets/img/team_1/avatar/Tushar.png",
         name: "Tushar Gulati",
-        title: "Team Leader",
+        title: "Intern",
         hashTag: "#coffeeculture",
         social_links: [
             {
@@ -1754,78 +1721,6 @@ const team_data = [
         name: "Jay Gulati",
         title: "Co-Founder",
         hashTag: "#coffeeenthusiast",
-        social_links: [
-            {
-                link: "http://facebook.com",
-                target: "_blank",
-                icon: "fab fa-facebook-f",
-                name: "Facebook"
-            },
-            {
-                link: "http://twitter.com",
-                target: "_blank",
-                icon: "fab fa-twitter",
-                name: "Twitter"
-            },
-            {
-                link: "https://www.youtube.com/",
-                target: "_blank",
-                icon: "fab fa-youtube",
-                name: "Youtube"
-            },
-            {
-                link: "https://www.skype.com/en/",
-                target: "_blank",
-                icon: "fab fa-skype",
-                name: "Skype"
-            }, 
-        ],
-        home_founder_5: true
-    },
-    {
-        id: 21,
-        duration: ".5s",
-        delay: ".7s",
-        img: "/assets/img/team_2/neha.png",
-        name: "Neha Gupta",
-        title: "Co-Founder",
-        hashTag: "#coffeejunkie",
-        social_links: [
-            {
-                link: "http://facebook.com",
-                target: "_blank",
-                icon: "fab fa-facebook-f",
-                name: "Facebook"
-            },
-            {
-                link: "http://twitter.com",
-                target: "_blank",
-                icon: "fab fa-twitter",
-                name: "Twitter"
-            },
-            {
-                link: "https://www.youtube.com/",
-                target: "_blank",
-                icon: "fab fa-youtube",
-                name: "Youtube"
-            },
-            {
-                link: "https://www.skype.com/en/",
-                target: "_blank",
-                icon: "fab fa-skype",
-                name: "Skype"
-            }, 
-        ],
-        home_founder_5: true
-    },
-    {
-        id: 22,
-        duration: ".7s",
-        delay: ".9s",
-        img: "/assets/img/team_2/amrit.png",
-        name: "Amritpal Singh",
-        title: "CTO",
-        hashTag: "#coffeeexpert",
         social_links: [
             {
                 link: "http://facebook.com",

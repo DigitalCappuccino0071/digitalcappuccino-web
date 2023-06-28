@@ -211,7 +211,7 @@ const BlogArea = ()=>{
                                     ]
                                 }),
                                 blog_items.map((blog)=>{
-                                    const { date , id , img , meta_tag , link , title  } = blog;
+                                    const { date , id , img , meta_tag , link , title , alt  } = blog;
                                     return /*#__PURE__*/ jsx_runtime.jsx("div", {
                                         className: "tpblog mb-50",
                                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
@@ -225,7 +225,7 @@ const BlogArea = ()=>{
                                                         rel: "noreferrer",
                                                         children: /*#__PURE__*/ jsx_runtime.jsx("img", {
                                                             src: img,
-                                                            alt: ""
+                                                            alt: alt
                                                         })
                                                     })
                                                 }),
@@ -365,7 +365,7 @@ const contents = {
     feature_bg: "/assets/img/feature/fea-2.png",
     subtitle: "Why Brew With Us?",
     title: "Why Digital Cappuccino?",
-    text_1: "We are perfectly crafted cappuccino that requires the balance of ingredients that combines different elements to create a deliciously effective marketing result. Our team of experts is skilled in developing unique and creative marketing solutions that capture attention and engage audiences. At Digital Cappuccino, we work with our clients to develop a customized marketing strategy that balances different approaches" + " to achieve your marketing objectives.",
+    text_1: "Like a well-crafted cappuccino, our skilled team produces one-of-a-kind and engaging marketing solutions. We produce successful campaigns that create a lasting impact by capturing audiences with creativity and strategy. At Digital Cappuccino, we work with our clients to develop a customized marketing strategy that balances different approaches." + " to achieve your marketing objectives.",
     // text_2:
     //   "At Digital Cappuccino, we offer a variety of digital marketing solutions," +
     //   " like the different types of coffee, to suit the needs of businesses and their customers." +
@@ -584,7 +584,7 @@ const FeatureArea = ()=>{
                                 /*#__PURE__*/ jsx_runtime.jsx("div", {
                                     className: "tp-fea-button-five",
                                     children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                        href: "/contact",
+                                        href: "/contact-us",
                                         children: /*#__PURE__*/ jsx_runtime.jsx("a", {
                                             className: "tp-btn-sky",
                                             children: btn_text
@@ -716,7 +716,7 @@ const HeroArea = ()=>{
                                         /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
                                             className: "tp-hero-section-box-five__title pb-45",
                                             children: [
-                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("h3", {
+                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("h1", {
                                                     className: "tp-hero-bs-title wow tpfadeUp",
                                                     "data-wow-duration": ".5s",
                                                     "data-wow-delay": ".7s",
@@ -759,7 +759,7 @@ const HeroArea = ()=>{
                                             children: /*#__PURE__*/ jsx_runtime.jsx("div", {
                                                 className: "tp-header-yellow-button",
                                                 children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                    href: "/contact",
+                                                    href: "/contact-us",
                                                     children: /*#__PURE__*/ jsx_runtime.jsx("a", {
                                                         className: "tp-btn-sky",
                                                         children: "let's connect"
@@ -784,7 +784,7 @@ const HeroArea = ()=>{
                                             "data-wow-delay": "1.2s",
                                             children: /*#__PURE__*/ jsx_runtime.jsx("img", {
                                                 src: hero_img,
-                                                alt: ""
+                                                alt: "Digital Marketing Company"
                                             })
                                         })
                                     ]
@@ -1070,22 +1070,26 @@ const project_area_contents = {
         {
             subtitle: "Music Industry",
             title: "T-Series",
-            img: "/assets/img/project_1/t-series.png"
+            img: "/assets/img/project_1/t-series.png",
+            alt: "Digital marketing Agency"
         },
         {
             subtitle: "OTT Industry",
             title: "Netflix",
-            img: "/assets/img/project_1/netflix.png"
+            img: "/assets/img/project_1/netflix.png",
+            alt: "Best Digital Marketing Agency"
         },
         {
             subtitle: "Health Care",
             title: "Max Life Insurance",
-            img: "/assets/img/project_1/max-life.png"
+            img: "/assets/img/project_1/max-life.png",
+            alt: "Top Digital Marketing Company"
         },
         {
             subtitle: "Business",
             title: "Business Consulting",
-            img: "/assets/img/project_1/net-media.png"
+            img: "/assets/img/project_1/net-media.png",
+            alt: "Best Digital Marketing Company"
         }, 
     ]
 };
@@ -1178,7 +1182,7 @@ const ProjectArea = ()=>{
                                                 }
                                             },
                                             children: project_items.map((item, i)=>{
-                                                const { img , subtitle , title  } = item;
+                                                const { img , subtitle , title , alt  } = item;
                                                 return /*#__PURE__*/ jsx_runtime.jsx(swiper_react/* SwiperSlide */.o5, {
                                                     children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
                                                         className: "tpproject",
@@ -1209,7 +1213,7 @@ const ProjectArea = ()=>{
                                                                     children: /*#__PURE__*/ jsx_runtime.jsx("img", {
                                                                         className: "w-100",
                                                                         src: img,
-                                                                        alt: ""
+                                                                        alt: alt
                                                                     })
                                                                 })
                                                             })
@@ -1451,7 +1455,7 @@ const TeamArea = ()=>{
                         })
                     }),
                     /*#__PURE__*/ jsx_runtime.jsx("div", {
-                        className: "row",
+                        className: "row d-flex justify-content-center",
                         children: teams.map((team)=>/*#__PURE__*/ jsx_runtime.jsx(single_team/* default */.Z, {
                                 team: team
                             }, team.id))
@@ -1549,7 +1553,15 @@ const OurAffiliates = ()=>{
 };
 /* harmony default export */ const our_affiliates = ((/* unused pure expression or super */ null && (OurAffiliates)));
 
+// EXTERNAL MODULE: ./node_modules/next/head.js
+var head = __webpack_require__(9008);
+var head_default = /*#__PURE__*/__webpack_require__.n(head);
+// EXTERNAL MODULE: ./node_modules/next/script.js
+var script = __webpack_require__(4298);
+var script_default = /*#__PURE__*/__webpack_require__.n(script);
 ;// CONCATENATED MODULE: ./src/components/homes/home-5/index.jsx
+
+
 
 
 
@@ -1572,6 +1584,76 @@ const HomeFive = ()=>{
     }, []);
     return /*#__PURE__*/ (0,jsx_runtime.jsxs)(layout/* Wrapper */.im, {
         children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)((head_default()), {
+                children: [
+                    /*#__PURE__*/ jsx_runtime.jsx("title", {
+                        children: "Digital Marketing & Website Development Company | Digital Cappuccino"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
+                        httpEquiv: "x-ua-compatible",
+                        content: "ie=edge"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
+                        name: "description",
+                        content: "Digital Cappuccino is a digital marketing Company in India. We provides website Development, Social Media Marketing, PPC Marketing, SEO and Email Marketing Services."
+                    }, "desc"),
+                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
+                        name: "robots",
+                        content: "index, follow"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("link", {
+                        rel: "canonical",
+                        href: "https://www.digitalcappuccino.com/"
+                    }, "canonical"),
+                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
+                        property: "og:title",
+                        content: "Social Title for Cool Page"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
+                        property: "og:description",
+                        content: "And a social description for our cool page"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
+                        property: "og:image",
+                        content: "https://example.com/images/cool-page.jpg"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
+                        name: "twitter:card",
+                        content: "summary_large_image"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
+                        name: "twitter:site",
+                        content: "@YOUR_TWITTER_USERNAME"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
+                        name: "twitter:title",
+                        content: "TITLE_FOR_YOUR_PAGE"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
+                        name: "twitter:description",
+                        content: "DESCRIPTION_FOR_YOUR_PAGE"
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
+                        name: "twitter:image",
+                        content: "URL_FOR_YOUR_IMAGE"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ jsx_runtime.jsx((script_default()), {
+                src: `https://www.googletagmanager.com/gtag/js?id=AW-11192435865`,
+                strategy: "afterInteractive"
+            }),
+            /*#__PURE__*/ jsx_runtime.jsx((script_default()), {
+                id: "gtag-init",
+                strategy: "afterInteractive",
+                children: `
+           window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11192435865');
+        `
+            }),
             /*#__PURE__*/ jsx_runtime.jsx(layout/* HeaderFive */.Aj, {}),
             /*#__PURE__*/ jsx_runtime.jsx(hero_area, {}),
             /*#__PURE__*/ jsx_runtime.jsx(feature_area, {}),

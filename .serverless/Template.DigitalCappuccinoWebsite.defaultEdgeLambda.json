@@ -1,10 +1,10 @@
 {
   "name": "h7w85g-57qorv",
-  "hash": "LvemaausWSXU78p6ShO4x3ODLHKnYdN+oap/ahp9PkI=",
+  "hash": "Lg0FV6xmfH8JIdLPyZaowq5Hen8l7FWsyFWQH8PCg0k=",
   "description": "Default Lambda@Edge for Next CloudFront distribution",
   "memory": 512,
   "timeout": 10,
-  "code": "/Users/arbaaz/DC/digitalcappuccino-website/.serverless_nextjs/default-lambda",
+  "code": "/home/boparaiamrit/Projects/digitalcappuccino-web/.serverless_nextjs/default-lambda",
   "shims": [],
   "handler": "index.handler",
   "runtime": "nodejs14.x",

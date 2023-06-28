@@ -21,7 +21,7 @@ const SingleServiceFour = ({ service , index , m  })=>{
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
         className: "col-md-4",
         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: `tp-services-item text-left 
+            className: `tp-services-item text-left h-100
       ${color} ${index && index > 2 ? "mb-30" : ""} ${m ? "mb-30" : ""} wow tpfadeUp`,
             "data-wow-duration": duration,
             "data-wow-delay": delay,
@@ -38,11 +38,13 @@ const SingleServiceFour = ({ service , index , m  })=>{
                     children: [
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                             className: "tp-sv-title",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                children: title
-                            })
+                            children: title
                         }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                            className: "text-black",
+                            style: {
+                                fontSize: "18px"
+                            },
                             children: text_1
                         })
                     ]

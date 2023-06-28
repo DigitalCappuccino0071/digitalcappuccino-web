@@ -99,7 +99,7 @@ const services_data_web_1 = [
         img: "/assets/img/new-service/website-development/1.png",
         title: "WordPress Website Development",
         color: "service-color-1",
-        text_1: "Digital Cappuccino, the best Website Development Agency, offers professional WordPress design and development services. Exceptional care is taken to consider the particularities of each web project and deliver well optimised, SEO-savvy WordPress solutions within the allotted time frames. To create websites that are safe and adaptable, our WordPress planners practice clear and clean code standards.",
+        text_1: "The most outstanding WordPress design and Development Services are acquired at Digital Cappuccino, the best Website Development Agency. Every web project is treated with individual attention, and in timely manner, optimized, SEO-savvy WordPress solutions are delivered. To create websites that are safe and adaptable, our WordPress planners practice clear and clean code standards.",
         home_3: true,
         service_p_4: true
     },
@@ -110,7 +110,7 @@ const services_data_web_1 = [
         img: "/assets/img/new-service/website-development/2.png",
         title: "E-commerce Website Development",
         color: "service-color-1",
-        text_1: "Grow your business with our tailored eCommerce website development services. At Digital Cappuccino, best web development company, we craft aesthetically pleasing eCommerce platforms that improve user satisfaction, boost sales, and optimize conversion rates. Hire an eCommerce developer to handle all of your requirements for constructing a shopping cart portal using the newest advancements.",
+        text_1: "Grow your business with our tailored eCommerce website development services. At Digital Cappuccino, the best\xa0web development company, we create visually attractive eCommerce systems that raise sales and optimise conversion rates. Employ an eCommerce specialist to meet all of your needs for building a shopping cart site using the most recent developments.",
         home_3: true,
         service_p_4: true
     },
@@ -121,7 +121,7 @@ const services_data_web_1 = [
         img: "/assets/img/new-service/website-development/3.png",
         title: "CMS Website Development",
         color: "service-color-1",
-        text_1: "At Digital Cappuccino, we specialize in delivering web development services. We provide reliable, scalable, and feature-packed CMS-based web solutions. With multi-layer permissions, we offer you full authority over the platform in order to manage, modify, and broadcast products. Serving customers on eCommerce websites for the past 10+ years, we have expertise in creating specialised eCommerce web portals that meet client needs and specifications.",
+        text_1: "At Digital Cappuccino, the best\xa0web development company, we create visually attractive eCommerce systems that raise sales and optimise conversion rates. Employ an eCommerce specialist to meet all of your needs for building a shopping cart site using the most recent developments.Having served consumers on eCommerce websites for more than a decade, we are experts at developing bespoke eCommerce web portals that satisfy client requirements and specifications.",
         home_3: true,
         service_p_4: true
     },
@@ -347,7 +347,7 @@ const services_data_web_1 = [
         img: "/assets/img/new-service/website-development/4.png",
         title: "Website Redesigning",
         color: "service-color-1",
-        text_1: "The best Website Development Company, Digital Cappuccino’s competent designers carefully navigate through the process of revamping your website, upgrading content, renewing layouts, and improving navigation for higher conversion rates and improved site performance. We evaluate the overall efficacy of your website and determine a route plan to close the gaps. Once the site targets are understood, the redesign process has the potential to increase website performance.",
+        text_1: "The best\xa0Website Development Company, Digital Cappuccino skilled designers walk you through the process of updating your website content, design, and accessibility in order to increase conversion rates and enhance site performance. We assess the overall effectiveness of your website and devise a strategy to close the gaps. Once the sites objectives are comprehended, the process of redesigning has the potential to boost website performance.",
         service_p_4: true
     },
     {
@@ -357,7 +357,7 @@ const services_data_web_1 = [
         img: "/assets/img/new-service/website-development/5.png",
         title: "Website Maintenance",
         color: "service-color-1",
-        text_1: "Your website is the face of your business and maintaining it ensures that your company continues to expand and survive over time. At Digital Cappuccino, we work hard to deliver top-notch website development services that make it simple for you to accomplish your business goals. Website Maintenance services encompass all aspects of trying to maintain your website, such as daily content updates as well as website monitoring.",
+        text_1: "Your website is your online storefront, and keeping it up to date ensures that it grows and survives over time. At Digital Cappuccino, we work hard to provide high-quality website development services that make it easy for you to achieve your company objectives. Website maintenance services include all parts of attempting to keep your website up to date, such as regular content changes and website monitoring.",
         service_p_4: true
     },
     {
@@ -367,7 +367,7 @@ const services_data_web_1 = [
         img: "/assets/img/new-service/website-development/6.png",
         title: "Custom Website Development",
         color: "service-color-1",
-        text_1: "Digital Cappuccino has over the years emerged as the leading custom website development services provider. Our website development agency customises your business’s website by giving it a unique look and feel, and making it more user- friendly and easier to navigate, thereby granting an engaging and immersive online experience for users.",
+        text_1: "Digital Cappuccino has established itself as the most prominent provider of unique website development services throughout the years. Our website development agency customises your business’s website by giving it a unique look and feel, and making it more user- friendly and easier to navigate, thereby granting an engaging and immersive online experience for users.",
         service_p_4: true
     }, 
 ];
