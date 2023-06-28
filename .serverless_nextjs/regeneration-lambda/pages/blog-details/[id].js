@@ -5,7 +5,7 @@ exports.id = 1852;
 exports.ids = [1852];
 exports.modules = {
 
-/***/ 13512:
+/***/ 94414:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -95,11 +95,11 @@ __webpack_require__.r(__webpack_exports__);
         rewrites: rewrites,
         i18n: undefined,
         page: "/blog-details/[id]",
-        buildId: "rPMbLtxVF9FfMBLoB6SDS",
-        escapedBuildId: "rPMbLtxVF9FfMBLoB6SDS",
+        buildId: "Zq1aOLLzTGIaIckMzWd3U",
+        escapedBuildId: "Zq1aOLLzTGIaIckMzWd3U",
         basePath: "",
         pageIsDynamic: true,
-        encodedPreviewProps: {previewModeId:"5bf671b5efcdd1f38ab953bbd7b66ee5",previewModeSigningKey:"27fc1d3933f603e36b9600198475ededc9868b329cd93f64902c435c174bef7c",previewModeEncryptionKey:"14f6d1fa98c4dc3b9225cc7963c9860a6c683c44d29712d0fbb846259c0b9ced"}
+        encodedPreviewProps: {previewModeId:"3d43196951fcec9422193903dee565ac",previewModeSigningKey:"a8cf0c2661593fff363a498688b791c06d82274f7277035a87bbb97695e000cf",previewModeEncryptionKey:"2e9b601e66dd5b1aaf1dd5d2542dfb9fbdaee50546e627b22d7d68c9df4e639d"}
       })
       
     
@@ -287,7 +287,7 @@ module.exports = require("zlib");
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [4648,8576,1163,6562,4575,6323,2854,4169], () => (__webpack_exec__(13512)));
+var __webpack_exports__ = __webpack_require__.X(0, [4648,8576,1163,6562,4575,6323,2854,4169], () => (__webpack_exec__(94414)));
 module.exports = __webpack_exports__;
 
 })();
