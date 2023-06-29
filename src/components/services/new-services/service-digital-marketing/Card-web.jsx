@@ -8,7 +8,7 @@ const data = [
     alt: "Digital Marketing Agency",
     title: "Digital Marketing",
     peraOne:
-      "Get the most out of your digital marketing strategy with Digital Cappuccino, a digital marketing company- offering a comprehensive range of services to help your business reach new heights Our digital marketing company employs a methodical process to guarantee that all of our internet marketing initiatives produce successful outcomes. Increase your client acquisition and retention rates by utilizing Digital Cappuccino, the best digital marketing agency’s internet marketing services right away.",
+      "Make the most of your digital marketing plan by partnering with Digital Cappuccino, a digital company that provides a wide variety of services to assist your business in reaching new heights. Our digital marketing company follows a systematic procedure to ensure that all of our internet marketing endeavours are effective. Increase your customer acquisition and retention rates right away by using the internet marketing services of Digital Cappuccino, the best digital marketing agency.",
   },
 ];
 
