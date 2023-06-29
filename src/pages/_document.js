@@ -6,8 +6,7 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <meta
-            name="google-site-verification"
-            content="ILs5xsVp4CFP9OqfmzWejeNMwRFRwTIwQGfNXl5OTpc"
+            name="google-site-verification" content="s0Ew-qMLI8Q-pipMoe4Kx9OxSgHrqP-S5urLWi5JhfA"
           />
           <title>
             Digital Marketing & Website Development Company | Digital Cappuccino
@@ -42,23 +41,37 @@ export default class MyDocument extends Document {
             content="DESCRIPTION_FOR_YOUR_PAGE"
           />
           <meta name="twitter:image" content="URL_FOR_YOUR_IMAGE" />
+          {/* Google Tag Manager */}
+          <script
+    dangerouslySetInnerHTML={{
+      __html: `(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-KRNGKNZ");`,
+    }}
+  />
+   {/* End Google Tag Manager */}
         </Head>
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=AW-11192435865`}
-          strategy="afterInteractive"
-        />
-        <Script id="gtag-init" strategy="afterInteractive">
-          {`
-           window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        
+        
 
-  gtag('config', 'AW-11192435865');
-        `}
-        </Script>
+       
+       
         <body>
           <Main />
           <NextScript />
+          <noscript
+    dangerouslySetInnerHTML={{
+      __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRNGKNZ"
+height="0" width="0" style="display:none;visibility:hidden"/>`,
+    }}
+  />
         </body>
       </Html>
     );

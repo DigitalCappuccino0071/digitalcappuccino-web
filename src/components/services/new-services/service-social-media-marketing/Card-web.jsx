@@ -8,7 +8,7 @@ const data = [
     alt: "social media marketing agency",
     title: "Social Media Marketing ",
     peraOne:
-      "In order to align social media marketing strategies with business objectives and overall marketing strategy, Digital Cappuccino, Social Media Management Company, works with clients to identify the best ways for clients to gain access to their target markets. Content is king. We are the best social media management company and produce content which is used by our clients for connecting with their most important audiences through social channels. To strengthen strategies and increase the effectiveness of social marketing, we take stock of their impressions and interactions",
+      "Digital Cappuccino, Social Media Management Company, works with customers to determine the best methods for clients to obtain access to their target audiences in order to match social media marketing tactics with company goals and overall marketing strategy. Content reigns supreme. We are the top social media management firm, and we create content that our customers utilise to engage with their most important audiences through social networks. We assess their perceptions and interactions in order to enhance plans and boost the efficacy of social marketing.",
   },
 ];
 

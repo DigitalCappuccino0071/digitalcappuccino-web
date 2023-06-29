@@ -8,7 +8,7 @@ const data = [
     alt: "SEO Services Agency",
     title: "SEO Services",
     peraOne:
-      "Digital Cappuccino, the Best SEO Agency has made a name for itself in the business with more than ten years of expertise in providing best SEO services. From a tiny SEO Marketing Agency, we have expanded into a digital marketing behemoth with more than 100 active clients. You can rely on our in-depth SEO knowledge and experience to increase your online presence. We'd be delighted to have the chance to explain to you the potential benefits of investing in SEO for your business.",
+      "With over 10 years of experience in offering excellent SEO services, Digital Cappuccino, the Best SEO Agency, has built a name for itself in the industry. We grew from an emerging SEO Marketing Agency to a digital marketing giant with over 100 current customers. You can depend on our extensive SEO expertise and experience to boost your online visibility. We'd love the opportunity to discuss the possible advantages of investing in SEO for your company.",
   },
 ];
 
