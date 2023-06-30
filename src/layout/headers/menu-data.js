@@ -18,7 +18,7 @@ const menu_data = [
           {link:'/digital-marketing-company',title:'digital Marketing'},
       {link:'./social-media-marketing-services',title:'Social Media Marketing'},
       {link:'./seo-services',title:'SEO Services'},
-           {link:'/ppc-marketing-comapny',title:'PPC Marketing'},
+           {link:'/ppc-marketing-company',title:'PPC Marketing'},
       {link:'/email-marketing-services',title:'Email Marketing'},
 
 

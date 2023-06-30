@@ -41,7 +41,7 @@ const services_data_pay_per_click = [
     img:'/assets/img/new-service/pay-per/4.png',
     title:'Video Advertising',
     color:'service-color-1',
-    text_1:<>PPC Management Services Agency Digital Cappuccino develops video marketing tactics based on your company's goal. We create animated explainers, software tutorials, commercial advertising, and social media videos in a range of styles and formats. We seek to improve your clients understanding of your products and brand by explaining your most difficult issues utilising simple and easy audiovisuals.</>,
+    text_1:<>PPC Management Services Agency Digital Cappuccino develops video marketing tactics based on your company&apos;s goal. We create animated explainers, software tutorials, commercial advertising, and social media videos in a range of styles and formats. We seek to improve your clients understanding of your products and brand by explaining your most difficult issues utilising simple and easy audiovisuals.</>,
     home_3:true,
     service_p_4:true,
   },
