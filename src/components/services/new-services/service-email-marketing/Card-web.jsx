@@ -8,7 +8,7 @@ const data = [
     alt: "Email Marketing Company",
     title: "Email Marketing",
     peraOne:
-      "Being the top email marketing company, Digital Cappuccino specialises in the development of email campaigns for business.  We create custom mails, segment target audiences and analyse data from email campaigns to help businesses understand how their strategies are performing. Our Email Marketing Services assist businesses increase their customer base, boost sales and build loyalty through effective email outreach.",
+      "Digital Cappuccino, being the top email marketing company, specialises in the creation of commercial email campaigns. To assist organisations in understanding how their strategies are succeeding, we build personalised emails, segment target groups, and evaluate data from email campaigns. Through efficient email marketing, our Email Marketing Services help companies grow their client base, generate revenues, and establish loyalty.",
   },
 ];
 

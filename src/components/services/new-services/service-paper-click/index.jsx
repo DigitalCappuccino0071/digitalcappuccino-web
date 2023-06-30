@@ -31,7 +31,7 @@ const ServicePaperClick = () => {
         />
         <link
           rel="canonical"
-          href="https://www.digitalcappuccino.com/ppc-marketing-comapny"
+          href="https://www.digitalcappuccino.com/ppc-marketing-company"
           key="canonical"
         />
       </Head>

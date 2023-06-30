@@ -64,7 +64,7 @@ const footer_contents = {
             {
           id: 4,
           text: "Pay-Per Click",
-          link: "/ppc-marketing-comapny",
+          link: "/ppc-marketing-company",
         },
         {
           id: 5,
