@@ -6,7 +6,8 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <meta
-            name="google-site-verification" content="s0Ew-qMLI8Q-pipMoe4Kx9OxSgHrqP-S5urLWi5JhfA"
+            name="google-site-verification"
+            content="s0Ew-qMLI8Q-pipMoe4Kx9OxSgHrqP-S5urLWi5JhfA"
           />
           <title>
             Digital Marketing & Website Development Company | Digital Cappuccino
@@ -43,8 +44,8 @@ export default class MyDocument extends Document {
           <meta name="twitter:image" content="URL_FOR_YOUR_IMAGE" />
           {/* Google Tag Manager */}
           <script
-    dangerouslySetInnerHTML={{
-      __html: `(function (w, d, s, l, i) {
+            dangerouslySetInnerHTML={{
+              __html: `(function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
         var f = d.getElementsByTagName(s)[0],
@@ -54,24 +55,20 @@ export default class MyDocument extends Document {
         j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
         f.parentNode.insertBefore(j, f);
     })(window, document, "script", "dataLayer", "GTM-KRNGKNZ");`,
-    }}
-  />
-   {/* End Google Tag Manager */}
+            }}
+          />
+          {/* End Google Tag Manager */}
         </Head>
-        
-        
 
-       
-       
         <body>
           <Main />
           <NextScript />
           <noscript
-    dangerouslySetInnerHTML={{
-      __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRNGKNZ"
+            dangerouslySetInnerHTML={{
+              __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRNGKNZ"
 height="0" width="0" style="display:none;visibility:hidden"/>`,
-    }}
-  />
+            }}
+          />
         </body>
       </Html>
     );
