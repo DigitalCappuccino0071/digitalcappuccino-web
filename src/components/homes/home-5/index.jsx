@@ -11,6 +11,7 @@ import ProjectArea from "./project-area";
 import ServicesArea from "./services-area";
 import TeamArea from "./team-area";
 import OurAffiliates from "./our-affiliates";
+import OurAssociate from "./our-associate";
 
 const HomeFive = () => {
   useEffect(() => {
@@ -29,6 +30,7 @@ const HomeFive = () => {
       <BrandArea />
       {/*<OurAffiliates/>*/}
       <ProjectArea />
+      <OurAssociate/>
       <TeamArea />
       <ClientFeedback />
       <BlogArea />
