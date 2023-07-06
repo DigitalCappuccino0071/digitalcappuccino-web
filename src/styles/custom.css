@@ -9,7 +9,7 @@
       /* align-self: center; */
       border: dashed 0.5px #ddd;
       height: 150px;
-      flex-basis: 100%;
+      flex-basis: 50%;
       text-align: center;
       
       @media all and (min-width: 450px) {
