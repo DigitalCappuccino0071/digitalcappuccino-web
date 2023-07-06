@@ -171,9 +171,9 @@ const OurAssociate = () => {
         </div>
         <section class="grid-logos">
           {associateLogo.map((e, i) => (
-            <a href="" class="grid-logos__item">
+            <div key={i} class="grid-logos__item">
               <img src={e.path} alt={e.alter} />
-            </a>
+            </div>
           ))}
         </section>
       </div>
