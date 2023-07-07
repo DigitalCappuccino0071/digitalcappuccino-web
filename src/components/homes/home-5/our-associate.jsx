@@ -191,10 +191,10 @@ const OurAssociate = () => {
           <div className="col-xl-8">
             <div className="tp-project-section-box text-center">
               <h5 className="tp-subtitle tp-subtitle-before-color">
-                our Associates
+                Our Associates
               </h5>
               <h2 className="tp-title-sm pb-30">
-                Our Group of Companies, Associations,Members, Affiliations &
+                Our Group of Companies,  Associations,  Members,  Affiliations &
                 Partnerships
               </h2>
             </div>
@@ -203,7 +203,7 @@ const OurAssociate = () => {
         <section className="grid-logos">
           {associateLogo.map((e, i) => (
             <div className="grid-logos__item" key={i}>
-              <a href={e.urlLink}>
+              <a href={e.urlLink} target="_blank">
                 <img src={e.path} alt={e.alter} />
               </a>
             </div>
