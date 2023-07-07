@@ -202,8 +202,8 @@ const OurAssociate = () => {
         </div>
         <section className="grid-logos">
           {associateLogo.map((e, i) => (
-            <div className="grid-logos__item">
-              <a href={e.urlLink} key={i}>
+            <div className="grid-logos__item" key={i}>
+              <a href={e.urlLink}>
                 <img src={e.path} alt={e.alter} />
               </a>
             </div>
