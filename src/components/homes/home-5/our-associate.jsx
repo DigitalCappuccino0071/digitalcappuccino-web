@@ -194,7 +194,7 @@ const OurAssociate = () => {
                 Our Associates
               </h5>
               <h2 className="tp-title-sm pb-30">
-                Our Group of Companies,  Associations,  Members,  Affiliations &
+                Our Group of Companies, Associations, Members, Affiliations &
                 Partnerships
               </h2>
             </div>
@@ -203,9 +203,10 @@ const OurAssociate = () => {
         <section className="grid-logos">
           {associateLogo.map((e, i) => (
             <div className="grid-logos__item" key={i}>
-              <a href={e.urlLink} target="_blank" rel="noopener noreferrer">
+              {/* <a href={e.urlLink} target="_blank" rel="noopener noreferrer">
                 <img src={e.path} alt={e.alter} />
-              </a>
+              </a> */}
+              <img src={e.path} alt={e.alter} />
             </div>
           ))}
         </section>
