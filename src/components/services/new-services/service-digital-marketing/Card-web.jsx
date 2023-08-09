@@ -6,9 +6,8 @@ const data = [
     id: 11,
     image: "/assets/img/breadcrum_1/youtube.png",
     alt: "Digital Marketing Agency",
-    title: "Digital Marketing",
-    peraOne:
-      "Make the most of your digital marketing plan by partnering with Digital Cappuccino, a digital company that provides a wide variety of services to assist your business in reaching new heights. Our digital marketing company follows a systematic procedure to ensure that all of our internet marketing endeavours are effective. Increase your customer acquisition and retention rates right away by using the internet marketing services of Digital Cappuccino, the best digital marketing agency.",
+    title: "Delhi's Premier Digital Marketing Company - Digital Cappuccino",
+    peraOne:"If you want to improve your online efforts, collaborate with Digital Cappuccino, a top Digital Marketing Company in Delhi. Our skilled staff provides a comprehensive range of premium services, ensuring success in customer acquisition and retention. We are your go-to Digital Marketing Agency because of our brilliant tactics. Improve your business with our high-quality Digital Marketing Services. Make the most of your potential by contacting us today.",
   },
 ];
 

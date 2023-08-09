@@ -5,10 +5,10 @@ const data = [
   {
     id: 11,
     image: "/assets/img/breadcrum_1/seo.png",
-    alt: "SEO Services Agency",
-    title: "SEO Services",
+    alt: "SEO Services Agency in Delhi",
+    title: "Leading SEO Company in Delhi: Driving Unmatched Digital Growth",
     peraOne:
-      "With over 10 years of experience in offering excellent SEO services, Digital Cappuccino, the Best SEO Agency, has built a name for itself in the industry. We grew from an emerging SEO Marketing Agency to a digital marketing giant with over 100 current customers. You can depend on our extensive SEO expertise and experience to boost your online visibility. We'd love the opportunity to discuss the possible advantages of investing in SEO for your company.",
+      "At Digital Cappuccino, we specialise in a variety of services, including high-quality SEO solutions. Our expertise is in increasing the quality and quantity of website traffic via search engines. Our focused strategy focuses on improving organic results across a wide range of search categories, including photos, videos, academia, news, and industry-specific searches. We assure the success of your online presence by understanding search engine operations and user preferences. Partner with us for exceptional SEO services in Delhi, where we work tirelessly as your preferred SEO firm to boost unpaid traffic and prospective client conversions. Choose Digital Cappuccino as the top SEO company in Delhi.",
   },
 ];
 

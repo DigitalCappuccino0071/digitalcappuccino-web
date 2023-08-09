@@ -15,7 +15,7 @@ const ServicesWeb = () => {
         <div className="container">
           <div className="row gx-17">
             <div className="project-section-box-two text-center">
-              <h2 className="tp-title-sm">Service We Provide</h2>
+              <h2 className="tp-title-sm">Our Exceptional Email Marketing Services</h2>
             </div>
             {services_items.map((ser, i) => {
               return <SingleServiceFour key={i} service={ser} index={i} />;

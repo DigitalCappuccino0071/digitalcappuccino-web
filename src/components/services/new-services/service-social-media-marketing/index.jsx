@@ -38,8 +38,8 @@ const ServiceSocialMediaMarketing = () => {
       <Breadcrumb
         color={"#fec4c559"}
         imagePath={"/assets/img/service/3.png"}
-        title={"Social Media Marketing Agency"}
-        alt="Socail Media Marketing Company"
+        title={"DIGITALCAPPUCCINO: SOCIAL MEDIA MARKETING COMPANY IN DELHI"}
+        alt="Socail Media Marketing Company in Delhi"
       />
       <CardWeb />
       <ServicesWeb />

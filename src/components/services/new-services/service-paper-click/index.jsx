@@ -39,8 +39,8 @@ const ServicePaperClick = () => {
       <Breadcrumb
         color={"#fec4c559"}
         imagePath={"/assets/img/service/5.png"}
-        title={"Pay Per Click (PPC) Marketing"}
-        alt="PPC Marketing Company"
+        title={"DIGITAL CAPPUCCINO PPC MARKETING COMPANY IN DELHI"}
+        alt="PPC Marketing Company in Delhi"
       />
       <CardWeb />
       <ServicesWeb />
