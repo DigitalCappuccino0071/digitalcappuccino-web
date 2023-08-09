@@ -39,8 +39,8 @@ const ServiceEmailMarketing = () => {
       <Breadcrumb
         color={"#fec4c559"}
         imagePath={"/assets/img/service/6.png"}
-        title={"	Email Marketing Company"}
-        alt="Email Marketing Services"
+        title={"Digital Cappuccino Elevates Your Reach"}
+        alt="Email Marketing Services in Delhi"
       />
       <CardWeb />
       <ServicesWeb />

@@ -36,8 +36,8 @@ const ServiceDigitalMarketing = () => {
       <Breadcrumb
         color={"#fec4c559"}
         imagePath={"/assets/img/service/2.png"}
-        title={"Digital Marketing Company"}
-        alt="Digital Marketing Company"
+        title={"DIGITAL CAPPUCCINO DIGITAL MARKETING COMPANY IN DELHI"}
+        alt="Digital Marketing Company in Delhi"
       />
       <CardWeb />
       <ServicesWeb />

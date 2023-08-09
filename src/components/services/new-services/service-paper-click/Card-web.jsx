@@ -6,9 +6,8 @@ const data = [
     id: 11,
     image: "/assets/img/breadcrum_1/google_ads.png",
     alt: "PPC Marketing Agency",
-    title: "Pay-Per Click",
-    peraOne:
-      "Digital Cappuccino is an integrated PPC marketing agency in India and a number of other countries across the globe, providing conventional packages at reasonable pricing. You will be able to alter your business image with our new Digital Strategies. Google AdWords allows you to boost sales by promoting your goods, services, and brands. You'll find the most prevalent forms of PPC advertising available to interested parties with us.",
+    title: "With Digital Cappuccino, You Can Expand Your Business",
+    peraOne:"We at Digital Cappuccino are a Delhi-based comprehensive PPC marketing agency. With a reach beyond India, we help clients there as well. Our whole range of services includes cost-effective regular packages. Improve your company with our resourceful digital methods, which will increase revenue through Google AdWords. Our selection of prevalent PPC advertising strategies meets a range of promotion requirements.",
   },
 ];
 
