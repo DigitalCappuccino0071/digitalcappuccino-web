@@ -5,10 +5,10 @@ const data = [
   {
     id: 11,
     image: "/assets/img/breadcrum_1/email.png",
-    alt: "Email Marketing Company",
-    title: "Email Marketing",
+    alt: "Email Marketing Company Delhi",
+    title: "Digital Cappuccino Delivers Unparalleled Solutions",
     peraOne:
-      "Digital Cappuccino, being the top email marketing company, specialises in the creation of commercial email campaigns. To assist organisations in understanding how their strategies are succeeding, we build personalised emails, segment target groups, and evaluate data from email campaigns. Through efficient email marketing, our Email Marketing Services help companies grow their client base, generate revenues, and establish loyalty.",
+      "At Digital Cappuccino, we provide a variety of services, including Email Marketing. Our strategy is sending promotional communications to a group of subscribers via email. Every email, whether to new or existing consumers, is a form of email marketing. Our techniques include sending emails for advertisements, business queries, and requests for sales or donations. Our key goals are to increase brand awareness, loyalty, and trust. We specialise in giving the best and top-notch Email Marketing services in Delhi as a leading Email Marketing firm.",
   },
 ];
 
