@@ -41,7 +41,7 @@ const services_data_pay_per_click = [
     img:'/assets/img/new-service/pay-per/4.png',
     title:'Video Advertising',
     color:'service-color-1',
-    text_1:<>Our area of specialisation is developing video marketing plans that are specifically tailored to meet your marketing goals. Our services include creating animated narrations, tutorials for software, advertisements, and a variety of social media videos in different formats. Our main goal is to make complex concepts simple through approachable audio-visual presentations, improving customers' understanding of your brands and products. </>,
+    text_1:<>Our area of specialisation is developing video marketing plans that are specifically tailored to meet your marketing goals. Our services include creating animated narrations, tutorials for software, advertisements, and a variety of social media videos in different formats. Our main goal is to make complex concepts simple through approachable audio-visual presentations, improving customers&apos; understanding of your brands and products. </>,
     home_3:true,
     service_p_4:true,
   },
