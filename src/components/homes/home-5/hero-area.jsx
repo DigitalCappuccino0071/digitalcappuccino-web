@@ -70,6 +70,11 @@ const {
 const HeroArea = () => {
   return (
     <div className="tp-hero-area tp-hero-border p-relative">
+      {/* gif start  */}
+      <div className="pt-4" style={{ textAlign: "center" }}>
+        <img src="/assets/img/hero/line-tricolor.gif" className="w-75" />
+      </div>
+      {/* gif end  */}
       {shapes.map((s, i) => (
         <div key={i} className={`bp-hero-shape-${i + 1} d-none d-xxl-block`}>
           <img src={`/assets/img/hero/${s}`} alt="" />
