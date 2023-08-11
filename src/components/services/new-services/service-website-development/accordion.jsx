@@ -1,19 +1,14 @@
 import React from 'react';
 
 const accordion_items = [
-  { id: 'one', show: true, title: 'What is a Website Development process?',
-    desc: "Website development is a process that involves the creation, design, coding, and implementation of the various components of a website. It is an iterative process that begins with the initial planning stages and continues through to the final launch of the website. The process involves tasks such as creating an information architecture, designing wireframes, coding the site, building the design, testing and launching the site. Each step in the process requires attention to detail and careful consideration of user experience and functionality. Additionally, each step should be tested to ensure that the website meets all the necessary standards and requirements. In conclusion, website development is a complex, multi-step process that requires skill and expertise in order to produce a successful website." },
-  { id: 'two', title: 'Why is Web Development important?',
-    desc: " Web development is an increasingly important area of technology in today's world, as more and more businesses rely on their online presence for success. Web development is important because it allows companies to reach a wider audience, create a more engaging experience for their users, and provide more useful features and services to customers. Web development allows businesses to create interactive experiences that are easily accessible from any device. It also gives businesses the ability to scale their operations quickly by creating websites that can be easily updated and maintained. Additionally, web development helps businesses to remain competitive in a rapidly changing market by allowing them to quickly respond to changing user needs and preferences. Finally, web development is critical to the success of any online presence as it provides the foundation for secure, reliable, and efficient websites that ensure customer satisfaction." },
-  { id: 'three', title: 'What exactly is Web Development?',
-    desc: " Web Development is the process of creating websites and applications for the web. It includes activities such as designing a website's layout and content, coding and programming, and ensuring that the site works correctly across different browsers and devices. This process involves many different skills, such as HTML, JavaScript, CSS, Adobe Creative Suite, and more. Web developers typically work collaboratively or independently to build websites from concept to completion. They often have to troubleshoot any problems that arise during the development process. Additionally, they may be responsible for maintaining and improving existing websites as well as creating mobile apps for different platforms. Web development is a rapidly changing field that requires a strong working knowledge of up-to-date technologies and practices in order to stay competitive." },
-  { id: 'four', title: 'How long does it take to design or develop a website?',
-    desc: <p>A variety of typical procedures are required to effectively launch a website as part of the broader website development process:
-Preparation (two to three weeks)
-Creation of content (four to six weeks)
-Design of a website (two to three weeks)
-Testing and analysis (one to two weeks)
-      From concept to completion, the time frame is 10-14 weeks. These time periods are estimates, and the procedure may take longer or shorter depending on how sophisticated your site is.</p> }
+  { id: 'one', show: true, title: 'What is a Website Development Company do ?',
+    desc: "A top web development company may assist in the creation of websites and apps for personal or commercial use. The procedures vary, but they always entail goal alignment, design selection, and feature integration. Regular check-ins during development guarantee that your feedback shapes the final product, giving the intended ROI." },
+  { id: 'two', title: 'How long does it take to build a website?',
+    desc: " If you hire a competent website development business, it will take 1 to 4 months from start to finish for basic information websites with limited functionality. Website builders can help you develop your website faster, but they are difficult to rely on because you must handle everything from start. Expert advice or opinion may aid in obtaining better results." },
+  { id: 'three', title: 'Could my Google ranking be affected by website redesign or redevelopment?',
+    desc: " Using a competent website design business ensures that your ranking is affected as little as possible. During redesigns, our web development business follows a strict checklist. This method not only maintains ranking but also increases visibility. Working with the best website design firm can help your business stand out with updated, optimised designs." },
+  { id: 'four', title: 'How Can a Skillfully Crafted Website Benefit My Business?',
+    desc: "A well-designed website dramatically improves user experience, which is a critical aspect in increasing conversions. Building your site with a well planned style instills a sense of visual satisfaction in visitors and consumers, enticing a growing stream of potential clients. The first step towards success is to captivate and engage visitors, which is accomplished through the establishment of a precisely designed website by the best website designing business." }
 ]
 
 const AccordionArea = () => {
@@ -23,7 +18,7 @@ const AccordionArea = () => {
         <div className="container">
           <div className="row">
             <div>
-              <h3 className="tp-title-sm mb-30">Stay Ahead with our FutureReady Digital Marketing Solutions</h3>
+              <h3 className="tp-title-sm mb-30">Clarifying Curiosities: Your Questions Answered with Care</h3>
             </div>
           </div>
           <div className="row">

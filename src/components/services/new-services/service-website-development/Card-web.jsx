@@ -6,9 +6,9 @@ const data = [
     id: 11,
     image: "/assets/img/breadcrum_1/web_development.png",
     alt: "https://www.digitalcappuccino.com/assets/img/breadcrum_1/web_development.png",
-    title: "Website Development",
+    title: "Improve Your Digital Presence with Digital Cappuccin",
     peraOne:
-      "At Digital Cappuccino, a website development company, we assist you in achieving your business objectives by creating stunning, functional website designs. So why settle with a bland and uninteresting website when we can hand over a rich and intriguing cappuccino of online presence.",
+      "At Digital Cappuccino, we provide a variety of services, including website construction. Our competence lies in the creation, maintenance, and enhancement of websites. This includes web design, web publishing, programming, and database administration. Our duty include developing internet-based apps for both websites and web-based applications. Our all-inclusive approach includes client-side and server-side scripting, security configuration, eCommerce development, and CMS creation. We excel in generating results that fit your digital needs as a leading website development business in Delhi, as well as a notable website designing and web development entity.",
   },
 ];
 
