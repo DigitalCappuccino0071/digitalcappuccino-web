@@ -13,7 +13,7 @@ const ServicesWeb = () => {
           {/*row gx-17*/}
           <div className="">
             <div className="project-section-box-two text-center">
-              <h2 className="tp-title-sm pb-30">Service We Provide</h2>
+              <h2 className="tp-title-sm pb-30">Our Outstanding Website Development Services</h2>
             </div>
             <div className="row gy-3">
               {services_items.map((ser, i) => {
