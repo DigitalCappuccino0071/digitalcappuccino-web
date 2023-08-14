@@ -22,21 +22,21 @@ const ServiceSocialMediaMarketing = () => {
   return (
     <Wrapper>
       <Head>
-        <title>Best Social Media Marketing Agency ( SMM)</title>
+        <title>Social Media Marketing Company in Delhi - SMM - Digital Cappuccino</title>
         <meta
           name="description"
-          content="Digital Cappuccino is the best Social Media Marketing Agency in the world. We help businesses grow their social media presence and create engaging content to reach their audience."
+          content="Looking for a top-notch Social Media Marketing Company in Delhi? Look no further than Digital Cappuccino. Our expert team delivers exceptional results."
           />
            <link rel="canonical" href="https://www.digitalcappuccino.com/social-media-marketing-services-delhi"/>
           <meta property="og:title" 
-          content="Best Social Media Marketing Agency ( SMM)" />
+          content="Social Media Marketing Company in Delhi - SMM - Digital Cappuccino" />
           <meta
             property="og:description"
-            content="Digital Cappuccino is the best Social Media Marketing Agency in the world. We help businesses grow their social media presence and create engaging content to reach their audience."
+            content="Looking for a top-notch Social Media Marketing Company in Delhi? Look no further than Digital Cappuccino. Our expert team delivers exceptional results."
           />
            <meta
             property="og:url"
-            content="#"
+            content="https://www.digitalcappuccino.com/social-media-marketing-services-delhi"
           />
           <meta
             property="og:image"

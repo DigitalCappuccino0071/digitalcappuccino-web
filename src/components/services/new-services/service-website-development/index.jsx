@@ -20,21 +20,21 @@ const ServiceWebsiteDevelopment = () => {
   return (
     <Wrapper>
       <Head>
-        <title>Digital Marketing & Website Development Company | Digital Cappuccino</title>
+        <title>Web Design & Development Company in Delhi - Digital Cappuccino</title>
         <meta
           name="description"
-          content="Digital Cappuccino is a digital marketing Company in India. We provides website Development, Social Media Marketing, PPC Marketing, SEO and Email Marketing Services."
+          content="If you are looking for a website design & development company in Gurgaon that can help you achieve your business goals, then Digital Cappuccino is the perfect choice for you."
           />
            <link rel="canonical" href="https://www.digitalcappuccino.com/website-development-company-delhi"/>
           <meta property="og:title" 
-          content="Digital Marketing & Website Development Company | Digital Cappuccino" />
+          content="Web Design & Development Company in Delhi - Digital Cappuccino" />
           <meta
             property="og:description"
-            content="Digital Cappuccino is a digital marketing Company in India. We provides website Development, Social Media Marketing, PPC Marketing, SEO and Email Marketing Services."
+            content="If you are looking for a website design & development company in Gurgaon that can help you achieve your business goals, then Digital Cappuccino is the perfect choice for you."
           />
            <meta
             property="og:url"
-            content="#"
+            content="https://www.digitalcappuccino.com/website-development-company-delhi"
           />
           <meta
             property="og:image"

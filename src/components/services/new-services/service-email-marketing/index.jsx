@@ -20,21 +20,21 @@ const ServiceEmailMarketing = () => {
   return (
     <Wrapper>
       <Head>
-        <title>Digital Cappuccino is a best Email Marketing Agency | Email Marketing Company</title>
+        <title>E-mail marketing agency in delhi with a personified presence- Digital Marketing</title>
         <meta
           name="description"
-          content="Digital Cappuccino offers email marketing management and newsletter services. Contact Digital Cappuccino for full-service email marketing to helping customers generate quality leads, drive revenue with maximum ROI. Call Now!"
+          content="No.1 e-mail marketing agency in Delhi, we at Digital Cappuccino  would make your business grow faster and effectively with our email marketing service for your esteem."
           />
            <link rel="canonical" href="https://www.digitalcappuccino.com/email-marketing-services-delhi"/>
           <meta property="og:title" 
-          content="Digital Cappuccino is a best Email Marketing Agency | Email Marketing Company" />
+          content="E-mail marketing agency in delhi with a personified presence- Digital Marketing" />
           <meta
             property="og:description"
-            content="Digital Cappuccino offers email marketing management and newsletter services. Contact Digital Cappuccino for full-service email marketing to helping customers generate quality leads, drive revenue with maximum ROI. Call Now!"
+            content="No.1 e-mail marketing agency in Delhi, we at Digital Cappuccino  would make your business grow faster and effectively with our email marketing service for your esteem."
           />
            <meta
             property="og:url"
-            content="#"
+            content="https://www.digitalcappuccino.com/email-marketing-services-delhi"
           />
           <meta
             property="og:image"
