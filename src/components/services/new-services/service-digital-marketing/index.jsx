@@ -19,24 +19,33 @@ const ServiceDigitalMarketing = () => {
 
   return (
     <Wrapper>
-      <Head>
-        <title>Best Digital Marketing Agency in India</title>
+     <Head>
+        <title>Best Marketing Agency in India | Top Marketing Companies in India</title>
         <meta
           name="description"
-          content="Digital Cappuccino is a Digital Marketing agency that provides all the services. You need to grow your business. We offer SEO, PPC, Web Design and more!"
-          key="desc"
-        />
-        <link
-          rel="canonical"
-          href="https://www.digitalcappuccino.com/digital-marketing-company"
-          key="canonical"
+          content="Digital Cappuccino - offering you the world class Digital Marketing (SEO, SMO, SEM, PPC, Email Marketing) services provider agency."
+          />
+           <link rel="canonical" href="https://www.digitalcappuccino.com/digital-marketing-company-delhi"/>
+          <meta property="og:title" 
+          content="Best Marketing Agency in India | Top Marketing Companies in India" />
+          <meta
+            property="og:description"
+            content="Digital Cappuccino - offering you the world class Digital Marketing (SEO, SMO, SEM, PPC, Email Marketing) services provider agency."
+          />
+           <meta
+            property="og:url"
+            content="#"
+          />
+          <meta
+            property="og:image"
+            content="https://www.digitalcappuccino.com/assets/img/logo/new-logo-design-v1.png"
         />
       </Head>
       <Header />
       <Breadcrumb
         color={"#fec4c559"}
         imagePath={"/assets/img/service/2.png"}
-        title={"DIGITAL CAPPUCCINO DIGITAL MARKETING COMPANY IN DELHI"}
+        title={"Digital Cappuccino Digital Marketing Company in Delhi  "}
         alt="Digital Marketing Company in Delhi"
       />
       <CardWeb />

@@ -20,26 +20,32 @@ const ServicePaperClick = () => {
   return (
     <Wrapper>
       <Head>
-        <title>
-          Best PPC Agency in India, Google Ads, PPC Services in India, PPC
-          Packages in India
-        </title>
+        <title>Best PPC Agency in India, Google Ads, PPC Services in India, PPC Packages in India</title>
         <meta
           name="description"
           content="Best PPC Company in India. Affordable PPC Packages in India For Google Ads Management Services including Search, Display, YouTube, App Install, Shopping and PPC for LinkedIn and Facebook Campaign."
-          key="desc"
-        />
-        <link
-          rel="canonical"
-          href="https://www.digitalcappuccino.com/ppc-marketing-company"
-          key="canonical"
+          />
+           <link rel="canonical" href="https://www.digitalcappuccino.com/email-marketing-services-delhi"/>
+          <meta property="og:title" 
+          content="Best PPC Agency in India, Google Ads, PPC Services in India, PPC Packages in India" />
+          <meta
+            property="og:description"
+            content="Best PPC Company in India. Affordable PPC Packages in India For Google Ads Management Services including Search, Display, YouTube, App Install, Shopping and PPC for LinkedIn and Facebook Campaign."
+          />
+           <meta
+            property="og:url"
+            content="#"
+          />
+          <meta
+            property="og:image"
+            content="https://www.digitalcappuccino.com/assets/img/logo/new-logo-design-v1.png"
         />
       </Head>
       <Header />
       <Breadcrumb
         color={"#fec4c559"}
         imagePath={"/assets/img/service/5.png"}
-        title={"DIGITAL CAPPUCCINO PPC MARKETING COMPANY IN DELHI"}
+        title={"Digital Cappuccino PPC Marketing Company in Delhi"}
         alt="PPC Marketing Company in Delhi"
       />
       <CardWeb />

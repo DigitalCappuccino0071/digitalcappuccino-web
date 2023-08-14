@@ -19,17 +19,26 @@ const ServiceSEO = () => {
 
   return (
     <Wrapper>
-      <Head>
+        <Head>
         <title>Best SEO Services Agency in India - Digital Cappuccino</title>
         <meta
           name="description"
           content="Digital Cappuccino is a top rated award winning SEO Company in India. We provide best SEO services to get more website traffic and reach through organic channels."
-          key="desc"
-        />
-        <link
-          rel="canonical"
-          href="https://www.digitalcappuccino.com/seo-services"
-          key="canonical"
+          />
+           <link rel="canonical" href="https://www.digitalcappuccino.com/digital-marketing-company-delhi"/>
+          <meta property="og:title" 
+          content="Best SEO Services Agency in India - Digital Cappuccino" />
+          <meta
+            property="og:description"
+            content="Digital Cappuccino is a top rated award winning SEO Company in India. We provide best SEO services to get more website traffic and reach through organic channels."
+          />
+           <meta
+            property="og:url"
+            content="#"
+          />
+          <meta
+            property="og:image"
+            content="https://www.digitalcappuccino.com/assets/img/logo/new-logo-design-v1.png"
         />
       </Head>
       <Header />

@@ -25,20 +25,29 @@ const ServiceSocialMediaMarketing = () => {
         <title>Best Social Media Marketing Agency ( SMM)</title>
         <meta
           name="description"
-          content="Digital Cappuccino is the best Social Media Marketing Agency in the world. We help businesses grow their social media presence and create engaging content to reach their audience.179 characters."
-          key="desc"
-        />
-        <link
-          rel="canonical"
-          href="https://www.digitalcappuccino.com/social-media-marketing-services"
-          key="canonical"
+          content="Digital Cappuccino is the best Social Media Marketing Agency in the world. We help businesses grow their social media presence and create engaging content to reach their audience."
+          />
+           <link rel="canonical" href="https://www.digitalcappuccino.com/social-media-marketing-services-delhi"/>
+          <meta property="og:title" 
+          content="Best Social Media Marketing Agency ( SMM)" />
+          <meta
+            property="og:description"
+            content="Digital Cappuccino is the best Social Media Marketing Agency in the world. We help businesses grow their social media presence and create engaging content to reach their audience."
+          />
+           <meta
+            property="og:url"
+            content="#"
+          />
+          <meta
+            property="og:image"
+            content="https://www.digitalcappuccino.com/assets/img/logo/new-logo-design-v1.png"
         />
       </Head>
       <Header />
       <Breadcrumb
         color={"#fec4c559"}
         imagePath={"/assets/img/service/3.png"}
-        title={"DIGITALCAPPUCCINO: SOCIAL MEDIA MARKETING COMPANY IN DELHI"}
+        title={"Digitalcappuccino: Social Media Marketing Company in Delhi"}
         alt="Socail Media Marketing Company in Delhi"
       />
       <CardWeb />

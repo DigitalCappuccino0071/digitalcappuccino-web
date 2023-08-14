@@ -14,18 +14,18 @@ const menu_data = [
     title: "Our Services",
     link: "./website-development-company",
     sub_menus: [
-      { link: "./website-development-company", title: "Website Development" },
+      { link: "./website-development-company-delhi", title: "Website Development Company" },
       {
-        link: "/digital-marketing-company",
-        title: "digital Marketing Company",
+        link: "/digital-marketing-company-delhi",
+        title: "Digital Marketing Company",
       },
       {
-        link: "./social-media-marketing-services",
-        title: "Social Media Marketing",
+        link: "./social-media-marketing-services-delhi",
+        title: "Social Media Marketing Company",
       },
-      { link: "./seo-services", title: "SEO Services" },
-      { link: "/ppc-marketing-company", title: "PPC Marketing" },
-      { link: "/email-marketing-services", title: "Email Marketing" },
+      { link: "./seo-services-delhi", title: "SEO Company" },
+      { link: "/ppc-marketing-comapny-delhi", title: "PPC Marketing Company" },
+      { link: "/email-marketing-services-delhi", title: "Email Marketing Company" },
     ],
   },
   {

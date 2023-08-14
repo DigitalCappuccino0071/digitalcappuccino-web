@@ -20,25 +20,32 @@ const ServiceWebsiteDevelopment = () => {
   return (
     <Wrapper>
       <Head>
-        <title>
-          Best Website Development Company | Web Development Services India
-        </title>
+        <title>Digital Marketing & Website Development Company | Digital Cappuccino</title>
         <meta
           name="description"
-          content="Best Web Development Company in India. Get your best business-oriented dynamic/statics website at an affordable cost (low cost)."
-          key="desc"
-        />
-        <link
-          rel="canonical"
-          href="https://www.digitalcappuccino.com/website-development-company"
-          key="canonical"
+          content="Digital Cappuccino is a digital marketing Company in India. We provides website Development, Social Media Marketing, PPC Marketing, SEO and Email Marketing Services."
+          />
+           <link rel="canonical" href="https://www.digitalcappuccino.com/website-development-company-delhi"/>
+          <meta property="og:title" 
+          content="Digital Marketing & Website Development Company | Digital Cappuccino" />
+          <meta
+            property="og:description"
+            content="Digital Cappuccino is a digital marketing Company in India. We provides website Development, Social Media Marketing, PPC Marketing, SEO and Email Marketing Services."
+          />
+           <meta
+            property="og:url"
+            content="#"
+          />
+          <meta
+            property="og:image"
+            content="https://www.digitalcappuccino.com/assets/img/logo/new-logo-design-v1.png"
         />
       </Head>
       <Header />
       <Breadcrumb
         color={"#fec4c559"}
         imagePath={"/assets/img/service/1.png"}
-        title={"Our Premier Website DevelopmentSolutions"}
+        title={"Premier Website Development Solutions"}
         alt="Website Development Company in Delhi"
       />
       <CardWeb />
