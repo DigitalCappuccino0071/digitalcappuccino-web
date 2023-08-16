@@ -14,7 +14,7 @@ const hero_contents = {
       <span>/mo</span>
     </>
   ),
-  title: "Expert Digital Marketing Strategists",
+  title: "Most Reliable Advertising Agency in Delhi",
   highlight_text: "",
   short_text: (
     <>Our calibre lies in brewing effective marketing plans for your company.</>

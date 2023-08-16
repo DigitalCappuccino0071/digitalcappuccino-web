@@ -31,7 +31,7 @@ const contents = {
       id: "mission",
       title: (
         <>
-          Brewing Success Through Creative Digital Solutions
+          Digital Mastery is Our Commitment
           <span className="tp-section-highlight">
             <SvgHighlight />{" "}
           </span>{" "}
@@ -40,27 +40,16 @@ const contents = {
       ),
       text_1: (
         <>
-        As a digital marketing agency, our goal is to help businesses harness the power of the digital world to
-achieve success.
+        We seek to equip organisations with the tools they need to succeed in the digital arena. Today's businesses face unique challenges. We help our clients overcome such issues to achieve their goals. Our advertising agency in Delhi develops beneficial measures. Let us begin on a creative, innovative, and exceptional trip. We are the leading online advertising agency in Delhi. Our ultimate goal is to make sure that our clients thrive in the dynamic digital market.
         </>
       ),
-      text_2: (
-        <>
-          {
-            "We understand the unique challenges facing businesses in today's digital landscape, " +
-              "and we are committed to helping our clients navigate those challenges and achieve " +
-              "their goals. With a focus on creativity, innovation, and quality, we are dedicated " +
-              "to brewing success for our clients. Our mission is to help businesses stay ahead of the curve and succeed in an ever-changing digital world."
-          }
-        </>
-      ),
-
+      
     },
     {
       id: "vision",
       title: (
         <>
-          A World Where Every Business Can Savor Digital Success
+          Dedicated to Digital Transformation
           <span className="tp-section-highlight">
             <HighlightThree />{" "}
           </span>
@@ -68,17 +57,20 @@ achieve success.
       ),
       text_1: (
         <>
-          We envision a world where every business can leverage the power of the digital world to achieve
-success.
+         We will be your go-to advertising agency in Delhi. 
+    Digital Cappuccino&apos;s mission is to redefine the digital landscape. We&apos;re driven to redefine your online experiences.
         </>
       ),
       text_2: (
         <>
-         Whether you&apos;re a small start-up or a large corporation, we provide best marketing solutions that
-help you achieve your goals and connect with your customers in meaningful ways. We&apos;re working
-towards a future where every business has the opportunity to achieve digital success.
-We&apos;re passionate about empowering businesses to succeed in the digital world, and we believe
-that together, we can create a world where every business can thrive.
+        We inject innovation and creativity into every aspect. 
+        We have an uncompromising commitment to perfection. 
+        We have emerged as the best advertising agency in Delhi.
+         We will assist you to propel your journey forward. 
+         Impact matters in the digital world. We are a premier ad company in Delhi. 
+         We help organisations to leave an unforgettable impression on their target audiences. 
+         Be the user of our creative techniques as we follow the trends.
+
         </>
       ),
     },
@@ -86,26 +78,24 @@ that together, we can create a world where every business can thrive.
       id: "value",
       title: (
         <>
-          Agility, Adaptability, Empowerment: Our Commitment to Your Digital
-          Success{" "}
+          We Cultivate Trust & Synergy{" "}
 
 
         </>
       ),
       text_1: (
         <>
-         Our values of agility, adaptability, and empowerment guide everything we do. We always stay on
-top of the latest trends and technologies, so we can adapt quickly to changes in the industry.
+      Digital Cappuccino is the best advertising agency in Delhi. 
+  Because of its ethics and collaboration. Transparency and strong client relationships are our top priorities.
         </>
       ),
       text_2: (
         <>
-         Whether you&apos;re looking to increase your online visibility, drive traffic to your website, or improve
-your social media presence, we&apos;re here to help.
-We collaborate with our clients, giving them the tools and knowledge, they need to succeed in
-the digital landscape. We&apos;re dedicated to delivering measurable results that drive growth and
-revenue for our clients.
-        </>
+         Within our team, collaborative synergy produces exceptional achievements.
+ Our revolutionary strategy provides focused solutions. Client objectives shape our actions. 
+ We pave ways to achieve our aims together. Trust our online advertising agency in Delhi. 
+ We value integrity and creativity in the ever-changing digital landscape.
+ </>
       ),
     },
   ],
