@@ -4,11 +4,11 @@ import React from "react";
 const contents = {
   // shapes: ["bp-chose-5.1.png", "bp-chose-5.2.png", "bp-chose-5.3.png"],
   feature_bg: "/assets/img/feature/fea-2.png",
-  subtitle: "Why Brew With Us?",
-  title: "Why Digital Cappuccino?",
+  subtitle: "Let’s Brew Exclusive Strategies",
+  title: "Why Choose Digital Cappuccino ?",
   text_1:
-    "Like a well-crafted cappuccino, our skilled team produces one-of-a-kind and engaging marketing solutions. We produce successful campaigns that create a lasting impact by capturing audiences with creativity and strategy. At Digital Cappuccino, we work with our clients to develop a customized marketing strategy that balances different approaches." +
-    " to achieve your marketing objectives.",
+    "We an Advertisement Agency, based in Delhi, having skilled members to curate one-of-a-kind, compelling marketing solutions, much like an excellent cappuccino. Our campaigns are effective. They make a lasting impression on viewers by combining creativity and planning. Collaboration with clients is essential for Digital Cappuccino. " +
+    " We develop customized marketing plans by integrating various ways to achieve your goals.",
   // text_2:
   //   "At Digital Cappuccino, we offer a variety of digital marketing solutions," +
   //   " like the different types of coffee, to suit the needs of businesses and their customers." +
