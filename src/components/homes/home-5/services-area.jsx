@@ -10,9 +10,9 @@ const contents = {
   subtitle: "Our Services",
   title: (
     <>
-      Caffeinate Your Business with Our High-Performance Marketing Services
+      Diverse Digital Solutions by Digital Cappuccino
       <span className="tp-section-highlight">
-
+        
         <svg
           width="170"
           height="12"
@@ -46,6 +46,8 @@ const ServicesArea = () => {
                 {subtitle}
               </h5>
               <h3 className="tp-title tp-title-sm">{title}</h3>
+              <p>Digital Cappuccino, the ad company in Delhi, offers a full range of services. We use data-driven techniques to increase your online visibility. Our Social Media Marketing strategies brew powerful campaigns. We connect you with your target audience. Email marketing and targeted PPC marketing increase engagement and visibility. We strengthen your digital presence by utilising skilled Website Development. Our SEO Services improve search ranks and visibility. Join forces with us. For a comprehensive branding experience, connect with our leading advertising company in Delhi.
+</p>
             </div>
           </div>
           <div className="col-xl-6 col-lg-6 col-md-12 col-12">
