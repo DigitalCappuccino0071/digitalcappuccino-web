@@ -14,10 +14,10 @@ const hero_contents = {
       <span>/mo</span>
     </>
   ),
-  title: "We Are Digital Marketing Advisors",
+  title: "Expert Digital Marketing Strategists are for your Assistance",
   highlight_text: "",
   short_text: (
-    <>We Specialize in brewing the best Marketing Strategy for your Business.</>
+    <>Our calibre lies in brewing effective marketing plans for your company.</>
   ),
   hero_img: "/assets/img/hero/hero-5.1.png",
 
