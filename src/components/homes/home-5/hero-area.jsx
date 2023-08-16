@@ -86,7 +86,7 @@ const HeroArea = () => {
             <div className="tp-hero-section-box-five">
               <div className="tp-hero-section-box-five__title pb-45">
                 <h1
-                  className="tp-hero-bs-title wow tpfadeUp"
+                  className="tp-hero-bs-title wow tpfadeUp "
                   data-wow-duration=".5s"
                   data-wow-delay=".7s"
                 >
