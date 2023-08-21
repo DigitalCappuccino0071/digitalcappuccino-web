@@ -235,7 +235,7 @@ const services_data = [
     top_border: true,
     imgTwo: "/assets/img/icon/app-development.png",
     title: <>Website Development</>,
-    path: "./website-development-company",
+    path: "./website-development-company-delhi",
     text_1:
       "At Digital Cappuccino we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast",
     home_5: true,
@@ -245,7 +245,7 @@ const services_data = [
     img: "/assets/img/service/service4.2.png",
     imgTwo: "/assets/img/icon/digital-campaign.png",
     title: <>Digital Marketing</>,
-    path: "/digital-marketing-company",
+    path: "/digital-marketing-company-delhi",
     text_1:
       "At Digital Cappuccino we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast",
     home_5: true,
@@ -255,7 +255,7 @@ const services_data = [
     img: "/assets/img/service/service4.3.png",
     imgTwo: "/assets/img/icon/social-media.png",
     title: <>Social Media Marketing</>,
-    path: "/social-media-marketing-services",
+    path: "./social-media-marketing-services-delhi",
     text_1:
       "At Digital Cappuccino we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast",
     home_5: true,
@@ -265,7 +265,7 @@ const services_data = [
     img: "/assets/img/service/service4.4.png",
     imgTwo: "/assets/img/icon/support.png",
     title: <>SEO Services</>,
-    path: "/seo-services",
+    path: "/seo-services-delhi",
     text_1:
       "At Digital Cappuccino we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast",
     home_5: true,
@@ -275,7 +275,7 @@ const services_data = [
     img: "/assets/img/service/service4.4.png",
     imgTwo: "/assets/img/icon/pay-per-click.png",
     title: <>PPC Marketing</>,
-    path: "/ppc-marketing-company",
+    path: "/ppc-marketing-comapny-delhi",
     text_1:
       "At Digital Cappuccino we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast",
     home_5: true,
@@ -285,7 +285,7 @@ const services_data = [
     img: "/assets/img/service/service4.4.png",
     imgTwo: "/assets/img/icon/email-marketing.png",
     title: <>Email Marketing</>,
-    path: "/email-marketing-services",
+    path: "/email-marketing-services-delhi",
     text_1:
       "At Digital Cappuccino we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast",
     home_5: true,

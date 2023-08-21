@@ -44,32 +44,32 @@ const footer_contents = {
         {
           id: 1,
           text: "Website Development",
-          link: "./website-development-company",
+          link: "./website-development-company-delhi",
         },
         {
           id: 2,
           text: "Digital Marketing",
-          link: "/digital-marketing-company",
+          link: "/digital-marketing-company-delhi",
         },
         {
           id: 3,
           text: "Social Media Marketing",
-          link: "/social-media-marketing-services",
+          link: "/social-media-marketing-services-delhi",
         },
         {
           id: 4,
           text: "SEO Services",
-          link: "/seo-services",
+          link: "/social-media-marketing-services-delhi",
         },
             {
           id: 4,
           text: "Pay-Per Click",
-          link: "/ppc-marketing-company",
+          link: "/ppc-marketing-comapny-delhi",
         },
         {
           id: 5,
           text: "Email Marketing",
-          link: "/email-marketing-services",
+          link: "/email-marketing-services-delhi",
         },
       ],
     },
@@ -110,7 +110,7 @@ const FooterFour = () => {
           >
             <img src={`/assets/img/footer/${s}`} alt="" />
           </div>
-        ))}
+        ))}    
         <div className="container">
           <div
             className="row wow tpfadeUp"

@@ -12,7 +12,7 @@ const menu_data = [
     mega_menu: false,
     has_dropdown: true,
     title: "Our Services",
-    link: "./website-development-company",
+    link: "./website-development-company-delhi",
     sub_menus: [
       { link: "./website-development-company-delhi", title: "Website Development Company" },
       {
