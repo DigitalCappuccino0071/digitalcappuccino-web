@@ -24,7 +24,7 @@ const HeaderFive = () => {
                   <Link href={"/"}>
                     <a>
                       <img
-                        src="/assets/img/logo/new-logo-design-v1.png"
+                        src="/assets/img/logo/new-logo-design-v1-old.png"
                         alt=""
                       />
                     </a>
@@ -55,7 +55,7 @@ const HeaderFive = () => {
       </header>
 
       {/* <!-- mobile-menu-area --> */}
-      <MobileMenu logo={"new-logo-design-v1.png"} transparent={false} />
+      <MobileMenu logo={"new-logo-design-v1-old.png"} transparent={false} />
       {/* <!-- mobile-menu-area-end --> */}
     </React.Fragment>
   );
