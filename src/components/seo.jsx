@@ -6,7 +6,7 @@ const SEO = ({pageTitle, font}) => (
     <>
         <Head>
             <title>
-                {pageTitle && `${pageTitle} || Digital Cappuccino - We Are Digital Marketing Advisors`}
+                Advertising Agency in Delhi - DigitalCappuccino
             </title>
             <meta httpEquiv="x-ua-compatible" content="ie=edge"/>
             <meta name="description"
