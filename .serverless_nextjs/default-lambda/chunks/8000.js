@@ -657,7 +657,7 @@ const Header = ()=>{
                                             href: "/",
                                             children: /*#__PURE__*/ jsx_runtime.jsx("a", {
                                                 children: /*#__PURE__*/ jsx_runtime.jsx("img", {
-                                                    src: "/assets/img/logo/new-logo-design-v1.png",
+                                                    src: "/assets/img/logo/new-logo-design-v1-old.png",
                                                     alt: ""
                                                 })
                                             })
@@ -692,7 +692,7 @@ const Header = ()=>{
                 })
             }),
             /*#__PURE__*/ jsx_runtime.jsx(mobile_menu, {
-                logo: "new-logo-design-v1.png"
+                logo: "new-logo-design-v1-old.png"
             }),
             /*#__PURE__*/ jsx_runtime.jsx(off_canvas, {
                 isOpen: sidebarOpen,
@@ -933,7 +933,7 @@ const HeaderTwo = ()=>{
                                             href: "/",
                                             children: /*#__PURE__*/ jsx_runtime.jsx("a", {
                                                 children: /*#__PURE__*/ jsx_runtime.jsx("img", {
-                                                    src: "/assets/img/logo/new-logo-design-v1.png",
+                                                    src: "/assets/img/logo/new-logo-design-v1-old.png",
                                                     alt: ""
                                                 })
                                             })
@@ -1163,7 +1163,7 @@ const HeaderThree = ()=>{
                                             href: "/",
                                             children: /*#__PURE__*/ jsx_runtime.jsx("a", {
                                                 children: /*#__PURE__*/ jsx_runtime.jsx("img", {
-                                                    src: "/assets/img/logo/new-logo-design-v1.png",
+                                                    src: "/assets/img/logo/new-logo-design-v1-old.png",
                                                     alt: ""
                                                 })
                                             })
@@ -1538,7 +1538,7 @@ const HeaderFour = ()=>{
                                             href: "/",
                                             children: /*#__PURE__*/ jsx_runtime.jsx("a", {
                                                 children: /*#__PURE__*/ jsx_runtime.jsx("img", {
-                                                    src: "/assets/img/logo/new-logo-design-v1.png",
+                                                    src: "/assets/img/logo/new-logo-design-v1-old.png",
                                                     alt: ""
                                                 })
                                             })
@@ -1661,7 +1661,7 @@ const HeaderFive = ()=>{
                                             href: "/",
                                             children: /*#__PURE__*/ jsx_runtime.jsx("a", {
                                                 children: /*#__PURE__*/ jsx_runtime.jsx("img", {
-                                                    src: "/assets/img/logo/new-logo-design-v1.png",
+                                                    src: "/assets/img/logo/new-logo-design-v1-old.png",
                                                     alt: ""
                                                 })
                                             })
@@ -1700,7 +1700,7 @@ const HeaderFive = ()=>{
                 })
             }),
             /*#__PURE__*/ jsx_runtime.jsx(mobile_menu, {
-                logo: "new-logo-design-v1.png",
+                logo: "new-logo-design-v1-old.png",
                 transparent: false
             })
         ]
@@ -1719,7 +1719,7 @@ const footer_4_footer_contents = {
         "hero-shape-5.1.png",
         "testimonial-shape-5.4.png"
     ],
-    logo: "/assets/img/logo/new-logo-design-v1.png",
+    logo: "/assets/img/logo/new-logo-design-v1-old.png",
     widget_desc: "From Strategy to Execution, Digital Cappuccino Delivers Results- Your Digital Marketing Enthusiasts",
     footer_widgets: [
         {

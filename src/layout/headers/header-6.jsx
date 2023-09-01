@@ -31,7 +31,7 @@ const Header = () => {
               <div className="col-xxl-2 col-xl-2 col-lg-2">
                 <div className="tp-logo text-start">
                   <Link href="/">
-                    <a><img src="/assets/img/logo/new-logo-design-v1.png" alt="" /></a>
+                    <a><img src="/assets/img/logo/new-logo-design-v1-old.png" alt="" /></a>
                   </Link>
                 </div>
               </div>

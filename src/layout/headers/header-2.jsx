@@ -17,7 +17,7 @@ const HeaderTwo = () => {
                 <div className="tp-logo text-start">
                   <Link href="/">
                     <a>
-                      <img src="/assets/img/logo/new-logo-design-v1.png" alt="" />
+                      <img src="/assets/img/logo/new-logo-design-v1-old.png" alt="" />
                     </a>
                   </Link>
                 </div>

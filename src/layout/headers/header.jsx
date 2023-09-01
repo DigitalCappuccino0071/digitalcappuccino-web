@@ -23,7 +23,7 @@ const Header = () => {
                   <Link href="/">
                     <a>
                       <img
-                        src="/assets/img/logo/new-logo-design-v1.png"
+                        src="/assets/img/logo/new-logo-design-v1-old.png"
                         alt=""
                       />
                     </a>
@@ -55,7 +55,7 @@ const Header = () => {
       </header>
 
       {/* <!-- mobile-menu-area --> */}
-      <MobileMenu logo={"new-logo-design-v1.png"} />
+      <MobileMenu logo={"new-logo-design-v1-old.png"} />
       {/* <!-- mobile-menu-area-end --> */}
 
       {/* off canvas start */}

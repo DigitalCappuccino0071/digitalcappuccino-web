@@ -38,7 +38,7 @@ const ServiceSEO = () => {
           />
           <meta
             property="og:image"
-            content="https://www.digitalcappuccino.com/assets/img/logo/new-logo-design-v1.png"
+            content="https://www.digitalcappuccino.com/assets/img/logo/new-logo-design-v1-old.png"
         />
       </Head>
       <Header />

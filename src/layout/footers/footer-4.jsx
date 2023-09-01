@@ -5,7 +5,7 @@ import CopyrightArea from "./component/copyright-area";
 
 const footer_contents = {
   shapes: ["hero-shape-5.1.png", "testimonial-shape-5.4.png"],
-  logo: "/assets/img/logo/new-logo-design-v1.png",
+  logo: "/assets/img/logo/new-logo-design-v1-old.png",
   widget_desc:
     "From Strategy to Execution, Digital Cappuccino Delivers Results- Your Digital Marketing Enthusiasts",
   footer_widgets: [
