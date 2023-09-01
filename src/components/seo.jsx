@@ -10,7 +10,7 @@ const SEO = ({pageTitle, font}) => (
             </title>
             <meta httpEquiv="x-ua-compatible" content="ie=edge"/>
             <meta name="description"
-                  content="Digital Cappuccino is the digital marketing partner for all businesses looking forward to playing with online media and growing their businesses with successive results."/>
+                  content="Digital Cappuccino is an Advertising agency in Delhi. That offers a wide range of services, including SEO, SMO, PPC, web development, and social media marketing."/>
             <meta name="robots" content="index, follow"/>
             <meta
                 name="viewport"

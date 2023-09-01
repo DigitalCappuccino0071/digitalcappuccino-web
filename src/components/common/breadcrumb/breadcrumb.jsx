@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const Breadcrumb = ({ title, color, imagePath, back_home, alt = false }) => {
+const 4Breadcrumb = ({ title, color, imagePath, back_home, alt = false }) => {
   return (
     <section
       className="breadcrumb__area pt-50 pb-5 include-bg p-relative min-vh-50"
