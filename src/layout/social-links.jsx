@@ -32,7 +32,7 @@ const social_links = [
     color: "#1DA1F2",
   },
   {
-    link: "#",
+    link: "https://in.pinterest.com/digital_cappuccinoggn/",
     target: "_blank",
     icon: "fab fa-pinterest",
     color: "#b7081b",

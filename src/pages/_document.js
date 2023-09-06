@@ -37,7 +37,7 @@ export default class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://example.com/images/cool-page.jpg"
+            content="https://www.digitalcappuccino.com/assets/img/logo/new-logo-design-v1-old.png"
           />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@YOUR_TWITTER_USERNAME" />
