@@ -163,14 +163,14 @@ const blog_data = [
   // home 5
   {
     id: 13,
-    img: "/assets/img/blog_1/pehli_baarish.png",
+    img: "/assets/img/blog_1/yaar.png",
     alt: "Top Digital Marketing Agency",
     // meta_tag:'Development',
-    date: "April 22, 2022",
+    date: "July 3, 2023",
     author: "SHAHNEAJ",
     comment: "40",
     views: "2,026",
-    title: <>Pehli Baarish Mein</>,
+    title: <>Yaar Ka Sataya Hua Hai</>,
     link: "https://www.youtube.com/watch?v=RfXLTYQSU0s",
     short_desc:
       "It is a romantic and soothing song by Qureshi Productions Pvt. Ltd. To promote this song over Youtube, we planned out the strategy for the audience which loves songs related to rain, romance, and quite slow music lovers. ",
@@ -194,15 +194,15 @@ const blog_data = [
   },
   {
     id: 15,
-    img: "/assets/img/blog_1/top_trucker.png",
+    img: "/assets/img/blog_1/kya-loge-tum.png",
     alt: "Web Development Company",
     // meta_tag:'UI UX Design',
-    date: "February 18, 2022",
+    date: "May 15, 2023   ",
     author: "NAIM",
     comment: "24",
     views: "1,927",
-    title: <>Top Tucker Song By YRF</>,
-    link: "https://www.youtube.com/watch?v=bY8bEaJp3x8",
+    title: <>Kya Loge Tum by B Praak and Jaani</>,
+    link: "https://www.youtube.com/embed/cAMHx-m9oh8?si=AL1_tYQKTn2N2LNd",
     short_desc:
       "We promoted the trailer of the Top Tucker Song by Badshah through the youtube channel of the official YRF Youtube channel, which was a huge success. With more than 27 Million views, it became a trend. To promote this song, we targeted" +
       " lovers of Badshah's songs and party songs.",

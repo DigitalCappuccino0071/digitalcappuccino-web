@@ -15,8 +15,13 @@ export default class MyDocument extends Document {
 
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta
+            name="title"
+            content="Advertising Agency in Delhi - Digital Cappuccino"
+         
+          />
+          <meta
             name="description"
-            content="Digital Cappuccino is a digital marketing Company in India. We provides website Development, Social Media Marketing, PPC Marketing, SEO and Email Marketing Services."
+            content="Digital Cappuccino is a  Advertising Agency in Delhi agency in Delhi that helps businesses of all sizes grow their online presence. including web design, SEO, PPC."
             key="desc"
           />
           <meta name="robots" content="index, follow" />

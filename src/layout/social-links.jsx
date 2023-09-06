@@ -31,6 +31,12 @@ const social_links = [
     icon: "fab fa-twitter",
     color: "#1DA1F2",
   },
+  {
+    link: "#",
+    target: "_blank",
+    icon: "fab fa-pinterest",
+    color: "#b7081b",
+  },
 ];
 
 const hero_socials = [
@@ -49,11 +55,18 @@ const hero_socials = [
     title: "Youtube",
   },
   {
-    num: 2,
+    num: 4,
     link: "https://twitter.com/Digicappuccino",
     target: "_blank",
     icon: "fab fa-twitter social-icon-2",
     title: "Twitter",
+  },
+  {
+    num: 5,
+    link: "",
+    target: "_blank",
+    icon: "fab fa-pinterest social-icon-2",
+    title: "Pinterest",
   },
 ];
 
