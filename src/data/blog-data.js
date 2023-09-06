@@ -171,7 +171,7 @@ const blog_data = [
     comment: "40",
     views: "2,026",
     title: <>Yaar Ka Sataya Hua Hai</>,
-    link: "https://www.youtube.com/embed/OBEOPnAO1hc?si=-Vqhu5esIy-QU04N",
+    link: "https://www.youtube.com/watch?v=OBEOPnAO1hc",
     short_desc:
       "It is a romantic and soothing song by Qureshi Productions Pvt. Ltd. To promote this song over Youtube, we planned out the strategy for the audience which loves songs related to rain, romance, and quite slow music lovers. ",
     home_5: true,
@@ -202,7 +202,7 @@ const blog_data = [
     comment: "24",
     views: "1,927",
     title: <>Kya Loge Tum by B Praak and Jaani</>,
-    link: "https://www.youtube.com/embed/cAMHx-m9oh8?si=AL1_tYQKTn2N2LNd",
+    link: "https://www.youtube.com/watch?v=cAMHx-m9oh8",
     short_desc:
       "We promoted the trailer of the Top Tucker Song by Badshah through the youtube channel of the official YRF Youtube channel, which was a huge success. With more than 27 Million views, it became a trend. To promote this song, we targeted" +
       " lovers of Badshah's songs and party songs.",
