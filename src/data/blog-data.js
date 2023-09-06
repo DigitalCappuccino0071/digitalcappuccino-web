@@ -171,7 +171,7 @@ const blog_data = [
     comment: "40",
     views: "2,026",
     title: <>Yaar Ka Sataya Hua Hai</>,
-    link: "https://www.youtube.com/watch?v=RfXLTYQSU0s",
+    link: "https://www.youtube.com/embed/OBEOPnAO1hc?si=-Vqhu5esIy-QU04N",
     short_desc:
       "It is a romantic and soothing song by Qureshi Productions Pvt. Ltd. To promote this song over Youtube, we planned out the strategy for the audience which loves songs related to rain, romance, and quite slow music lovers. ",
     home_5: true,
