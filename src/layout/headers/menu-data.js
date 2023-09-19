@@ -24,7 +24,7 @@ const menu_data = [
         title: "Social Media Marketing Company",
       },
       { link: "./seo-services-gurgaon", title: "SEO Company" },
-      { link: "/ppc-marketing-comapny-gurgaon", title: "PPC Marketing Company" },
+      { link: "/ppc-marketing-company-gurgaon", title: "PPC Marketing Company" },
       { link: "/email-marketing-services-gurgaon", title: "Email Marketing Company" },
     ],
   },

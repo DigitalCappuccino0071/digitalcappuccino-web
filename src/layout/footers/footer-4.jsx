@@ -44,32 +44,32 @@ const footer_contents = {
         {
           id: 1,
           text: "Website Development",
-          link: "./website-development-company-delhi",
+          link: "./website-development-company-gurgaon",
         },
         {
           id: 2,
           text: "Digital Marketing",
-          link: "/digital-marketing-company-delhi",
+          link: "/digital-marketing-company-gurgaon",
         },
         {
           id: 3,
           text: "Social Media Marketing",
-          link: "/social-media-marketing-services-delhi",
+          link: "/social-media-marketing-services-gurgaon",
         },
         {
           id: 4,
           text: "SEO Services",
-          link: "/social-media-marketing-services-delhi",
+          link: "/social-media-marketing-services-gurgaon",
         },
             {
           id: 4,
           text: "Pay-Per Click",
-          link: "/ppc-marketing-comapny-delhi",
+          link: "/ppc-marketing-company-gurgaon",
         },
         {
           id: 5,
           text: "Email Marketing",
-          link: "/email-marketing-services-delhi",
+          link: "/email-marketing-services-gurgaon",
         },
       ],
     },

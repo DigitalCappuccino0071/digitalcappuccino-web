@@ -275,7 +275,7 @@ const services_data = [
     img: "/assets/img/service/service4.4.png",
     imgTwo: "/assets/img/icon/pay-per-click.png",
     title: <>PPC Marketing</>,
-    path: "/ppc-marketing-comapny-gurgaon",
+    path: "/ppc-marketing-company-gurgaon",
     text_1:
       "At Digital Cappuccino we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast",
     home_5: true,
