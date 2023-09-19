@@ -20,32 +20,32 @@ const ServiceSEO = () => {
   return (
     <Wrapper>
         <Head>
-        <title>SEO company in Delhi for SEO services -Digital Cappuccino </title>
+        <title>SEO company in Gurgaon for SEO services -Digital Cappuccino </title>
         <meta
           name="description"
-          content="We, at Digital Cappuccino, have successfully earned the trust of our clients as the best SEO company in Delhi, our reputation precedes building a vast clientele globally."
+          content="We, at Digital Cappuccino, have successfully earned the trust of our clients as the best SEO company in Gurgaon, our reputation precedes building a vast clientele globally."
           />
-           <link rel="canonical" href="https://www.digitalcappuccino.com/seo-services-delhi"/>
+           <link rel="canonical" href="https://www.digitalcappuccino.com/seo-services-gurgaon"/>
           <meta property="og:title" 
-          content="SEO company in Delhi for SEO services -Digital Cappuccino " />
+          content="SEO company in Gurgaon for SEO services -Digital Cappuccino " />
           <meta
             property="og:description"
-            content="We, at Digital Cappuccino, have successfully earned the trust of our clients as the best SEO company in Delhi, our reputation precedes building a vast clientele globally."
+            content="We, at Digital Cappuccino, have successfully earned the trust of our clients as the best SEO company in Gurgaon, our reputation precedes building a vast clientele globally."
           />
            <meta
             property="og:url"
-            content="https://www.digitalcappuccino.com/seo-services-delhi"
+            content="https://www.digitalcappuccino.com/seo-services-gurgaon"
           />
           <meta
             property="og:image"
-            content="https://www.digitalcappuccino.com/assets/img/logo/new-logo-design-v1-old.png"
+            content="https://www.digitalcappuccino.com/assets/img/service/4.png"
         />
       </Head>
       <Header />
       <Breadcrumb
         color={"#fec4c559"}
         imagePath={"/assets/img/service/4.png"}
-        title={"Improve Your Digital Presence with Professional SEO Services"}
+        title={"Improve Your Digital Presence with Professional SEO Services in Gurgaon"}
         alt="SEO Service Company in Delhi"
       />
       <CardWeb />

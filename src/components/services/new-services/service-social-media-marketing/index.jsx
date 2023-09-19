@@ -22,32 +22,32 @@ const ServiceSocialMediaMarketing = () => {
   return (
     <Wrapper>
       <Head>
-        <title>Social Media Marketing Company in Delhi - SMM - Digital Cappuccino</title>
+        <title>Social Media Marketing Company in Gurgaon - SMM - Digital Cappuccino</title>
         <meta
           name="description"
-          content="Looking for a top-notch Social Media Marketing Company in Delhi? Look no further than Digital Cappuccino. Our expert team delivers exceptional results."
+          content="Looking for a top-notch Social Media Marketing Company in Gurgaon? Look no further than Digital Cappuccino. Our expert team delivers exceptional results."
           />
-           <link rel="canonical" href="https://www.digitalcappuccino.com/social-media-marketing-services-delhi"/>
+           <link rel="canonical" href="https://www.digitalcappuccino.com/social-media-marketing-services-gurgaon"/>
           <meta property="og:title" 
-          content="Social Media Marketing Company in Delhi - SMM - Digital Cappuccino" />
+          content="Social Media Marketing Company in Gurgaon - SMM - Digital Cappuccino" />
           <meta
             property="og:description"
-            content="Looking for a top-notch Social Media Marketing Company in Delhi? Look no further than Digital Cappuccino. Our expert team delivers exceptional results."
+            content="Looking for a top-notch Social Media Marketing Company in Gurgaon? Look no further than Digital Cappuccino. Our expert team delivers exceptional results."
           />
            <meta
             property="og:url"
-            content="https://www.digitalcappuccino.com/social-media-marketing-services-delhi"
+            content="https://www.digitalcappuccino.com/social-media-marketing-services-gurgaon"
           />
           <meta
             property="og:image"
-            content="https://www.digitalcappuccino.com/assets/img/logo/new-logo-design-v1-old.png"
+            content="https://www.digitalcappuccino.com/assets/img/service/3.png"
         />
       </Head>
       <Header />
       <Breadcrumb
         color={"#fec4c559"}
         imagePath={"/assets/img/service/3.png"}
-        title={"Digitalcappuccino: Social Media Marketing Company in Delhi"}
+        title={"Digitalcappuccino: Social Media Marketing Company in Gurgaon"}
         alt="Socail Media Marketing Company in Delhi"
       />
       <CardWeb />

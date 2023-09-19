@@ -20,34 +20,32 @@ const ServicePaperClick = () => {
   return (
     <Wrapper>
       <Head>
-        <title>Skilled PPC Expert in Delhi - Digital Cappuccino</title>
+        <title>Skilled PPC Expert in Gurgaon - Digital Cappuccino</title>
         <meta
           name="description"
-          content="Looking for a PPC expert in Delhi? Look no further! Our team of experienced PPC professionals has a proven track record of delivering outstanding results worldwide..
-"
+          content="Looking for a PPC expert in Gurgaon? Look no further! Our team of experienced PPC professionals has a proven track record of delivering outstanding results worldwide"
           />
-           <link rel="canonical" href="https://www.digitalcappuccino.com/ppc-marketing-comapny-delhi"/>
+           <link rel="canonical" href="https://www.digitalcappuccino.com/ppc-marketing-company-gurgaon"/>
           <meta property="og:title" 
-          content="Skilled PPC Expert in Delhi - Digital Cappuccino" />
+          content="Skilled PPC Expert in Gurgaon - Digital Cappuccino" />
           <meta
             property="og:description"
-            content="Looking for a PPC expert in Delhi? Look no further! Our team of experienced PPC professionals has a proven track record of delivering outstanding results worldwide..
-"
+            content="Looking for a PPC expert in Gurgaon? Look no further! Our team of experienced PPC professionals has a proven track record of delivering outstanding results worldwide"
           />
            <meta
             property="og:url"
-            content="https://www.digitalcappuccino.com/ppc-marketing-comapny-delhi"
+            content="https://www.digitalcappuccino.com/ppc-marketing-company-gurgaon"
           />
           <meta
             property="og:image"
-            content="https://www.digitalcappuccino.com/assets/img/logo/new-logo-design-v1-old.png"
+            content="https://www.digitalcappuccino.com/assets/img/service/5.png"
         />
       </Head>
       <Header />
       <Breadcrumb
         color={"#fec4c559"}
         imagePath={"/assets/img/service/5.png"}
-        title={"Digital Cappuccino PPC Marketing Company in Delhi"}
+        title={"Digital Cappuccino: PPC Marketing Company in Gurgaon"}
         alt="PPC Marketing Company in Delhi"
       />
       <CardWeb />

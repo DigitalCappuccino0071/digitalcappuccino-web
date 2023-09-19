@@ -20,32 +20,32 @@ const ServiceEmailMarketing = () => {
   return (
     <Wrapper>
       <Head>
-        <title>E-mail marketing agency in delhi with a personified presence- Digital Marketing</title>
+        <title>E-mail marketing agency in Gurgaon with a personified presence- Digital Marketing</title>
         <meta
           name="description"
-          content="No.1 e-mail marketing agency in Delhi, we at Digital Cappuccino  would make your business grow faster and effectively with our email marketing service for your esteem."
+          content="No.1 e-mail marketing agency in Gurgaon, we at Digital Cappuccino would make your business grow faster and effectively with our email marketing service for your esteem."
           />
-           <link rel="canonical" href="https://www.digitalcappuccino.com/email-marketing-services-delhi"/>
+           <link rel="canonical" href="https://www.digitalcappuccino.com/email-marketing-services-gurgaon"/>
           <meta property="og:title" 
-          content="E-mail marketing agency in delhi with a personified presence- Digital Marketing" />
+          content="E-mail marketing agency in Gurgaon with a personified presence- Digital Marketing" />
           <meta
             property="og:description"
-            content="No.1 e-mail marketing agency in Delhi, we at Digital Cappuccino  would make your business grow faster and effectively with our email marketing service for your esteem."
+            content="No.1 e-mail marketing agency in Gurgaon, we at Digital Cappuccino would make your business grow faster and effectively with our email marketing service for your esteem."
           />
            <meta
             property="og:url"
-            content="https://www.digitalcappuccino.com/email-marketing-services-delhi"
+            content="https://www.digitalcappuccino.com/email-marketing-services-gurgaon"
           />
           <meta
             property="og:image"
-            content="https://www.digitalcappuccino.com/assets/img/logo/new-logo-design-v1-old.png"
+            content="https://www.digitalcappuccino.com/assets/img/service/6.png"
         />
       </Head>
       <Header />
       <Breadcrumb
         color={"#fec4c559"}
         imagePath={"/assets/img/service/6.png"}
-        title={"Digital Cappuccino Elevates Your Reach"}
+        title={"Digital Cappuccino Elevates Your Reach:Email marketing in Gurgaon"}
         alt="Email Marketing Services in Delhi"
       />
       <CardWeb />

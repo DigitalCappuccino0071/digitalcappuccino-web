@@ -12,20 +12,20 @@ const menu_data = [
     mega_menu: false,
     has_dropdown: true,
     title: "Our Services",
-    link: "./website-development-company-delhi",
+    link: "./website-development-company-gurgaon",
     sub_menus: [
-      { link: "./website-development-company-delhi", title: "Website Development Company" },
+      { link: "./website-development-company-gurgaon", title: "Website Development Company" },
       {
-        link: "/digital-marketing-company-delhi",
+        link: "/digital-marketing-company-gurgaon",
         title: "Digital Marketing Company",
       },
       {
-        link: "./social-media-marketing-services-delhi",
+        link: "./social-media-marketing-services-gurgaon",
         title: "Social Media Marketing Company",
       },
-      { link: "./seo-services-delhi", title: "SEO Company" },
-      { link: "/ppc-marketing-comapny-delhi", title: "PPC Marketing Company" },
-      { link: "/email-marketing-services-delhi", title: "Email Marketing Company" },
+      { link: "./seo-services-gurgaon", title: "SEO Company" },
+      { link: "/ppc-marketing-comapny-gurgaon", title: "PPC Marketing Company" },
+      { link: "/email-marketing-services-gurgaon", title: "Email Marketing Company" },
     ],
   },
   {

@@ -20,33 +20,33 @@ const ServiceDigitalMarketing = () => {
   return (
     <Wrapper>
      <Head>
-        <title>Digital Marketing Company in Delhi - Digital Cappuccino</title>
+        <title>Digital Marketing Company in Gurgaon - Digital Cappuccino</title>
         <meta
           name="description"
-          content="Digital Cappuccino - offering you the world class Digital Marketing (SEO, SMO, SEM, PPC, Email Marketing) services provider agency."
+          content="Digital Cappuccino - offering you the world class Digital Marketing (SEO, SMO, SEM, PPC, Email Marketing) services provider agency in Gurgaon"
           />
-           <link rel="canonical" href="https://www.digitalcappuccino.com/digital-marketing-company-delhi"/>
+           <link rel="canonical" href="https://www.digitalcappuccino.com/digital-marketing-company-gurgaon"/>
           <meta property="og:title" 
-          content="Digital Marketing Company in Delhi - Digital Cappuccino" />
+          content="Digital Marketing Company in Gurgaon - Digital Cappuccino" />
           <meta
             property="og:description"
-            content="Digital Cappuccino - offering you the world class Digital Marketing (SEO, SMO, SEM, PPC, Email Marketing) services provider agency."
+            content="Digital Cappuccino - offering you the world class Digital Marketing (SEO, SMO, SEM, PPC, Email Marketing) services provider agency in Gurgaon"
           />
            <meta
             property="og:url"
-            content="https://www.digitalcappuccino.com/digital-marketing-company-delhi"
+            content="https://www.digitalcappuccino.com/digital-marketing-company-gurgaon"
           />
           <meta
             property="og:image"
-            content="https://www.digitalcappuccino.com/assets/img/logo/new-logo-design-v1-old.png"
+            content="https://www.digitalcappuccino.com/assets/img/service/2.png"
         />
       </Head>
       <Header />
       <Breadcrumb
         color={"#fec4c559"}
         imagePath={"/assets/img/service/2.png"}
-        title={"Digital Cappuccino Digital Marketing Company in Delhi  "}
-        alt="Digital Marketing Company in Delhi"
+        title={"Digital Cappuccino: Digital Marketing Company in Gurgaon "}
+        alt="Digital Marketing Company in Gurgaon"
       />
       <CardWeb />
       <ServicesWeb />

@@ -20,33 +20,33 @@ const ServiceWebsiteDevelopment = () => {
   return (
     <Wrapper>
       <Head>
-        <title>Web Design & Development Company in Delhi - Digital Cappuccino</title>
+        <title>Web Design & Development Company in Gurgaon - Digital Cappuccino</title>
         <meta
           name="description"
           content="If you are looking for a website design & development company in Gurgaon that can help you achieve your business goals, then Digital Cappuccino is the perfect choice for you."
           />
-           <link rel="canonical" href="https://www.digitalcappuccino.com/website-development-company-delhi"/>
+           <link rel="canonical" href="https://www.digitalcappuccino.com/website-development-company-gurgaon"/>
           <meta property="og:title" 
-          content="Web Design & Development Company in Delhi - Digital Cappuccino" />
+          content="Web Design & Development Company in Gurgaon - Digital Cappuccino" />
           <meta
             property="og:description"
             content="If you are looking for a website design & development company in Gurgaon that can help you achieve your business goals, then Digital Cappuccino is the perfect choice for you."
           />
            <meta
             property="og:url"
-            content="https://www.digitalcappuccino.com/website-development-company-delhi"
+            content="https://www.digitalcappuccino.com/website-development-company-gurgaon"
           />
           <meta
             property="og:image"
-            content="https://www.digitalcappuccino.com/assets/img/logo/new-logo-design-v1-old.png"
+            content="https://www.digitalcappuccino.com/assets/img/service/1.png"
         />
       </Head>
       <Header />
       <Breadcrumb
         color={"#fec4c559"}
         imagePath={"/assets/img/service/1.png"}
-        title={"Premier Website Development Solutions"}
-        alt="Website Development Company in Delhi"
+        title={"Premier Website Development Solutions in Gurgaon"}
+        alt="Website Development Company in Gurgaon"
       />
       <CardWeb />
       <ServicesWeb />
