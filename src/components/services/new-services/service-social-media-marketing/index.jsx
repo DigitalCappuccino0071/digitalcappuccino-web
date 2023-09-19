@@ -48,7 +48,7 @@ const ServiceSocialMediaMarketing = () => {
         color={"#fec4c559"}
         imagePath={"/assets/img/service/3.png"}
         title={"Digitalcappuccino: Social Media Marketing Company in Gurgaon"}
-        alt="Socail Media Marketing Company in Delhi"
+        alt="Socail Media Marketing Company in Gurgaon"
       />
       <CardWeb />
       <ServicesWeb />

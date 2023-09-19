@@ -5,9 +5,9 @@ const data = [
   {
     id: 11,
     image: "/assets/img/breadcrum_1/social_media.png",
-    alt: "social media marketing agency in Delhi",
+    alt: "social media marketing agency in Gurgaon",
     title: "Craft Impactful Connections With Us",
-    peraOne:"Digital Cappuccino focuses on social media management and works directly with customers to create the best audience engagement plans. We link marketing strategies with both client-specific and larger market aims because we recognise the importance of content. As a top social media marketing company in Delhi, we are experts at creating content that has an impact and effectively connects our clients with stakeholders on a variety of platforms. We evaluate audience interactions in order to improve perceptions, which improves business performance.",
+    peraOne:"Digital Cappuccino focuses on social media management and works directly with customers to create the best audience engagement plans. We link marketing strategies with both client-specific and larger market aims because we recognise the importance of content. As a top social media marketing company in Gurgaon, we are experts at creating content that has an impact and effectively connects our clients with stakeholders on a variety of platforms. We evaluate audience interactions in order to improve perceptions, which improves business performance.",
   },
 ];
 

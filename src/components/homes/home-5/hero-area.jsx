@@ -14,7 +14,7 @@ const hero_contents = {
       <span>/mo</span>
     </>
   ),
-  title: "Most Reliable Advertising Agency in Delhi",
+  title: "Most Reliable Advertising Agency in Gurgaon",
   highlight_text: "",
   short_text: (
     <>Our calibre lies in brewing effective marketing plans for your company.</>

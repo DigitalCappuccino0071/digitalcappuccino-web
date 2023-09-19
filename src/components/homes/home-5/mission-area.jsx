@@ -40,7 +40,7 @@ const contents = {
       ),
       text_1: (
         <>
-        We seek to equip organisations with the tools they need to succeed in the digital arena. Today&apos;s businesses face unique challenges. We help our clients overcome such issues to achieve their goals. Our advertising agency in Delhi develops beneficial measures. Let us begin on a creative, innovative, and exceptional trip. We are the leading online advertising agency in Delhi. Our ultimate goal is to make sure that our clients thrive in the dynamic digital market.
+        We seek to equip organisations with the tools they need to succeed in the digital arena. Today&apos;s businesses face unique challenges. We help our clients overcome such issues to achieve their goals. Our advertising agency in Gurgaon develops beneficial measures. Let us begin on a creative, innovative, and exceptional trip. We are the leading online advertising agency in Gurgaon. Our ultimate goal is to make sure that our clients thrive in the dynamic digital market.
         </>
       ),
       
@@ -57,7 +57,7 @@ const contents = {
       ),
       text_1: (
         <>
-         We will be your go-to advertising agency in Delhi. 
+         We will be your go-to advertising agency in Gurgaon. 
     Digital Cappuccino&apos;s mission is to redefine the digital landscape. We&apos;re driven to redefine your online experiences.
         </>
       ),
@@ -65,9 +65,9 @@ const contents = {
         <>
         We inject innovation and creativity into every aspect. 
         We have an uncompromising commitment to perfection. 
-        We have emerged as the best advertising agency in Delhi.
+        We have emerged as the best advertising agency in Gurgaon.
          We will assist you to propel your journey forward. 
-         Impact matters in the digital world. We are a premier ad company in Delhi. 
+         Impact matters in the digital world. We are a premier ad company in Gurgaon. 
          We help organisations to leave an unforgettable impression on their target audiences. 
          Be the user of our creative techniques as we follow the trends.
 
@@ -85,7 +85,7 @@ const contents = {
       ),
       text_1: (
         <>
-      Digital Cappuccino is the best advertising agency in Delhi. 
+      Digital Cappuccino is the best advertising agency in Gurgaon. 
   Because of its ethics and collaboration. Transparency and strong client relationships are our top priorities.
         </>
       ),
@@ -93,7 +93,7 @@ const contents = {
         <>
          Within our team, collaborative synergy produces exceptional achievements.
  Our revolutionary strategy provides focused solutions. Client objectives shape our actions. 
- We pave ways to achieve our aims together. Trust our online advertising agency in Delhi. 
+ We pave ways to achieve our aims together. Trust our online advertising agency in Gurgaon. 
  We value integrity and creativity in the ever-changing digital landscape.
  </>
       ),

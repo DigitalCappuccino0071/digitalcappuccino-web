@@ -7,7 +7,7 @@ const data = [
     image: "/assets/img/breadcrum_1/google_ads.png",
     alt: "PPC Marketing Agency",
     title: "With Digital Cappuccino, You Can Expand Your Business",
-    peraOne:"We at Digital Cappuccino are a Delhi-based comprehensive PPC marketing agency. With a reach beyond India, we help clients there as well. Our whole range of services includes cost-effective regular packages. Improve your company with our resourceful digital methods, which will increase revenue through Google AdWords. Our selection of prevalent PPC advertising strategies meets a range of promotion requirements.",
+    peraOne:"We at Digital Cappuccino are a Gurgaon-based comprehensive PPC marketing agency. With a reach beyond India, we help clients there as well. Our whole range of services includes cost-effective regular packages. Improve your company with our resourceful digital methods, which will increase revenue through Google AdWords. Our selection of prevalent PPC advertising strategies meets a range of promotion requirements.",
   },
 ];
 

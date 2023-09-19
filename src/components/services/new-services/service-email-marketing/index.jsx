@@ -46,7 +46,7 @@ const ServiceEmailMarketing = () => {
         color={"#fec4c559"}
         imagePath={"/assets/img/service/6.png"}
         title={"Digital Cappuccino Elevates Your Reach:Email marketing in Gurgaon"}
-        alt="Email Marketing Services in Delhi"
+        alt="Email Marketing Services in Gurgaon"
       />
       <CardWeb />
       <ServicesWeb />

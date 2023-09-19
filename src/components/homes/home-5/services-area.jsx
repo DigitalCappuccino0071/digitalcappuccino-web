@@ -46,7 +46,7 @@ const ServicesArea = () => {
                 {subtitle}
               </h5>
               <h3 className="tp-title tp-title-sm">{title}</h3>
-              <p>Digital Cappuccino, the ad company in Delhi, offers a full range of services. We use data-driven techniques to increase your online visibility. Our Social Media Marketing strategies brew powerful campaigns. We connect you with your target audience. Email marketing and targeted PPC marketing increase engagement and visibility. We strengthen your digital presence by utilising skilled Website Development. Our SEO Services improve search ranks and visibility. Join forces with us. For a comprehensive branding experience, connect with our leading advertising company in Delhi.
+              <p>Digital Cappuccino, the ad company in Gurgaon, offers a full range of services. We use data-driven techniques to increase your online visibility. Our Social Media Marketing strategies brew powerful campaigns. We connect you with your target audience. Email marketing and targeted PPC marketing increase engagement and visibility. We strengthen your digital presence by utilising skilled Website Development. Our SEO Services improve search ranks and visibility. Join forces with us. For a comprehensive branding experience, connect with our leading advertising company in Gurgaon.
 </p>
             </div>
           </div>

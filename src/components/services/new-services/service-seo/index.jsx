@@ -46,7 +46,7 @@ const ServiceSEO = () => {
         color={"#fec4c559"}
         imagePath={"/assets/img/service/4.png"}
         title={"Improve Your Digital Presence with Professional SEO Services in Gurgaon"}
-        alt="SEO Service Company in Delhi"
+        alt="SEO Service Company in Gurgaon"
       />
       <CardWeb />
       <ServicesWeb />

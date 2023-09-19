@@ -46,7 +46,7 @@ const ServicePaperClick = () => {
         color={"#fec4c559"}
         imagePath={"/assets/img/service/5.png"}
         title={"Digital Cappuccino: PPC Marketing Company in Gurgaon"}
-        alt="PPC Marketing Company in Delhi"
+        alt="PPC Marketing Company in Gurgaon"
       />
       <CardWeb />
       <ServicesWeb />

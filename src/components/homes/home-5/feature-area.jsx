@@ -7,8 +7,8 @@ const contents = {
   subtitle: "Let’s Brew Exclusive Strategies",
   title: "Why Choose Digital Cappuccino ?",
   text_1:
-    "We an Advertisement Agency, based in Delhi, having skilled members to curate one-of-a-kind, compelling marketing solutions, much like an excellent cappuccino. Our campaigns are effective. They make a lasting impression on viewers by combining creativity and planning. Collaboration with clients is essential for Digital Cappuccino. " +
-    " Thanks to a combination of creativity and planning. We synthesise marketing programs and merge techniques to reach your goals. This requires close client collaboration. As the best advertising agency in Delhi, we provide excellence that is memorable.  ",
+    "We an Advertisement Agency, based in Gurgaon, having skilled members to curate one-of-a-kind, compelling marketing solutions, much like an excellent cappuccino. Our campaigns are effective. They make a lasting impression on viewers by combining creativity and planning. Collaboration with clients is essential for Digital Cappuccino. " +
+    " Thanks to a combination of creativity and planning. We synthesise marketing programs and merge techniques to reach your goals. This requires close client collaboration. As the best advertising agency in Gurgaon, we provide excellence that is memorable.  ",
   // text_2:
     // "At Digital Cappuccino, we offer a variety of digital marketing solutions," +
   //   " like the different types of coffee, to suit the needs of businesses and their customers." +
