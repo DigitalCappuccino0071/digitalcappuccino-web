@@ -19,27 +19,62 @@ const ServiceDigitalMarketing = () => {
 
   return (
     <Wrapper>
-     <Head>
+      <Head>
         <title>Digital Marketing Company in Gurgaon - Digital Cappuccino</title>
         <meta
           name="description"
           content="Digital Cappuccino - offering you the world class Digital Marketing (SEO, SMO, SEM, PPC, Email Marketing) services provider agency in Gurgaon"
-          />
-           <link rel="canonical" href="https://www.digitalcappuccino.com/digital-marketing-company-gurgaon"/>
-          <meta property="og:title" 
-          content="Digital Marketing Company in Gurgaon - Digital Cappuccino" />
-          <meta
-            property="og:description"
-            content="Digital Cappuccino - offering you the world class Digital Marketing (SEO, SMO, SEM, PPC, Email Marketing) services provider agency in Gurgaon"
-          />
-           <meta
-            property="og:url"
-            content="https://www.digitalcappuccino.com/digital-marketing-company-gurgaon"
-          />
-          <meta
-            property="og:image"
-            content="https://www.digitalcappuccino.com/assets/img/service/2.png"
         />
+        <link
+          rel="canonical"
+          href="https://www.digitalcappuccino.com/digital-marketing-company-gurgaon"
+        />
+        <meta
+          property="og:title"
+          content="Digital Marketing Company in Gurgaon - Digital Cappuccino"
+        />
+        <meta
+          property="og:description"
+          content="Digital Cappuccino - offering you the world class Digital Marketing (SEO, SMO, SEM, PPC, Email Marketing) services provider agency in Gurgaon"
+        />
+        <meta
+          property="og:url"
+          content="https://www.digitalcappuccino.com/digital-marketing-company-gurgaon"
+        />
+        <meta
+          property="og:image"
+          content="https://www.digitalcappuccino.com/assets/img/service/2.png"
+        />
+        <script type="application/ld+json">
+          {`
+  {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "https://www.digitalcappuccino.com/digital-marketing-company-gurgaon#webpage",
+    "url": "https://www.digitalcappuccino.com/digital-marketing-company-gurgaon",
+    "inLanguage": "English",
+    "name": "Digital Marketing",
+    "description": "Digital Cappuccino - offering you the world class Digital Marketing (SEO, SMO, SEM, PPC, Email Marketing) services provider agency in Gurgaon",
+    "isPartOf": {
+      "@id": "#website"
+    },
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Digital Cappuccino",
+        "sameAs": "https://www.digitalcappuccino.com/"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "Thing",
+        "name": "Digital Cappuccino",
+        "sameAs": "https://www.digitalcappuccino.com/"
+      }
+    ]
+  }
+  `}
+        </script>
       </Head>
       <Header />
       <Breadcrumb

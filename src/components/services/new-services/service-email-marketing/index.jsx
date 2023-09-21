@@ -20,32 +20,72 @@ const ServiceEmailMarketing = () => {
   return (
     <Wrapper>
       <Head>
-        <title>E-mail marketing agency in Gurgaon with a personified presence- Digital Marketing</title>
+        <title>
+          E-mail marketing agency in Gurgaon with a personified presence-
+          Digital Marketing
+        </title>
         <meta
           name="description"
           content="No.1 e-mail marketing agency in Gurgaon, we at Digital Cappuccino would make your business grow faster and effectively with our email marketing service for your esteem."
-          />
-           <link rel="canonical" href="https://www.digitalcappuccino.com/email-marketing-services-gurgaon"/>
-          <meta property="og:title" 
-          content="E-mail marketing agency in Gurgaon with a personified presence- Digital Marketing" />
-          <meta
-            property="og:description"
-            content="No.1 e-mail marketing agency in Gurgaon, we at Digital Cappuccino would make your business grow faster and effectively with our email marketing service for your esteem."
-          />
-           <meta
-            property="og:url"
-            content="https://www.digitalcappuccino.com/email-marketing-services-gurgaon"
-          />
-          <meta
-            property="og:image"
-            content="https://www.digitalcappuccino.com/assets/img/service/6.png"
         />
+        <link
+          rel="canonical"
+          href="https://www.digitalcappuccino.com/email-marketing-services-gurgaon"
+        />
+        <meta
+          property="og:title"
+          content="E-mail marketing agency in Gurgaon with a personified presence- Digital Marketing"
+        />
+        <meta
+          property="og:description"
+          content="No.1 e-mail marketing agency in Gurgaon, we at Digital Cappuccino would make your business grow faster and effectively with our email marketing service for your esteem."
+        />
+        <meta
+          property="og:url"
+          content="https://www.digitalcappuccino.com/email-marketing-services-gurgaon"
+        />
+        <meta
+          property="og:image"
+          content="https://www.digitalcappuccino.com/assets/img/service/6.png"
+        />
+        <script type="application/ld+json">
+          {`
+{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.digitalcappuccino.com/email-marketing-services-gurgaon#webpage",
+  "url": "https://www.digitalcappuccino.com/email-marketing-services-gurgaon",
+  "inLanguage": "English",
+  "name": "Email Marketing ",
+  "description": "No.1 e-mail marketing agency in Gurgaon, we at Digital Cappuccino would make your business grow faster and effectively with our email marketing service for your esteem.",
+  "isPartOf": {
+    "@id": "#website"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Digital Cappuccino",
+      "sameAs": "https://www.digitalcappuccino.com/"
+    }
+  ],
+  "mentions": [
+    {
+      "@type": "Thing",
+      "name": "Digital Cappuccino",
+      "sameAs": "https://www.digitalcappuccino.com/"
+    }
+  ]
+}
+`}
+        </script>
       </Head>
       <Header />
       <Breadcrumb
         color={"#fec4c559"}
         imagePath={"/assets/img/service/6.png"}
-        title={"Digital Cappuccino Elevates Your Reach:Email marketing in Gurgaon"}
+        title={
+          "Digital Cappuccino Elevates Your Reach:Email marketing in Gurgaon"
+        }
         alt="Email Marketing Services in Gurgaon"
       />
       <CardWeb />

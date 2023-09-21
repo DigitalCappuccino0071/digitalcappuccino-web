@@ -24,23 +24,59 @@ const ServicePaperClick = () => {
         <meta
           name="description"
           content="Looking for a PPC expert in Gurgaon? Look no further! Our team of experienced PPC professionals has a proven track record of delivering outstanding results worldwide"
-          />
-           <link rel="canonical" href="https://www.digitalcappuccino.com/ppc-marketing-company-gurgaon"/>
-          <meta property="og:title" 
-          content="Skilled PPC Expert in Gurgaon - Digital Cappuccino" />
-          <meta
-            property="og:description"
-            content="Looking for a PPC expert in Gurgaon? Look no further! Our team of experienced PPC professionals has a proven track record of delivering outstanding results worldwide"
-          />
-           <meta
-            property="og:url"
-            content="https://www.digitalcappuccino.com/ppc-marketing-company-gurgaon"
-          />
-          <meta
-            property="og:image"
-            content="https://www.digitalcappuccino.com/assets/img/service/5.png"
         />
+        <link
+          rel="canonical"
+          href="https://www.digitalcappuccino.com/ppc-marketing-company-gurgaon"
+        />
+        <meta
+          property="og:title"
+          content="Skilled PPC Expert in Gurgaon - Digital Cappuccino"
+        />
+        <meta
+          property="og:description"
+          content="Looking for a PPC expert in Gurgaon? Look no further! Our team of experienced PPC professionals has a proven track record of delivering outstanding results worldwide"
+        />
+        <meta
+          property="og:url"
+          content="https://www.digitalcappuccino.com/ppc-marketing-company-gurgaon"
+        />
+        <meta
+          property="og:image"
+          content="https://www.digitalcappuccino.com/assets/img/service/5.png"
+        />
+        <script type="application/ld+json">
+          {`
+{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.digitalcappuccino.com/ppc-marketing-company-gurgaon#webpage",
+  "url": "https://www.digitalcappuccino.com/ppc-marketing-company-gurgaon",
+  "inLanguage": "English",
+  "name": "PPC Marketing ",
+  "description": "Looking for a PPC expert in Gurgaon? Look no further! Our team of experienced PPC professionals has a proven track record of delivering outstanding results worldwide",
+  "isPartOf": {
+    "@id": "#website"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Digital Cappuccino",
+      "sameAs": "https://www.digitalcappuccino.com/"
+    }
+  ],
+  "mentions": [
+    {
+      "@type": "Thing",
+      "name": "Digital Cappuccino",
+      "sameAs": "https://www.digitalcappuccino.com/"
+    }
+  ]
+}
+`}
+        </script>
       </Head>
+
       <Header />
       <Breadcrumb
         color={"#fec4c559"}

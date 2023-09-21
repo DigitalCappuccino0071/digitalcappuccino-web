@@ -19,33 +19,72 @@ const ServiceSEO = () => {
 
   return (
     <Wrapper>
-        <Head>
-        <title>SEO company in Gurgaon for SEO services -Digital Cappuccino </title>
+      <Head>
+        <title>
+          SEO company in Gurgaon for SEO services -Digital Cappuccino{" "}
+        </title>
         <meta
           name="description"
           content="We, at Digital Cappuccino, have successfully earned the trust of our clients as the best SEO company in Gurgaon, our reputation precedes building a vast clientele globally."
-          />
-           <link rel="canonical" href="https://www.digitalcappuccino.com/seo-services-gurgaon"/>
-          <meta property="og:title" 
-          content="SEO company in Gurgaon for SEO services -Digital Cappuccino " />
-          <meta
-            property="og:description"
-            content="We, at Digital Cappuccino, have successfully earned the trust of our clients as the best SEO company in Gurgaon, our reputation precedes building a vast clientele globally."
-          />
-           <meta
-            property="og:url"
-            content="https://www.digitalcappuccino.com/seo-services-gurgaon"
-          />
-          <meta
-            property="og:image"
-            content="https://www.digitalcappuccino.com/assets/img/service/4.png"
         />
+        <link
+          rel="canonical"
+          href="https://www.digitalcappuccino.com/seo-services-gurgaon"
+        />
+        <meta
+          property="og:title"
+          content="SEO company in Gurgaon for SEO services -Digital Cappuccino "
+        />
+        <meta
+          property="og:description"
+          content="We, at Digital Cappuccino, have successfully earned the trust of our clients as the best SEO company in Gurgaon, our reputation precedes building a vast clientele globally."
+        />
+        <meta
+          property="og:url"
+          content="https://www.digitalcappuccino.com/seo-services-gurgaon"
+        />
+        <meta
+          property="og:image"
+          content="https://www.digitalcappuccino.com/assets/img/service/4.png"
+        />
+        <script type="application/ld+json">
+          {`
+  {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "https://www.digitalcappuccino.com/seo-services-gurgaon#webpage",
+    "url": "https://www.digitalcappuccino.com/seo-services-gurgaon",
+    "inLanguage": "English",
+    "name": "SEO Company",
+    "description": "We, at Digital Cappuccino, have successfully earned the trust of our clients as the best SEO company in Gurgaon, our reputation precedes building a vast clientele globally.",
+    "isPartOf": {
+      "@id": "#website"
+    },
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Digital Cappuccino",
+        "sameAs": "https://www.digitalcappuccino.com/"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "Thing",
+        "name": "Digital Cappuccino",
+        "sameAs": "https://www.digitalcappuccino.com/"
+      }
+    ]
+  }
+  `}
+        </script>
       </Head>
       <Header />
       <Breadcrumb
         color={"#fec4c559"}
         imagePath={"/assets/img/service/4.png"}
-        title={"Improve Your Digital Presence with Professional SEO Services in Gurgaon"}
+        title={
+          "Improve Your Digital Presence with Professional SEO Services in Gurgaon"
+        }
         alt="SEO Service Company in Gurgaon"
       />
       <CardWeb />
