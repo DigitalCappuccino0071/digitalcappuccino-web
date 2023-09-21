@@ -46,7 +46,7 @@ const SEO = ({ pageTitle, font }) => (
   gtag('config', 'AW-11192435865');
         `}
     </Script>
-    <Script type="application/ld+json">
+    <script type="application/ld+json">
       {`
 "@context": "https://schema.org",
 "@type": "Organization",
@@ -63,7 +63,7 @@ const SEO = ({ pageTitle, font }) => (
   "https://in.pinterest.com/digital_cappuccinoggn/"
 ]
 `}
-    </Script>
+    </script>
   </>
 );
 

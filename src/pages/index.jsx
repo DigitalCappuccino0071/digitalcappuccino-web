@@ -35,11 +35,11 @@ export default function index() {
 
         <link rel="icon" href="/favicon.ico" />
         {/* Global Site Tag (gtag.js) - Google Analytics */}
-        <Script
+        <script
           src={`https://www.googletagmanager.com/gtag/js?id=AW-11192435865`}
           strategy="afterInteractive"
         />
-        <Script id="gtag-init" strategy="afterInteractive">
+        <script id="gtag-init" strategy="afterInteractive">
           {`
            window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -47,7 +47,7 @@ export default function index() {
 
   gtag('config', 'AW-11192435865');
         `}
-        </Script>
+        </script>
         <script type="application/ld+json">
           {`
 {
