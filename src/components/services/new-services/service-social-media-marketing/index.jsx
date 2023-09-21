@@ -22,26 +22,63 @@ const ServiceSocialMediaMarketing = () => {
   return (
     <Wrapper>
       <Head>
-        <title>Social Media Marketing Company in Gurgaon - SMM - Digital Cappuccino</title>
+        <title>
+          Social Media Marketing Company in Gurgaon - SMM - Digital Cappuccino
+        </title>
         <meta
           name="description"
           content="Looking for a top-notch Social Media Marketing Company in Gurgaon? Look no further than Digital Cappuccino. Our expert team delivers exceptional results."
-          />
-           <link rel="canonical" href="https://www.digitalcappuccino.com/social-media-marketing-services-gurgaon"/>
-          <meta property="og:title" 
-          content="Social Media Marketing Company in Gurgaon - SMM - Digital Cappuccino" />
-          <meta
-            property="og:description"
-            content="Looking for a top-notch Social Media Marketing Company in Gurgaon? Look no further than Digital Cappuccino. Our expert team delivers exceptional results."
-          />
-           <meta
-            property="og:url"
-            content="https://www.digitalcappuccino.com/social-media-marketing-services-gurgaon"
-          />
-          <meta
-            property="og:image"
-            content="https://www.digitalcappuccino.com/assets/img/service/3.png"
         />
+        <link
+          rel="canonical"
+          href="https://www.digitalcappuccino.com/social-media-marketing-services-gurgaon"
+        />
+        <meta
+          property="og:title"
+          content="Social Media Marketing Company in Gurgaon - SMM - Digital Cappuccino"
+        />
+        <meta
+          property="og:description"
+          content="Looking for a top-notch Social Media Marketing Company in Gurgaon? Look no further than Digital Cappuccino. Our expert team delivers exceptional results."
+        />
+        <meta
+          property="og:url"
+          content="https://www.digitalcappuccino.com/social-media-marketing-services-gurgaon"
+        />
+        <meta
+          property="og:image"
+          content="https://www.digitalcappuccino.com/assets/img/service/3.png"
+        />
+        <script type="application/ld+json">
+          {`
+  {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "https://www.digitalcappuccino.com/social-media-marketing-services-gurgaon#webpage",
+    "url": "https://www.digitalcappuccino.com/social-media-marketing-services-gurgaon",
+    "inLanguage": "English",
+    "name": "Social Media Marketing",
+    "description": "Looking for a top-notch Social Media Marketing Company in Gurgaon? Look no further than Digital Cappuccino. Our expert team delivers exceptional results.",
+    "isPartOf": {
+      "@id": "#website"
+    },
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Digital Cappuccino",
+        "sameAs": "https://www.digitalcappuccino.com/"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "Thing",
+        "name": "Digital Cappuccino",
+        "sameAs": "https://www.digitalcappuccino.com/"
+      }
+    ]
+  }
+  `}
+        </script>
       </Head>
       <Header />
       <Breadcrumb

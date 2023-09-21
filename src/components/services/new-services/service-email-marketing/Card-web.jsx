@@ -6,7 +6,7 @@ const data = [
     id: 11,
     image: "/assets/img/breadcrum_1/email.png",
     alt: "Email Marketing Company Gurgaon",
-    title: "Digital Cappuccino Delivers Unparalleled Solutions",
+    title: "Email Marketing Services in Gurgaon: Boost Your Brand Awareness,",
     peraOne:
       "At Digital Cappuccino, we provide a variety of services, including Email Marketing. Our strategy is sending promotional communications to a group of subscribers via email. Every email, whether to new or existing consumers, is a form of email marketing. Our techniques include sending emails for advertisements, business queries, and requests for sales or donations. Our key goals are to increase brand awareness, loyalty, and trust. We specialise in giving the best and top-notch Email Marketing services in Gurgaon as a leading Email Marketing firm.",
   },

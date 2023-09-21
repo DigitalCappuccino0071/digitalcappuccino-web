@@ -6,7 +6,8 @@ const data = [
     id: 11,
     image: "/assets/img/breadcrum_1/seo.png",
     alt: "SEO Services Agency in Gurgaon",
-    title: "Leading SEO Company in Gurgaon: Driving Unmatched Digital Growth",
+    title:
+      "SEO Company in Gurgaon Boost Your Online Presence with Digital Cappuccino:",
     peraOne:
       "At Digital Cappuccino, we specialise in a variety of services, including high-quality SEO solutions. Our expertise is in increasing the quality and quantity of website traffic via search engines. Our focused strategy focuses on improving organic results across a wide range of search categories, including photos, videos, academia, news, and industry-specific searches. We assure the success of your online presence by understanding search engine operations and user preferences. Partner with us for exceptional SEO services in Gurgaon, where we work tirelessly as your preferred SEO firm to boost unpaid traffic and prospective client conversions. Choose Digital Cappuccino as the top SEO company in Gurgaon.",
   },
