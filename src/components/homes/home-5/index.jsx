@@ -30,7 +30,7 @@ const HomeFive = () => {
       <BrandArea />
       {/*<OurAffiliates/>*/}
       <ProjectArea />
-      <OurAssociate/>
+      {/* <OurAssociate/> */}
       <TeamArea />
       <ClientFeedback />
       <BlogArea />
