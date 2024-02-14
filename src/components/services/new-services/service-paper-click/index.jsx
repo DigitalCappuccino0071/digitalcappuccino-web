@@ -1,14 +1,14 @@
-import React, { useEffect } from "react";
-import { FooterFour, FooterThree, Header, Wrapper } from "../../../../layout";
-import { animationCreate } from "../../../../utils/utils";
-import Breadcrumb from "../../../common/breadcrumb/breadcrumb";
-import CtaTwo from "../../../common/cta/cta-2";
-import ServicesWeb from "./services-web";
-import CardWeb from "./Card-web";
-import AccordionArea from "./accordion";
-import TestimonialArea from "./testimonial-area";
-import ClientFeedback from "../../../homes/home-5/client-feedback";
-import Head from "next/head";
+import React, { useEffect } from 'react';
+import { FooterFour, FooterThree, Header, Wrapper } from '../../../../layout';
+import { animationCreate } from '../../../../utils/utils';
+import Breadcrumb from '../../../common/breadcrumb/breadcrumb';
+import CtaTwo from '../../../common/cta/cta-2';
+import ServicesWeb from './services-web';
+import CardWeb from './Card-web';
+import AccordionArea from './accordion';
+import TestimonialArea from './testimonial-area';
+import ClientFeedback from '../../../homes/home-5/client-feedback';
+import Head from 'next/head';
 
 const ServicePaperClick = () => {
   useEffect(() => {
@@ -20,10 +20,10 @@ const ServicePaperClick = () => {
   return (
     <Wrapper>
       <Head>
-        <title>Skilled PPC Expert in Gurgaon - Digital Cappuccino</title>
+        <title>Best PPC Company in Gurgaon | Digital Cappuccino</title>
         <meta
           name="description"
-          content="Looking for a PPC expert in Gurgaon? Look no further! Our team of experienced PPC professionals has a proven track record of delivering outstanding results worldwide"
+          content="We are one of the best PPC companies in Gurgaon. We will help you achieve the best possible outcomes. Providing you with the best PPC services."
         />
         <link
           rel="canonical"
@@ -31,11 +31,11 @@ const ServicePaperClick = () => {
         />
         <meta
           property="og:title"
-          content="Skilled PPC Expert in Gurgaon - Digital Cappuccino"
+          content="Best PPC Company in Gurgaon | Digital Cappuccino"
         />
         <meta
           property="og:description"
-          content="Looking for a PPC expert in Gurgaon? Look no further! Our team of experienced PPC professionals has a proven track record of delivering outstanding results worldwide"
+          content="We are one of the best PPC companies in Gurgaon. We will help you achieve the best possible outcomes. Providing you with the best PPC services."
         />
         <meta
           property="og:url"
@@ -54,7 +54,7 @@ const ServicePaperClick = () => {
   "url": "https://www.digitalcappuccino.com/ppc-marketing-company-gurgaon",
   "inLanguage": "English",
   "name": "PPC Marketing ",
-  "description": "Looking for a PPC expert in Gurgaon? Look no further! Our team of experienced PPC professionals has a proven track record of delivering outstanding results worldwide",
+  "description": "We are one of the best PPC companies in Gurgaon. We will help you achieve the best possible outcomes. Providing you with the best PPC services.",
   "isPartOf": {
     "@id": "#website"
   },
@@ -79,9 +79,9 @@ const ServicePaperClick = () => {
 
       <Header />
       <Breadcrumb
-        color={"#fec4c559"}
-        imagePath={"/assets/img/service/5.png"}
-        title={"Digital Cappuccino: PPC Marketing Company in Gurgaon"}
+        color={'#fec4c559'}
+        imagePath={'/assets/img/service/5.png'}
+        title={'Digital Cappuccino: PPC Marketing Company in Gurgaon'}
         alt="PPC Marketing Company in Gurgaon"
       />
       <CardWeb />

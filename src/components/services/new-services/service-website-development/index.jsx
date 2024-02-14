@@ -1,15 +1,15 @@
-import React, { useEffect } from "react";
-import { FooterFour, FooterThree, Header, Wrapper } from "../../../../layout";
-import { animationCreate } from "../../../../utils/utils";
-import Breadcrumb from "../../../common/breadcrumb/breadcrumb";
-import CtaTwo from "../../../common/cta/cta-2";
-import ServicesWeb from "./services-web";
-import CardWeb from "./Card-web";
-import AccordionArea from "./accordion";
-import TestimonialArea from "./testimonial-area";
-import ClientFeedback from "../../../homes/home-5/client-feedback";
-import Head from "next/head";
-import Script from "next/script";
+import React, { useEffect } from 'react';
+import { FooterFour, FooterThree, Header, Wrapper } from '../../../../layout';
+import { animationCreate } from '../../../../utils/utils';
+import Breadcrumb from '../../../common/breadcrumb/breadcrumb';
+import CtaTwo from '../../../common/cta/cta-2';
+import ServicesWeb from './services-web';
+import CardWeb from './Card-web';
+import AccordionArea from './accordion';
+import TestimonialArea from './testimonial-area';
+import ClientFeedback from '../../../homes/home-5/client-feedback';
+import Head from 'next/head';
+import Script from 'next/script';
 
 const ServiceWebsiteDevelopment = () => {
   useEffect(() => {
@@ -21,28 +21,28 @@ const ServiceWebsiteDevelopment = () => {
   return (
     <Wrapper>
       <Head>
-        <title>
-          Web Design & Development Company in Gurgaon - Digital Cappuccino
-        </title>
+        <title>Website Design & Web Development | Company in Gurgaon</title>
         <meta
           name="description"
-          content="If you are looking for a website design & development company in Gurgaon that can help you achieve your business goals, then Digital Cappuccino is the perfect choice for you."
+          content="Digital Cappuccino is the most trusted web development company in
+Gurgaon that provides redesigning, web development, and digital marketing."
         />
         <link
           rel="canonical"
-          href="https://www.digitalcappuccino.com/website-development-company-gurgaon"
+          href="https://www.digitalcappuccino.com/web-development-company-gurgaon"
         />
         <meta
           property="og:title"
-          content="Web Design & Development Company in Gurgaon - Digital Cappuccino"
+          content="Website Design & Web Development | Company in Gurgaon"
         />
         <meta
           property="og:description"
-          content="If you are looking for a website design & development company in Gurgaon that can help you achieve your business goals, then Digital Cappuccino is the perfect choice for you."
+          content="Digital Cappuccino is the most trusted web development company in
+Gurgaon that provides redesigning, web development, and digital marketing."
         />
         <meta
           property="og:url"
-          content="https://www.digitalcappuccino.com/website-development-company-gurgaon"
+          content="https://www.digitalcappuccino.com/web-development-company-gurgaon"
         />
         <meta
           property="og:image"
@@ -53,11 +53,12 @@ const ServiceWebsiteDevelopment = () => {
 {
   "@context": "http://schema.org",
   "@type": "WebPage",
-  "@id": "https://www.digitalcappuccino.com/website-development-company-gurgaon#webpage",
-  "url": "https://www.digitalcappuccino.com/website-development-company-gurgaon",
+  "@id": "https://www.digitalcappuccino.com/web-development-company-gurgaon#webpage",
+  "url": "https://www.digitalcappuccino.com/web-development-company-gurgaon",
   "inLanguage": "English",
   "name": "Website Development",
-  "description": "If you are looking for a website design & development company in Gurgaon that can help you achieve your business goals, then Digital Cappuccino is the perfect choice for you.",
+  "description": "Digital Cappuccino is the most trusted web development company in
+Gurgaon that provides redesigning, web development, and digital marketing.",
   "isPartOf": {
     "@id": "https://www.digitalcappuccino.com/digital-marketing-company-gurgaon#website"
   },
@@ -82,9 +83,9 @@ const ServiceWebsiteDevelopment = () => {
       </Head>
       <Header />
       <Breadcrumb
-        color={"#fec4c559"}
-        imagePath={"/assets/img/service/1.png"}
-        title={"Premier Website Development Solutions in Gurgaon"}
+        color={'#fec4c559'}
+        imagePath={'/assets/img/service/1.png'}
+        title={'Premier Website Development Solutions in Gurgaon'}
         alt="Website Development Company in Gurgaon"
       />
       <CardWeb />

@@ -1,16 +1,16 @@
-import React, { useEffect } from "react";
-import { FooterFour, FooterThree, Header, Wrapper } from "../../../../layout";
-import { animationCreate } from "../../../../utils/utils";
-import Breadcrumb from "../../../common/breadcrumb/breadcrumb";
-import CtaTwo from "../../../common/cta/cta-2";
-import CaseArea from "../../../common/recent-case-studies";
-import TestimonialArea from "./testimonial-area";
-import ServicesWeb from "./services-web";
-import CardDetails from "../../service-1/card-details";
-import CardWeb from "./Card-web";
-import AccordionArea from "./accordion";
-import ClientFeedback from "../../../homes/home-5/client-feedback";
-import Head from "next/head";
+import React, { useEffect } from 'react';
+import { FooterFour, FooterThree, Header, Wrapper } from '../../../../layout';
+import { animationCreate } from '../../../../utils/utils';
+import Breadcrumb from '../../../common/breadcrumb/breadcrumb';
+import CtaTwo from '../../../common/cta/cta-2';
+import CaseArea from '../../../common/recent-case-studies';
+import TestimonialArea from './testimonial-area';
+import ServicesWeb from './services-web';
+import CardDetails from '../../service-1/card-details';
+import CardWeb from './Card-web';
+import AccordionArea from './accordion';
+import ClientFeedback from '../../../homes/home-5/client-feedback';
+import Head from 'next/head';
 
 const ServiceSocialMediaMarketing = () => {
   useEffect(() => {
@@ -22,12 +22,10 @@ const ServiceSocialMediaMarketing = () => {
   return (
     <Wrapper>
       <Head>
-        <title>
-          Social Media Marketing Company in Gurgaon - SMM - Digital Cappuccino
-        </title>
+        <title>Social Media Marketing Agency in Gurgaon</title>
         <meta
           name="description"
-          content="Looking for a top-notch Social Media Marketing Company in Gurgaon? Look no further than Digital Cappuccino. Our expert team delivers exceptional results."
+          content="Digital Cappuccino is the best social media marketing agency in Gurgaon. We offer social media services at the best prices to grow your brand."
         />
         <link
           rel="canonical"
@@ -35,11 +33,11 @@ const ServiceSocialMediaMarketing = () => {
         />
         <meta
           property="og:title"
-          content="Social Media Marketing Company in Gurgaon - SMM - Digital Cappuccino"
+          content="Social Media Marketing Agency in Gurgaon"
         />
         <meta
           property="og:description"
-          content="Looking for a top-notch Social Media Marketing Company in Gurgaon? Look no further than Digital Cappuccino. Our expert team delivers exceptional results."
+          content="Digital Cappuccino is the best social media marketing agency in Gurgaon. We offer social media services at the best prices to grow your brand."
         />
         <meta
           property="og:url"
@@ -58,7 +56,7 @@ const ServiceSocialMediaMarketing = () => {
     "url": "https://www.digitalcappuccino.com/social-media-marketing-services-gurgaon",
     "inLanguage": "English",
     "name": "Social Media Marketing",
-    "description": "Looking for a top-notch Social Media Marketing Company in Gurgaon? Look no further than Digital Cappuccino. Our expert team delivers exceptional results.",
+    "description": "Digital Cappuccino is the best social media marketing agency in Gurgaon. We offer social media services at the best prices to grow your brand.",
     "isPartOf": {
       "@id": "#website"
     },
@@ -82,9 +80,9 @@ const ServiceSocialMediaMarketing = () => {
       </Head>
       <Header />
       <Breadcrumb
-        color={"#fec4c559"}
-        imagePath={"/assets/img/service/3.png"}
-        title={"Digitalcappuccino: Social Media Marketing Company in Gurgaon"}
+        color={'#fec4c559'}
+        imagePath={'/assets/img/service/3.png'}
+        title={'Digitalcappuccino: Social Media Marketing Company in Gurgaon'}
         alt="Socail Media Marketing Company in Gurgaon"
       />
       <CardWeb />

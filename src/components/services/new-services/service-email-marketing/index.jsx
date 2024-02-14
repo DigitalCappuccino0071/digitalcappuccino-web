@@ -1,14 +1,14 @@
-import React, { useEffect } from "react";
-import { FooterFour, FooterThree, Header, Wrapper } from "../../../../layout";
-import { animationCreate } from "../../../../utils/utils";
-import Breadcrumb from "../../../common/breadcrumb/breadcrumb";
-import CtaTwo from "../../../common/cta/cta-2";
-import ServicesWeb from "./services-web";
-import CardWeb from "./Card-web";
-import AccordionArea from "./accordion";
-import TestimonialArea from "./testimonial-area";
-import ClientFeedback from "../../../homes/home-5/client-feedback";
-import Head from "next/head";
+import React, { useEffect } from 'react';
+import { FooterFour, FooterThree, Header, Wrapper } from '../../../../layout';
+import { animationCreate } from '../../../../utils/utils';
+import Breadcrumb from '../../../common/breadcrumb/breadcrumb';
+import CtaTwo from '../../../common/cta/cta-2';
+import ServicesWeb from './services-web';
+import CardWeb from './Card-web';
+import AccordionArea from './accordion';
+import TestimonialArea from './testimonial-area';
+import ClientFeedback from '../../../homes/home-5/client-feedback';
+import Head from 'next/head';
 
 const ServiceEmailMarketing = () => {
   useEffect(() => {
@@ -20,29 +20,26 @@ const ServiceEmailMarketing = () => {
   return (
     <Wrapper>
       <Head>
-        <title>
-          E-mail marketing agency in Gurgaon with a personified presence-
-          Digital Marketing
-        </title>
+        <title>Best Email Marketing | Company in Gurgaon</title>
         <meta
           name="description"
-          content="No.1 e-mail marketing agency in Gurgaon, we at Digital Cappuccino would make your business grow faster and effectively with our email marketing service for your esteem."
+          content="Are you looking for the best email marketing company in Gurgaon? Digital Cappuccino is here to provide you with all the solutions."
         />
         <link
           rel="canonical"
-          href="https://www.digitalcappuccino.com/email-marketing-services-gurgaon"
+          href="https://www.digitalcappuccino.com/email-marketing-company-gurgaon"
         />
         <meta
           property="og:title"
-          content="E-mail marketing agency in Gurgaon with a personified presence- Digital Marketing"
+          content="Best Email Marketing | Company in Gurgaon"
         />
         <meta
           property="og:description"
-          content="No.1 e-mail marketing agency in Gurgaon, we at Digital Cappuccino would make your business grow faster and effectively with our email marketing service for your esteem."
+          content="Are you looking for the best email marketing company in Gurgaon? Digital Cappuccino is here to provide you with all the solutions."
         />
         <meta
           property="og:url"
-          content="https://www.digitalcappuccino.com/email-marketing-services-gurgaon"
+          content="https://www.digitalcappuccino.com/email-marketing-company-gurgaon"
         />
         <meta
           property="og:image"
@@ -53,11 +50,11 @@ const ServiceEmailMarketing = () => {
 {
   "@context": "http://schema.org",
   "@type": "WebPage",
-  "@id": "https://www.digitalcappuccino.com/email-marketing-services-gurgaon#webpage",
-  "url": "https://www.digitalcappuccino.com/email-marketing-services-gurgaon",
+  "@id": "https://www.digitalcappuccino.com/email-marketing-company-gurgaon#webpage",
+  "url": "https://www.digitalcappuccino.com/email-marketing-company-gurgaon",
   "inLanguage": "English",
   "name": "Email Marketing ",
-  "description": "No.1 e-mail marketing agency in Gurgaon, we at Digital Cappuccino would make your business grow faster and effectively with our email marketing service for your esteem.",
+  "description": "Are you looking for the best email marketing company in Gurgaon? Digital Cappuccino is here to provide you with all the solutions.",
   "isPartOf": {
     "@id": "#website"
   },
@@ -81,10 +78,10 @@ const ServiceEmailMarketing = () => {
       </Head>
       <Header />
       <Breadcrumb
-        color={"#fec4c559"}
-        imagePath={"/assets/img/service/6.png"}
+        color={'#fec4c559'}
+        imagePath={'/assets/img/service/6.png'}
         title={
-          "Digital Cappuccino Elevates Your Reach:Email marketing in Gurgaon"
+          'Digital Cappuccino Elevates Your Reach:Email marketing in Gurgaon'
         }
         alt="Email Marketing Services in Gurgaon"
       />

@@ -1,8 +1,8 @@
-import { Wrapper } from "../layout";
-import HomeFiveMain from "../components/homes/home-5";
-import SEO from "../components/seo";
-import Head from "next/head";
-import Script from "next/script";
+import { Wrapper } from '../layout';
+import HomeFiveMain from '../components/homes/home-5';
+import SEO from '../components/seo';
+import Head from 'next/head';
+import Script from 'next/script';
 
 export default function index() {
   return (
@@ -11,12 +11,12 @@ export default function index() {
       <Head>
         <title>
           {/* {pageTitle && `${pageTitle} || Digital Cappuccino - We Are Digital Marketing Advisors`} */}
-          Advertising Agency in Gurgaon - Digital Cappuccino
+          Best Marketing Agency in Gurgaon | Digital Cappuccino
         </title>
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
           name="description"
-          content="Digital Cappuccino is a  Advertising Agency in Gurgaon that helps businesses of all sizes grow their online presence. including web design, SEO, PPC."
+          content="Digital Cappuccino is the best marketing agency in Gurgaon. We synthesize marketing programs and merge techniques to reach your goals."
         />
         <meta name="robots" content="index, follow" />
         <meta
@@ -25,11 +25,11 @@ export default function index() {
         />
         <meta
           property="og:title"
-          content="Advertising Agency in Gurgaon - Digital Cappuccino"
+          content="Best Marketing Agency in Gurgaon | Digital Cappuccino"
         />
         <meta
           property="og:description"
-          content="Digital Cappuccino is a  Advertising Agency in Gurgaon that helps businesses of all sizes grow their online presence. including web design, SEO, PPC."
+          content="Digital Cappuccino is the best marketing agency in Gurgaon. We synthesize marketing programs and merge techniques to reach your goals."
         />
         {/* <meta name="google-site-verification" content="U9aKcrxVP2tdcuqCiLv34-jTZaj3CZ7Zew92miNTyIA" /> */}
 
@@ -84,7 +84,7 @@ export default function index() {
       "addressLocality": "Gurgaon",
       "postalCode": "122003",
       "addressCountry": "IN"
-    }  
+    }
   }
   `}
         </script>
