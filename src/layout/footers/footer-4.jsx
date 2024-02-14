@@ -1,24 +1,23 @@
-import Link from "next/link";
-import React from "react";
-import SocialLinks from "../social-links";
-import CopyrightArea from "./component/copyright-area";
+import Link from 'next/link';
+import React from 'react';
+import SocialLinks from '../social-links';
+import CopyrightArea from './component/copyright-area';
 
 const footer_contents = {
-  shapes: ["hero-shape-5.1.png", "testimonial-shape-5.4.png"],
-  logo: "/assets/img/logo/new-logo-design-v1-old.png",
+  shapes: ['hero-shape-5.1.png', 'testimonial-shape-5.4.png'],
+  logo: '/assets/img/logo/new-logo-design-v1-old.png',
   widget_desc:
-    "From Strategy to Execution, Digital Cappuccino Delivers Results- Your Digital Marketing Enthusiasts",
+    'From Strategy to Execution, Digital Cappuccino Delivers Results- Your Digital Marketing Enthusiasts',
   footer_widgets: [
     {
-      w_class: "d-flex justify-content-lg-center",
-      title: "Useful Links",
+      w_class: 'd-flex justify-content-lg-center',
+      title: 'Useful Links',
       widget_lists: [
         {
           id: 1,
-          text: "Home",
-          link: "/",
+          text: 'Home',
+          link: '/',
         },
-
 
         // {
         //   id: 4,
@@ -27,56 +26,60 @@ const footer_contents = {
         // },
         {
           id: 4,
-          text: "Contact US",
-          link: "/contact-us",
+          text: 'Contact US',
+          link: '/contact-us',
         },
-           {
+        {
           id: 2,
-          text: "About Us",
-          link: "/about-us",
+          text: 'About Us',
+          link: '/about-us',
         },
       ],
     },
     {
-      padd: "pl-20",
-      title: "Our Services",
+      padd: 'pl-20',
+      title: 'Our Services',
       widget_lists: [
         {
           id: 1,
-          text: "Website Development",
-          link: "./website-development-company-gurgaon",
+          text: 'Website Development',
+          link: './web-development-company-gurgaon',
         },
         {
           id: 2,
-          text: "Digital Marketing",
-          link: "/digital-marketing-company-gurgaon",
+          text: 'Digital Marketing',
+          link: '/digital-marketing-company-gurgaon',
         },
         {
           id: 3,
-          text: "Social Media Marketing",
-          link: "/social-media-marketing-services-gurgaon",
+          text: 'Social Media Marketing',
+          link: '/social-media-marketing-services-gurgaon',
         },
         {
           id: 4,
-          text: "SEO Services",
-          link: "/social-media-marketing-services-gurgaon",
+          text: 'SEO Services',
+          link: '/social-media-marketing-services-gurgaon',
         },
-            {
+        {
           id: 4,
-          text: "Pay-Per Click",
-          link: "/ppc-marketing-company-gurgaon",
+          text: 'Pay-Per Click',
+          link: '/ppc-marketing-company-gurgaon',
         },
         {
           id: 5,
-          text: "Email Marketing",
-          link: "/email-marketing-services-gurgaon",
+          text: 'Email Marketing',
+          link: '/email-marketing-company-gurgaon',
         },
       ],
     },
   ],
-  subscribe_title: "Subscribe to our Newsletter",
-  subscribe_text:
-    <>To keep up to date with what&apos;s advanced and make informed choices about the services we offer, subscribe to our newsletter.</>,
+  subscribe_title: 'Subscribe to our Newsletter',
+  subscribe_text: (
+    <>
+      To keep up to date with what&apos;s advanced and make informed choices
+      about the services we offer, subscribe to our newsletter.
+    </>
+  ),
   copy_right_text: (
     <>
       © Copyright ©{new Date().getFullYear()} Digital Cappuccino. All Rights
@@ -84,8 +87,8 @@ const footer_contents = {
     </>
   ),
   conditions: [
-    { id: 1, text: "Terms and conditions" },
-    { id: 2, text: "Privacy policy" },
+    { id: 1, text: 'Terms and conditions' },
+    { id: 2, text: 'Privacy policy' },
   ],
 };
 const {
@@ -110,7 +113,7 @@ const FooterFour = () => {
           >
             <img src={`/assets/img/footer/${s}`} alt="" />
           </div>
-        ))}    
+        ))}
         <div className="container">
           <div
             className="row wow tpfadeUp"
@@ -140,10 +143,10 @@ const FooterFour = () => {
                 <div
                   key={i}
                   className={`col-xl-3 col-lg-2 col-md-6 ${
-                    w_class ? w_class : ""
+                    w_class ? w_class : ''
                   }`}
                 >
-                  <div className={`tp-footer-widget ${padd ? padd : ""}`}>
+                  <div className={`tp-footer-widget ${padd ? padd : ''}`}>
                     <div className="tp-footer-widget__title pb-15">
                       <h3 className="footer-title text-black">{title}</h3>
                     </div>
@@ -169,7 +172,7 @@ const FooterFour = () => {
                   <p>{subscribe_text}</p>
                 </div>
                 <div className="tp-footer-widget__input tp-input-white">
-                  <form onSubmit={(e) => e.preventDefault()}>
+                  <form onSubmit={e => e.preventDefault()}>
                     <input type="text" placeholder="Enter Mail" />
                     <button type="submit">
                       <i className="fas fa-paper-plane"></i>
@@ -184,7 +187,7 @@ const FooterFour = () => {
         <CopyrightArea
           copy_right_text={copy_right_text}
           conditions={conditions}
-          color={"tp-copyright-color"}
+          color={'tp-copyright-color'}
         />
         {/* CopyrightArea end */}
       </div>
