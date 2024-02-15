@@ -35,6 +35,10 @@ const menu_data = [
         link: '/email-marketing-company-gurgaon',
         title: 'Email Marketing Company',
       },
+      {
+        link: '/digital-marketing-agency',
+        title: 'Digital Marketing agency in Gurgaon',
+      },
     ],
   },
   {
