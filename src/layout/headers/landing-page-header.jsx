@@ -44,12 +44,22 @@ const LandingPageHeader = () => {
                       </a>
                     </Link>
                   </div>
-                  <button style={{ color: '#25D366' }}>
-                    <i className="fab fa-whatsapp fa-2x"></i>
-                  </button>
-                  <button style={{ color: '#25D366' }}>
-                    <i className="fas fa-phone fa-2x"></i>
-                  </button>
+                  <Link
+                    href="https://wa.me/9910190071"
+                    className="cursor-pointer"
+                    target="_blank"
+                  >
+                    <i
+                      className="fab fa-whatsapp fa-2x"
+                      style={{ color: '#25D366!important' }}
+                    ></i>
+                  </Link>
+                  <Link href="tel:9910190071">
+                    <i
+                      className="fas fa-phone fa-2x"
+                      style={{ color: '#25D366' }}
+                    ></i>
+                  </Link>
                 </div>
               </div>
             </div>

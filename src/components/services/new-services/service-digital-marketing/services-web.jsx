@@ -1,10 +1,10 @@
-import React from "react";
-import {} from "../../../../data";
-import SingleServiceFour from "../../../common/single-service-4";
-import services_data_digital_marketing from "../../../../data/services-data-digital-marketing";
+import React from 'react';
+import {} from '../../../../data';
+import SingleServiceFour from '../../../common/single-service-4';
+import services_data_digital_marketing from '../../../../data/services-data-digital-marketing';
 
 const services_items = services_data_digital_marketing.filter(
-  (ser) => ser.service_p_4
+  ser => ser.service_p_4
 );
 
 const ServicesWeb = () => {
