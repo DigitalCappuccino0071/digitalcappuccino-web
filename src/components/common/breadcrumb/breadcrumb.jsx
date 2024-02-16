@@ -1,5 +1,6 @@
-import Link from "next/link";
-import React from "react";
+import Link from 'next/link';
+import React from 'react';
+import ContactAreaLandingPage from '../../contact/contact-area-landing-page';
 
 const Breadcrumb = ({ title, color, imagePath, back_home, alt = false }) => {
   return (
@@ -32,13 +33,14 @@ const Breadcrumb = ({ title, color, imagePath, back_home, alt = false }) => {
             </div>
           </div>
           <div className="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-            <img
+            {/* <img
               src={imagePath}
               alt={alt}
               className="w-100 animationGirl"
               data-wow-duration="2s"
               data-wow-delay=".5s"
-            />
+            /> */}
+            <ContactAreaLandingPage />
           </div>
         </div>
       </div>
