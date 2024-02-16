@@ -8,7 +8,7 @@ const contents = {
   subtitle: "Our Team",
   title: (
     <>
-      Brains Behind The Best Digital Marketing
+      Brains Behind The Best Marketing Experts 
       <span className="tp-section-highlight">
         <svg
           width="201"

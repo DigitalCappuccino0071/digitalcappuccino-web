@@ -10,7 +10,7 @@ const contents = {
   subtitle: "Our Services",
   title: (
     <>
-      Diverse Digital Solutions by Digital Cappuccino
+      Diverse the best marketing agency in Gurgaon
       <span className="tp-section-highlight">
         
         <svg
@@ -46,7 +46,7 @@ const ServicesArea = () => {
                 {subtitle}
               </h5>
               <h3 className="tp-title tp-title-sm">{title}</h3>
-              <p>Digital Cappuccino, the ad company in Gurgaon, offers a full range of services. We use data-driven techniques to increase your online visibility. Our Social Media Marketing strategies brew powerful campaigns. We connect you with your target audience. Email marketing and targeted PPC marketing increase engagement and visibility. We strengthen your digital presence by utilising skilled Website Development. Our SEO Services improve search ranks and visibility. Join forces with us. For a comprehensive branding experience, connect with our leading advertising company in Gurgaon.
+              <p>Digital Cappuccino, the leading Marketing Agency in Gurgaon, offers a full range of effective marketing services in India. We use data-driven marketing to increase your online visibility and online presence. Social Media Marketing teams at Digital Cappuccino brews powerful social media campaigns that connect your business to its audience. Our email marketing and targeted PPC marketing efforts increase true engagement, visibility, and internet presence. We strengthen your online presence by using user experience-based Website Development. Digital Cappuccino’s SEO Services significantly improve your search rankings, website content visibility, and overall digital presence. Join us for a comprehensive branding experience now!.
 </p>
             </div>
           </div>

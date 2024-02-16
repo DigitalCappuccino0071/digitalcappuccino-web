@@ -32,6 +32,7 @@ const contents = {
       title: (
         <>
           Digital Mastery is Our Commitment
+
           <span className="tp-section-highlight">
             <SvgHighlight />{" "}
           </span>{" "}
@@ -40,8 +41,7 @@ const contents = {
       ),
       text_1: (
         <>
-        We seek to equip organisations with the tools they need to succeed in the digital arena. Today&apos;s businesses face unique challenges. We help our clients overcome such issues to achieve their goals. Our advertising agency in Gurgaon develops beneficial measures. Let us begin on a creative, innovative, and exceptional trip. We are the leading online advertising agency in Gurgaon. Our ultimate goal is to make sure that our clients thrive in the dynamic digital market.
-        </>
+        We seek to equip organisations with the tools they need to succeed in the digital arena driven by artificial intelligence (AI). Beyond that, today's businesses face unique business challenges. At Digital Cappuccino, we help businesses overcome these challenges and achieve new heights of their imagined success. Our marketing agency in Gurgaon is always ready to develop measures that benefit everyone. Let’s hop on a creative, innovative, and exceptional journey together. </>
       ),
       
     },
