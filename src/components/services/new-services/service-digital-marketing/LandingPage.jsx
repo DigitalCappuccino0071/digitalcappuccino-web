@@ -13,6 +13,8 @@ import LandingPageHeader from '../../../../layout/headers/landing-page-header';
 import FeatureArea from '../../../homes/home-5/feature-area';
 import BrandArea from '../../../homes/home-5/brand-area';
 import ProjectArea from '../../../homes/home-5/project-area';
+import ServicesArea from '../../../homes/home-5/services-area';
+import TeamArea from '../../../homes/home-5/team-area';
 
 const LandingPage = () => {
   useEffect(() => {
@@ -88,12 +90,14 @@ const LandingPage = () => {
         alt="Digital Marketing Company in Gurgaon"
       />
       <CardWeb />
-      <ServicesWeb />
+
+      <ServicesArea />
       <FeatureArea />
       <BrandArea />
       {/*<OurAffiliates/>*/}
       <ProjectArea />
       {/*<TestimonialArea style_2={true}/>*/}
+      <TeamArea />
       <ClientFeedback />
       <AccordionArea />
       <CtaTwo />
