@@ -45,7 +45,7 @@ const LandingPageHeader = () => {
                     </Link>
                   </div>
                   <Link
-                    href="https://wa.me/9910190071"
+                    href="https://wa.me/9818696071"
                     className="cursor-pointer"
                     target="_blank"
                   >
@@ -54,7 +54,7 @@ const LandingPageHeader = () => {
                       style={{ color: '#25D366!important' }}
                     ></i>
                   </Link>
-                  <Link href="tel:9910190071">
+                  <Link href="tel:9818696071">
                     <i
                       className="fas fa-phone fa-2x"
                       style={{ color: '#25D366' }}

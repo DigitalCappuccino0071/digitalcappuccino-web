@@ -1,5 +1,5 @@
-import React from "react";
-import HubspotForm from "./../hubspot-form";
+import React from 'react';
+import HubspotForm from './../hubspot-form';
 
 const ContactArea = () => {
   return (
@@ -26,7 +26,7 @@ const ContactArea = () => {
                 <div className="tp-contact-info mb-40">
                   <h4 className="contact-title">Phone Number</h4>
                   <span>
-                    <a href="tel:(+91 9910190071)">(+91 9910190071)</a>
+                    <a href="tel:(+91 9818696071)">(+91 9818696071)</a>
                   </span>
                 </div>
                 <div className="tp-contact-info">
