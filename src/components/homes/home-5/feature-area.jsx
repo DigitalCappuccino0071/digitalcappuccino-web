@@ -7,8 +7,8 @@ const contents = {
   subtitle: "Let’s Brew Exclusive Strategies",
   title: "Why Choose Digital Cappuccino ?",
   text_1:
-    "We an Advertisement Agency, based in Gurgaon, having skilled members to curate one-of-a-kind, compelling marketing solutions, much like an excellent cappuccino. Our campaigns are effective. They make a lasting impression on viewers by combining creativity and planning. Collaboration with clients is essential for Digital Cappuccino. " +
-    " Thanks to a combination of creativity and planning. We synthesise marketing programs and merge techniques to reach your goals. This requires close client collaboration. As the best advertising agency in Gurgaon, we provide excellence that is memorable.  ",
+    `We are not an Ad Agency around any random corner. We’re a team of professionals based out of Gurgaon, India. Our skilled members curate one-of-a-kind, compelling marketing solutions, much like your favourite cappuccino! Our social media marketing managers craft effective ad campaigns that only speak results. We also collaborate with social media influencers across the country to combine creativity with innovation and brew a strategic marketing plan. Client relationship is not only essential but also important for Digital Cappuccino. In addition to that, we synthesise other marketing programs like SEO, SEM, SMO, etc. and merge different techniques to reach desired goals. This requires close collaboration with our clients. As the best marketing agency in Gurgaon, we provide marketing excellence that makes you want more of us!
+    `,
   // text_2:
     // "At Digital Cappuccino, we offer a variety of digital marketing solutions," +
   //   " like the different types of coffee, to suit the needs of businesses and their customers." +
