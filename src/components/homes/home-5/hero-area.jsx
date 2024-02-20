@@ -14,10 +14,10 @@ const hero_contents = {
       <span>/mo</span>
     </>
   ),
-  title: "Most Reliable Advertising Agency in Gurgaon",
+  title: "Most Reliable Marketing Agency In Gurgaon",
   highlight_text: "",
   short_text: (
-    <>Our calibre lies in brewing effective marketing plans for your company.</>
+    <>Empowering Every-Size-Business with Round-the-Clock Content and Advertising Solutions!</>
   ),
   hero_img: "/assets/img/hero/hero-5.1.png",
 

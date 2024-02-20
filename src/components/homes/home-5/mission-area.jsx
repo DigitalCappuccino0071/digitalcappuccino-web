@@ -40,7 +40,7 @@ const contents = {
       ),
       text_1: (
         <>
-        We seek to equip organisations with the tools they need to succeed in the digital arena. Today&apos;s businesses face unique challenges. We help our clients overcome such issues to achieve their goals. Our advertising agency in Gurgaon develops beneficial measures. Let us begin on a creative, innovative, and exceptional trip. We are the leading online advertising agency in Gurgaon. Our ultimate goal is to make sure that our clients thrive in the dynamic digital market.
+        Digital Cappuccino, the leading Marketing Agency in Gurgaon, offers a full range of effective marketing services in India. We use data-driven marketing to increase your onxline visibility and online presence. Social Media Marketing teams at Digital Cappuccino brews powerful social media campaigns that connect your business to its audience. Our email marketing and targeted PPC marketing efforts increase true engagement, visibility, and internet presence. We strengthen your online presence by using user experience-based Website Development. Digital Cappuccino’s SEO Services significantly improve your search rankings, website content visibility, and overall digital presence. Join us for a comprehensive branding experience now!.
         </>
       ),
       
