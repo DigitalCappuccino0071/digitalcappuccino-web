@@ -1,8 +1,8 @@
-import React from "react";
-import SEO from "../components/seo";
-import { Wrapper } from "../layout";
-import ContactMain from "../components/contact";
-import Head from "next/head";
+import React from 'react';
+import SEO from '../components/seo';
+import { Wrapper } from '../layout';
+import ContactMain from '../components/contact';
+import Head from 'next/head';
 
 const index = () => {
   return (
