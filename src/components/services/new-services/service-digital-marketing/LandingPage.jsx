@@ -15,6 +15,7 @@ import BrandArea from '../../../homes/home-5/brand-area';
 import ProjectArea from '../../../homes/home-5/project-area';
 import ServicesArea from '../../../homes/home-5/services-area';
 import TeamArea from '../../../homes/home-5/team-area';
+import Link from 'next/link';
 
 const LandingPage = () => {
   useEffect(() => {
@@ -102,6 +103,21 @@ const LandingPage = () => {
       <AccordionArea />
       <CtaTwo />
       {/* <FooterFour /> */}
+      <footer className="d-flex d-lg-none justify-content-center align-items-center gap-5 py-3 px-4">
+        <Link
+          href="https://wa.me/9818696071"
+          className="cursor-pointer"
+          target="_blank"
+        >
+          <i
+            className="fab fa-whatsapp fa-2x"
+            style={{ color: '#25D366!important' }}
+          ></i>
+        </Link>
+        <Link href="tel:9818696071">
+          <i className="fas fa-phone fa-2x" style={{ color: '#25D366' }}></i>
+        </Link>
+      </footer>
     </Wrapper>
   );
 };

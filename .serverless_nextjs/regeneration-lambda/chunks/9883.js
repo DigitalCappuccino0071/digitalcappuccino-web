@@ -566,7 +566,7 @@ function getPageHandler(ctx) {
             pageConfig,
             documentModule,
             errorModule,
-            notFoundModule, 
+            notFoundModule,
         ]);
         const fromExport = renderMode === "export" || renderMode === true;
         const nextStartMode = renderMode === "passthrough";
@@ -1190,7 +1190,7 @@ function getUtils({ page , i18n , basePath , rewrites , pageIsDynamic , trailing
                     _cookie.default.serialize("NEXT_LOCALE", defaultLocale, {
                         httpOnly: true,
                         path: "/"
-                    }), 
+                    }),
                 ]);
             }
             res.setHeader("Location", (0, _url).format({
@@ -2070,7 +2070,7 @@ function createRouteLoader(assetPrefix) {
                 return resolvePromiseWithTimeout(getFilesForRoute(assetPrefix, route).then(({ scripts , css  })=>{
                     return Promise.all([
                         entrypoints.has(route) ? [] : Promise.all(scripts.map(maybeExecuteScript)),
-                        Promise.all(css.map(fetchStyleSheet)), 
+                        Promise.all(css.map(fetchStyleSheet)),
                     ]);
                 }).then((res)=>{
                     return this.whenEntrypoint(route).then((entrypoint)=>({
@@ -2146,7 +2146,7 @@ const ignoreProps = [
     "dangerouslySetInnerHTML",
     "children",
     "onError",
-    "strategy", 
+    "strategy",
 ];
 const loadScript = (props)=>{
     const { src , id , onLoad =()=>{} , onReady =null , dangerouslySetInnerHTML , children ="" , strategy ="afterInteractive" , onError ,  } = props;
@@ -2234,7 +2234,7 @@ function loadLazyScript(props) {
 function addBeforeInteractiveToCache() {
     const scripts = [
         ...document.querySelectorAll('[data-nscript="beforeInteractive"]'),
-        ...document.querySelectorAll('[data-nscript="beforePageRender"]'), 
+        ...document.querySelectorAll('[data-nscript="beforePageRender"]'),
     ];
     scripts.forEach((script)=>{
         const cacheKey = script.id || script.getAttribute("src");
@@ -2314,7 +2314,7 @@ function Script(props) {
                     onLoad,
                     onReady,
                     onError
-                }, restProps), 
+                }, restProps),
             ]);
             updateScripts(scripts);
         } else if (getIsSsr && getIsSsr()) {
@@ -2868,7 +2868,7 @@ class Head extends _react.Component {
                     href: `${assetPrefix}/_next/${encodeURI(file)}${devOnlyCacheBusterQueryString}`,
                     as: "script",
                     crossOrigin: this.props.crossOrigin || crossOrigin
-                })), 
+                })),
         ];
     }
     getBeforeInteractiveInlineScripts() {
@@ -3065,7 +3065,7 @@ function handleDocumentScriptLoaderItems(scriptLoader, __NEXT_DATA__, props) {
         ],
         ...Array.isArray(bodyChildren) ? bodyChildren : [
             bodyChildren
-        ], 
+        ],
     ];
     _react.default.Children.forEach(combinedChildren, (child)=>{
         var ref;
@@ -3076,7 +3076,7 @@ function handleDocumentScriptLoaderItems(scriptLoader, __NEXT_DATA__, props) {
                 scriptLoader.beforeInteractive = (scriptLoader.beforeInteractive || []).concat([
                     {
                         ...child.props
-                    }, 
+                    },
                 ]);
                 return;
             } else if ([
@@ -3133,7 +3133,7 @@ class NextScript extends _react.Component {
             const ampDevFiles = [
                 ...buildManifest.devFiles,
                 ...buildManifest.polyfillFiles,
-                ...buildManifest.ampDevFiles, 
+                ...buildManifest.ampDevFiles,
             ];
             return /*#__PURE__*/ _react.default.createElement(_react.default.Fragment, null, disableRuntimeJS ? null : /*#__PURE__*/ _react.default.createElement("script", {
                 id: "__NEXT_DATA__",
@@ -3445,7 +3445,7 @@ const MODERN_BROWSERSLIST_TARGET = [
     "edge 16",
     "firefox 60",
     "opera 48",
-    "safari 11", 
+    "safari 11",
 ];
 exports.MODERN_BROWSERSLIST_TARGET = MODERN_BROWSERSLIST_TARGET;
 const NEXT_BUILTIN_DOCUMENT = "__NEXT_BUILTIN_DOCUMENT__";
@@ -3496,7 +3496,7 @@ const OPTIMIZED_FONT_PROVIDERS = [
     {
         url: "https://use.typekit.net",
         preconnect: "https://use.typekit.net"
-    }, 
+    },
 ];
 exports.OPTIMIZED_FONT_PROVIDERS = OPTIMIZED_FONT_PROVIDERS;
 const STATIC_STATUS_PAGES = [
@@ -3524,7 +3524,7 @@ const EDGE_UNSUPPORTED_NODE_APIS = [
     "TextDecoderStream",
     "TextEncoderStream",
     "TransformStreamDefaultController",
-    "WritableStreamDefaultController", 
+    "WritableStreamDefaultController",
 ];
 exports.EDGE_UNSUPPORTED_NODE_APIS = EDGE_UNSUPPORTED_NODE_APIS;
 if ((typeof exports.default === "function" || typeof exports.default === "object" && exports.default !== null) && typeof exports.default.__esModule === "undefined") {
@@ -3871,7 +3871,7 @@ const VALID_LOADERS = [
     "imgix",
     "cloudinary",
     "akamai",
-    "custom", 
+    "custom",
 ];
 exports.VALID_LOADERS = VALID_LOADERS;
 const imageConfigDefault = {
@@ -4550,7 +4550,7 @@ function getMiddlewareData(source, response, options) {
             let fsPathname = (0, _removeTrailingSlash).removeTrailingSlash(pathnameInfo.pathname);
             return Promise.all([
                 options.router.pageLoader.getPageList(),
-                (0, _routeLoader).getClientBuildManifest(), 
+                (0, _routeLoader).getClientBuildManifest(),
             ]).then(([pages, { __rewrites: rewrites  }])=>{
                 let as = (0, _addLocale).addLocale(pathnameInfo.pathname, pathnameInfo.locale);
                 if ((0, _isDynamic).isDynamicRoute(as) || !rewriteHeader && pages.includes((0, _normalizeLocalePath).normalizeLocalePath((0, _removeBasePath).removeBasePath(as), options.router.locales).pathname)) {
@@ -4909,7 +4909,7 @@ class Router {
                 [pages, { __rewrites: rewrites  }] = yield Promise.all([
                     _this.pageLoader.getPageList(),
                     (0, _routeLoader).getClientBuildManifest(),
-                    _this.pageLoader.getMiddleware(), 
+                    _this.pageLoader.getMiddleware(),
                 ]);
             } catch (err1) {
                 // If we fail to resolve the page list or client-build manifest, we must
@@ -5485,7 +5485,7 @@ class Router {
                         unstable_skipClientCache: options.unstable_skipClientCache || options.priority && !!true
                     }).then(()=>false) : false;
                 }),
-                _this.pageLoader[options.priority ? "loadPage" : "prefetch"](route), 
+                _this.pageLoader[options.priority ? "loadPage" : "prefetch"](route),
             ]);
         })();
     }
@@ -5869,7 +5869,7 @@ const urlObjectKeys = [
     "protocol",
     "query",
     "search",
-    "slashes", 
+    "slashes",
 ];
 exports.urlObjectKeys = urlObjectKeys;
 function formatWithValidation(url) {
@@ -10009,7 +10009,7 @@ const ESLINT_PROMPT_VALUES = [
     {
         title: "Cancel",
         config: null
-    }, 
+    },
 ];
 exports.ESLINT_PROMPT_VALUES = ESLINT_PROMPT_VALUES;
 const SERVER_RUNTIME = {
@@ -10494,7 +10494,7 @@ function clearPreviewData(res, options = {}) {
             ...options.path !== undefined ? {
                 path: options.path
             } : undefined
-        }), 
+        }),
     ]);
     Object.defineProperty(res, SYMBOL_CLEARED_COOKIES, {
         value: true,
@@ -10802,7 +10802,7 @@ function setPreviewData(res, data, options) {
             ...options.path !== undefined ? {
                 path: options.path
             } : undefined
-        }), 
+        }),
     ]);
     return res;
 }
@@ -10977,7 +10977,7 @@ function encryptWithSecret(secret, data) {
         salt,
         iv,
         tag,
-        encrypted, 
+        encrypted,
     ]).toString(`hex`);
 }
 function decryptWithSecret(secret, encryptedData) {
@@ -11585,7 +11585,7 @@ async function continueFromInitialStream(renderStream, { suffix , dataStream , g
             // hydration errors. Remove this once it's ready to be handled by react itself.
             const flushEffectsContent = flushEffectHandler && flushEffectsToHead ? flushEffectHandler() : "";
             return flushEffectsContent;
-        }), 
+        }),
     ].filter(_nonNullable.nonNullable);
     return transforms.reduce((readable, transform)=>readable.pipeThrough(transform), renderStream);
 }
@@ -11773,7 +11773,7 @@ async function postProcessHTML(pathname, content, renderOpts, { inAmpMode , hybr
         } : null,
         inAmpMode || hybridAmp ? async (html)=>{
             return html.replace(/&amp;amp=1/g, "&amp=1");
-        } : null, 
+        } : null,
     ].filter(_nonNullable.nonNullable);
     for (const postProcessor of postProcessors){
         if (postProcessor) {
@@ -12117,7 +12117,7 @@ async function renderToHTML(req, res, pathname, query, renderOpts) {
     for (const methodName of [
         "getStaticProps",
         "getServerSideProps",
-        "getStaticPaths", 
+        "getStaticPaths",
     ]){
         var ref3;
         if ((ref3 = Component) == null ? void 0 : ref3[methodName]) {
@@ -12437,7 +12437,7 @@ async function renderToHTML(req, res, pathname, query, renderOpts) {
                     ...filteredBuildManifest.pages,
                     [page]: [
                         ...filteredBuildManifest.pages[page],
-                        ...filteredBuildManifest.lowPriorityFiles.filter((f)=>f.includes("_buildManifest")), 
+                        ...filteredBuildManifest.lowPriorityFiles.filter((f)=>f.includes("_buildManifest")),
                     ]
                 },
                 lowPriorityFiles: filteredBuildManifest.lowPriorityFiles.filter((f)=>!f.includes("_buildManifest"))
@@ -12688,7 +12688,7 @@ async function renderToHTML(req, res, pathname, query, renderOpts) {
     }
     const streams = [
         (0, _nodeWebStreamsHelper).streamFromArray(prefix),
-        await documentResult.bodyResult(renderTargetSuffix), 
+        await documentResult.bodyResult(renderTargetSuffix),
     ];
     const postOptimize = (html)=>postProcessHTML(pathname, html, renderOpts, {
             inAmpMode,
@@ -12741,7 +12741,7 @@ function getNextInternalQuery(query) {
         "__nextLocale",
         "__nextSsgPath",
         "_nextBubbleNoFallback",
-        "__nextDataReq", 
+        "__nextDataReq",
     ];
     const nextInternalQuery = {};
     for (const key of keysToInclude){
