@@ -57,8 +57,11 @@ export const ContactForm = () => {
     },
   });
   return (
-    <div className="col-8 mx-auto">
-      <form onSubmit={formik.handleSubmit}>
+    <div className="col-8 mx-auto py-5">
+      <form
+        onSubmit={formik.handleSubmit}
+        className="send-mail-form  p-5 shadow-sm my-5 bg-white"
+      >
         <div className="d-flex flex-column gap-3">
           <div className="d-flex flex-column">
             <input
@@ -66,7 +69,7 @@ export const ContactForm = () => {
               id="fullName"
               name="fullName"
               type="text"
-              placeholder="full name"
+              placeholder="Full name..."
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
               value={formik.values.fullName}
@@ -82,7 +85,7 @@ export const ContactForm = () => {
               id="phoneNumber"
               name="phoneNumber"
               type="text"
-              placeholder="phone Number"
+              placeholder="Phone Number..."
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
               value={formik.values.phoneNumber}
@@ -98,7 +101,7 @@ export const ContactForm = () => {
               id="email"
               name="email"
               type="email"
-              placeholder="email"
+              placeholder="Email..."
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
               value={formik.values.email}
@@ -110,7 +113,7 @@ export const ContactForm = () => {
 
           <div className="d-flex flex-column">
             <select
-              className="form-control form-control-sm"
+              className="form-control-sm"
               id="services"
               name="services"
               type="services"
@@ -141,7 +144,7 @@ export const ContactForm = () => {
             id="message"
             name="message"
             type="message"
-            placeholder="message"
+            placeholder="Message..."
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             value={formik.values.message}
