@@ -1,4 +1,3 @@
-import nodemailer from 'nodemailer';
 import { transporter, mailOptions } from '../../config/nodemailer';
 export default async function handler(req, res) {
   console.log(req.body);
@@ -19,7 +18,51 @@ export default async function handler(req, res) {
         ...mailOptions,
         subject: data.message,
         text: 'test string',
-        html: `<h1>${data?.fullName}</h1><h2>${data?.email}</h2><h3>${data?.phoneNumber}</h3><h4>${data?.services}</h4><h5>${data?.message}</h5>`,
+        html: `
+    <html>
+      <head>
+        <style>
+          /* Add your CSS styles here */
+          table {
+            width: 100%;
+            border-collapse: collapse;
+          }
+          th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+          }
+          th {
+            background-color: #f2f2f2;
+          }
+        </style>
+      </head>
+      <body>
+        <table>
+          <tr>
+            <th>Full Name</th>
+            <td>${data?.fullName}</td>
+          </tr>
+          <tr>
+            <th>Email</th>
+            <td>${data?.email}</td>
+          </tr>
+          <tr>
+            <th>Phone Number</th>
+            <td>${data?.phoneNumber}</td>
+          </tr>
+          <tr>
+            <th>Services</th>
+            <td>${data?.services}</td>
+          </tr>
+          <tr>
+            <th>Message</th>
+            <td>${data?.message}</td>
+          </tr>
+        </table>
+      </body>
+    </html>
+  `,
       });
       console.log('Email sent:', info.response);
       return res.status(200).json({ success: true });

@@ -8,9 +8,11 @@ export const sendContactForm = async data => {
       },
       body: JSON.stringify(data),
     });
+    if (!response.ok) throw new Error('Failed to send message');
     const contactData = await response.json();
     return contactData;
   } catch (error) {
     console.log(error);
+    throw new Error('Failed to send message');
   }
 };

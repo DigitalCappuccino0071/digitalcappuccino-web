@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import { sendContactForm } from '../../lib/api';
 
 export const ContactForm = () => {
+  const [formStatus, setIsLoading] = useState({
+    isLoading: false,
+    isSuccess: false,
+    isError: false,
+  });
   const formik = useFormik({
     initialValues: {
       fullName: '',
@@ -18,32 +23,50 @@ export const ContactForm = () => {
         .required('Required'),
       email: Yup.string().email('Invalid email address').required('Required'),
       phoneNumber: Yup.string()
-        .max(20, 'Must be 20 characters or less')
-        .required('Required'),
+        .matches(/^[0-9]{10}$/, 'Mobile number must be a valid 10-digit number')
+        .required('Mobile is required'),
       services: Yup.string()
-        .max(20, 'Must be 20 characters or less')
+        .max(30, 'Must be 20 characters or less')
         .required('Required'),
       message: Yup.string()
-        .max(20, 'Must be 150 characters or less')
+        .max(150, 'Must be 150 characters or less')
         .required('Required'),
     }),
-    onSubmit: values => {
-      sendContactForm(values);
+    onSubmit: async values => {
+      setIsLoading(prevLoading => ({
+        ...prevLoading,
+        isLoading: true,
+      }));
+      try {
+        await sendContactForm(values);
+        setIsLoading(prevLoading => ({
+          ...prevLoading,
+          isLoading: false,
+          isError: false,
+          isSuccess: true,
+        }));
+        formik.resetForm();
+      } catch (error) {
+        setIsLoading(prevLoading => ({
+          ...prevLoading,
+          isLoading: false,
+          isSuccess: false,
+          isError: true,
+        }));
+      }
     },
   });
   return (
-    <div className="col-10">
+    <div className="col-8 mx-auto">
       <form onSubmit={formik.handleSubmit}>
         <div className="d-flex flex-column gap-3">
           <div className="d-flex flex-column">
-            <label className="form-label" htmlFor="fullName">
-              Full Name
-            </label>
             <input
-              className="form-control"
+              className="form-control form-control-sm"
               id="fullName"
               name="fullName"
               type="text"
+              placeholder="full name"
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
               value={formik.values.fullName}
@@ -54,14 +77,12 @@ export const ContactForm = () => {
           </div>
 
           <div className="d-flex flex-column">
-            <label className="form-label" htmlFor="phoneNumber">
-              Phone Number
-            </label>
             <input
-              className="form-control"
+              className="form-control form-control-sm"
               id="phoneNumber"
               name="phoneNumber"
               type="text"
+              placeholder="phone Number"
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
               value={formik.values.phoneNumber}
@@ -72,14 +93,12 @@ export const ContactForm = () => {
           </div>
 
           <div className="d-flex flex-column">
-            <label className="form-label" htmlFor="email">
-              Email Address
-            </label>
             <input
-              className="form-control"
+              className="form-control form-control-sm"
               id="email"
               name="email"
               type="email"
+              placeholder="email"
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
               value={formik.values.email}
@@ -90,20 +109,18 @@ export const ContactForm = () => {
           </div>
 
           <div className="d-flex flex-column">
-            <label className="form-label" htmlFor="services">
-              Services
-            </label>
             <select
-              className="form-control"
+              className="form-control form-control-sm"
               id="services"
               name="services"
               type="services"
+              placeholder="services"
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
               value={formik.values.services}
             >
               <option value="" selected>
-                select
+                services
               </option>
               <option value="Lead Generation">Lead Generation</option>
               <option value="Influencer Marketing">Influencer Marketing</option>
@@ -120,7 +137,7 @@ export const ContactForm = () => {
           </div>
 
           <textarea
-            className="form-control"
+            className="form-control form-control-sm"
             id="message"
             name="message"
             type="message"
@@ -132,9 +149,24 @@ export const ContactForm = () => {
           {formik.touched.message && formik.errors.message ? (
             <div className="text-danger">{formik.errors.message}</div>
           ) : null}
-
-          <button type="submit" className="btn btn-primary">
-            Submit
+          {formStatus.isError ? (
+            <div className="text-danger">
+              Something went wrong, please try again
+            </div>
+          ) : (
+            false
+          )}
+          {formStatus.isSuccess ? (
+            <div className="text-success">message send successfully</div>
+          ) : (
+            false
+          )}
+          <button
+            disabled={formStatus.isLoading}
+            type="submit"
+            className="tp-btn-lg-yellow-header"
+          >
+            {formStatus.isLoading ? 'Loading...' : 'Submit'}
           </button>
         </div>
       </form>
