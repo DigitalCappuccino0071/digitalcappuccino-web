@@ -26,7 +26,7 @@ export const ContactForm = () => {
         .matches(/^[0-9]{10}$/, 'Mobile number must be a valid 10-digit number')
         .required('Mobile is required'),
       services: Yup.string()
-        .max(30, 'Must be 20 characters or less')
+        .max(150, 'Must be 150 characters or less')
         .required('Required'),
       message: Yup.string()
         .max(150, 'Must be 150 characters or less')
