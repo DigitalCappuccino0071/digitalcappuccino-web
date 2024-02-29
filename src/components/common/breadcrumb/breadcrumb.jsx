@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
 import ContactAreaLandingPage from '../../contact/contact-area-landing-page';
+import { ContactForm } from '../../ui/ContactForm';
+// import ContactForm from '../../ui/ContactForm';
 
 const Breadcrumb = ({ title, color, imagePath, back_home, alt = false }) => {
   return (
@@ -40,7 +42,8 @@ const Breadcrumb = ({ title, color, imagePath, back_home, alt = false }) => {
               data-wow-duration="2s"
               data-wow-delay=".5s"
             /> */}
-            <ContactAreaLandingPage />
+            {/* <ContactAreaLandingPage /> */}
+            <ContactForm />
           </div>
         </div>
       </div>
