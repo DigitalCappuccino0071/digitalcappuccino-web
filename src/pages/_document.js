@@ -7,7 +7,7 @@ export default class MyDocument extends Document {
         <Head>
           <meta
             name="google-site-verification"
-            content="s0Ew-qMLI8Q-pipMoe4Kx9OxSgHrqP-S5urLWi5JhfA"
+            content="JWLU4Y0DwH2eo1adty_AJMbmqBRWIKhZbuv_Qo6ZwEg"
           />
           <title>
             Digital Marketing & Website Development Company | Digital Cappuccino
@@ -70,6 +70,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-THBJDK3V');`,
             }}
           />
+
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-168806078-1"
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+             window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-276J3DSK1M');`,
+            }}
+          />
+
           {/* End Google Tag Manager */}
         </Head>
 
