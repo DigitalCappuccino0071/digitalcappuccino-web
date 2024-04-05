@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
-import { FooterFour, FooterThree, Header, Wrapper } from "../../layout";
-import { animationCreate } from "../../utils/utils";
-import Breadcrumb from "../common/breadcrumb/breadcrumb";
-import BlogArea from "./blog-area";
+import React, { useEffect } from 'react';
+import { FooterFour, FooterThree, Header, Wrapper } from '../../layout';
+import { animationCreate } from '../../utils/utils';
+import Breadcrumb from '../common/breadcrumb/breadcrumb';
+import BlogArea from './blog-area';
 
 const Blog = () => {
   useEffect(() => {
@@ -14,8 +14,12 @@ const Blog = () => {
   return (
     <Wrapper>
       <Header />
-      <Breadcrumb color={"#fec4c559"} title={"Case Studies"} imagePath={"/assets/img/service/case-studies.png"}/>
-      <BlogArea />
+      <Breadcrumb
+        color={'#fec4c559'}
+        title={'Blog'}
+        imagePath={'/assets/img/service/case-studies.png'}
+      />
+      {/* <BlogArea /> */}
       <FooterFour />
     </Wrapper>
   );
