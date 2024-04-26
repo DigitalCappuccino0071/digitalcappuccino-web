@@ -19,7 +19,7 @@ const Blog = () => {
         title={'Blog'}
         imagePath={'/assets/img/service/case-studies.png'}
       />
-      {/* <BlogArea /> */}
+      <BlogArea />
       <FooterFour />
     </Wrapper>
   );
