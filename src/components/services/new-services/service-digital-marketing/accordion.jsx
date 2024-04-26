@@ -1,56 +1,136 @@
-import React from 'react';
+import React from "react";
 
 const accordion_items = [
-  { id: 'one', show: true, title: 'Why is Digital Marketing important?',
-    desc: "A Digital Marketing Company is vital in today's market, allowing firms to communicate with potential clients in ways that were not feasible 15 years ago. This strategy aids in the expansion and development of relationships by delivering a unique reach to your target audience. Furthermore, a Digital Marketing Agency enables firms to assess the efficiency of their competitors by implementing tried-and-true contextual techniques. This feature optimises ROI for each campaign. Furthermore, Digital Marketing Services can aid in increasing consumer awareness, trust, and contentment. With the assistance of a Top Digital Marketing Agency, businesses can engage with their target audience and extend their success." },
-  { id: 'two', title: 'What does a Digital Marketing agency do?',
-    desc: " Digital Marketing Company provides comprehensive solutions to help businesses improve their online presence. These agencies use technology and data analytics to study client behaviour and devise ideal marketing plans using SEO, content marketing, web design, social media, and email marketing. They are skilled at monitoring PPC campaigns and social media advertising in order to promote growth, reach new customers, generate leads, and increase revenue. Their competence as a Top Digital Marketing Agency ensures that businesses thrive in the digital arena, obtaining a competitive advantage and maximising their online potential."},
-  { id: 'three', title: 'How do I become a Digital Marketer?',
-    desc: "Starting a career as a digital marketer necessitates a combination of creativity, intelligence, and analytics. Mastering the fundamentals of digital marketing, such as search engine optimisation, content optimisation, and paid advertising, is critical. Communication, writing, and research skills are also essential. It is critical to learn good cross-platform campaigns and to use analytics to measure results. Acquiring credentials and a digital marketing certification can help you stand out.Begin your journey as a digital marketer by learning about SEO, content, and paid ads. Communicate effectively, conduct campaign analysis, and become certified. Follow trends and network with colleagues. Create an internet presence. For experienced services, collaborate with a leading Digital Marketing Company."},
-  { id: 'four', title: 'What is a Digital Marketing Agency?',
-    desc: "A Digital Marketing Agency is a company that offers a variety of digital marketing services to businesses. Web design, search engine optimisation (SEO), content creation, video production, advertising, social media management, email marketing, and other services are examples of these products. As a leading Digital Marketing Agency, they are important to business success in the digital age, assisting in the development of an online presence, increasing visibility, and increasing audience and loyalty. Digital Marketing Services maximise the return on investment and assure effective digital marketing strategies by combining their expertise and experience with advanced technology." },
-]
+    {
+        id: "one",
+        show: true,
+        title: "Why is Digital Cappuccino the top influencer marketing agency in Gurgaon?",
+        desc: "We at Digital Cappuccino are experts at creating personalised influencer marketing plans that are suited to the unique requirements and objectives of Gurgaon-based companies.",
+    },
+    {
+        id: "two",
+        title: "How is the selection of influencers for campaigns by Digital Cappuccino done?",
+        desc: " To guarantee authenticity and efficacy in our partnerships, we carefully choose influencers whose values and target audience coincide with the brand's..",
+    },
+    {
+        id: "three",
+        title: "What distinguishes Digital Cappuccino from other Gurgaon-based influencer marketing firms",
+        desc: "We distinguish ourselves by ensuring effective outcomes for our customers through our creative narrative approach, data-driven decision-making, and strategic influencer alignment.",
+    },
+    {
+        id: "four",
+        title: "How is the effectiveness of influencer marketing programmes measured by Digital Cappuccino",
+        desc: "We employ state-of-the-art analytics to monitor campaign effectiveness and gauge important parameters, guaranteeing our clients the highest possible return on investment (ROI).",
+    },
+    {
+        id: "five",
+        title: "Which platforms does Digital Cappuccino utilise in Gurgaon for influencer marketing?w is the effectiveness of influencer marketing programmes measured by Digital Cappuccino",
+        desc: "Our work spans multiple channels, such as Twitter, LinkedIn, Snapchat, Instagram, YouTube, and more, guaranteeing thorough coverage and interaction.",
+    },
+    {
+        id: "six",
+        title: "How can my business profit from influencer marketing services in Gurgaon?",
+        desc: "Influencer marketing has the potential to raise brand recognition and conversions by strengthening brand visibility, fostering trust, and successfully engaging target audiences.",
+    },
+    {
+        id: "seven",
+        title: "Which kinds of companies in Gurgaon can profit from Digital Cappuccino's influencer marketing services?",
+        desc: "Businesses in Gurgaon of all sizes and sectors who want to expand their online presence and attract new customers can benefit from our services.",
+    },
+    {
+        id: "eight",
+        title: "Does Digital Cappuccino provide Gurgaon local businesses with specialised influencer marketing solutions?",
+        desc: "Yes, we customise our tactics to meet the unique needs and goals of neighbourhood companies in Gurgaon, guaranteeing optimal effects and outcomes.",
+    },
+    {
+        id: "nine",
+        title: "How can I begin using the influencer marketing services in Gurgaon offered by Digital Cappuccino?",
+        desc: "Just get in touch with us via our website or the listed contact details to talk about your requirements and find out how we can support the expansion of your business.",
+    },
+    {
+        id: "ten",
+        title: "What outcomes can I anticipate from my influencer marketing partnership with Digital Cappuccino in Gurgaon?",
+        desc: "In the Gurgaon market, working with us will boost your brand's exposure, credibility, and engagement—all of which will contribute to its improved reputation and expansion.",
+    },
+];
 
 const AccordionArea = () => {
-  return (
-    <>
-      <div className="sd-accordio-area grey-bg pt-30 pb-30">
-        <div className="container">
-          <div className="row">
-            <div >
-              <h3 className="tp-title-sm mb-30">Stay Ahead with our FutureReady Digital Marketing Solutions</h3>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-xl-12">
-              <div className="tp-custom-accordio">
-                <div className="accordion" id="accordionExample">
-
-                  {accordion_items.map((item, i) => {
-                    const { id, show, title, desc } = item;
-                    return <div key={id} className={`accordion-items ${show ? 'faq-accordio-border' : ''}`}>
-                      <h2 className="accordion-header" id={`heading-${id}`}>
-                        <button className={`accordion-buttons ${show ? '' : 'collapsed'}`} type="button" data-bs-toggle="collapse" data-bs-target={`#collapse-${id}`}
-                          aria-expanded={show ? 'true' : 'false'} aria-controls={`collapse-${id}`}>
-                          {title}
-                        </button>
-                      </h2>
-                      <div id={`collapse-${id}`} className={`accordion-collapse collapse ${show ? 'show' : ''}`} aria-labelledby={`heading-${id}`} data-bs-parent="#accordionExample">
-                        <div className="accordion-body">
-                          {desc}
+    return (
+        <>
+            <div className="sd-accordio-area grey-bg pt-30 pb-30">
+                <div className="container">
+                    <div className="row">
+                        <div>
+                            <h3 className="tp-title-sm mb-30">
+                                Stay Ahead with our FutureReady Digital
+                                Marketing Solutions
+                            </h3>
                         </div>
-                      </div>
                     </div>
-                  })}
-
+                    <div className="row">
+                        <div className="col-xl-12">
+                            <div className="tp-custom-accordio">
+                                <div
+                                    className="accordion"
+                                    id="accordionExample"
+                                >
+                                    {accordion_items.map((item, i) => {
+                                        const { id, show, title, desc } = item;
+                                        return (
+                                            <div
+                                                key={id}
+                                                className={`accordion-items ${
+                                                    show
+                                                        ? "faq-accordio-border"
+                                                        : ""
+                                                }`}
+                                            >
+                                                <h2
+                                                    className="accordion-header"
+                                                    id={`heading-${id}`}
+                                                >
+                                                    <button
+                                                        className={`accordion-buttons ${
+                                                            show
+                                                                ? ""
+                                                                : "collapsed"
+                                                        }`}
+                                                        type="button"
+                                                        data-bs-toggle="collapse"
+                                                        data-bs-target={`#collapse-${id}`}
+                                                        aria-expanded={
+                                                            show
+                                                                ? "true"
+                                                                : "false"
+                                                        }
+                                                        aria-controls={`collapse-${id}`}
+                                                    >
+                                                        {title}
+                                                    </button>
+                                                </h2>
+                                                <div
+                                                    id={`collapse-${id}`}
+                                                    className={`accordion-collapse collapse ${
+                                                        show ? "show" : ""
+                                                    }`}
+                                                    aria-labelledby={`heading-${id}`}
+                                                    data-bs-parent="#accordionExample"
+                                                >
+                                                    <div className="accordion-body">
+                                                        {desc}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        );
+                                    })}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </>
-  );
+        </>
+    );
 };
 
 export default AccordionArea;
