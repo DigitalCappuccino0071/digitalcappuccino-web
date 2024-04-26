@@ -36,8 +36,8 @@ const menu_data = [
                 title: "Email Marketing Company",
             },
             {
-                link: "/digital-marketing-agency",
-                title: "Digital Marketing agency in Gurgaon",
+                link: "/influencer-marketing-company",
+                title: "Influencer marketing Company",
             },
         ],
     },
