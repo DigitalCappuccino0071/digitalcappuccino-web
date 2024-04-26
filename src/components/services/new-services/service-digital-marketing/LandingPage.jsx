@@ -83,7 +83,7 @@ const LandingPage = () => {
   `}
         </script>
       </Head>
-      <LandingPageHeader />
+      <Header />
       <Breadcrumb
         color={'#fec4c559'}
         imagePath={'/assets/img/service/2.png'}
@@ -102,7 +102,7 @@ const LandingPage = () => {
       <ClientFeedback />
       <AccordionArea />
       <CtaTwo />
-      {/* <FooterFour /> */}
+      <FooterFour />
       <footer className="d-flex d-lg-none justify-content-center align-items-center gap-5 py-3 px-4">
         <Link
           href="https://wa.me/9818696071"
