@@ -30,7 +30,7 @@ const LandingPage = () => {
                 <title>Best Influencer Marketing Company in Gurgaon</title>
                 <meta
                     name="description"
-                    content="Looking for the best Influencer marketing agency in Gurgaon? Digital Cappuccino is known as one of the best influencer marketing agency in Gurgaon for top influencer marketing services in Gurgaon and abroad. Work with Gurugram’s largest influencer company today!"
+                    content="Looking for the best influencer marketing agency in Gurgaon? Digital Cappuccino is the best influencer marketing company in Gurgaon. We synthesize marketing programs and merge techniques to reach your goals."
                 />
                 <link
                     rel="canonical"
@@ -42,7 +42,7 @@ const LandingPage = () => {
                 />
                 <meta
                     property="og:description"
-                    content="Looking for the best Influencer marketing agency in Gurgaon? Digital Cappuccino is known as one of the best influencer marketing agency in Gurgaon for top influencer marketing services in Gurgaon and abroad. Work with Gurugram’s largest influencer company today."
+                    content="Looking for the best influencer marketing agency in Gurgaon? Digital Cappuccino is the best influencer marketing company in Gurgaon. We synthesize marketing programs and merge techniques to reach your goals."
                 />
                 <meta
                     property="og:url"
