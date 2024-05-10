@@ -11,7 +11,7 @@ const NavMenus = () => {
           <Link href={menu.link}>
             <a>{menu.title} {menu.has_dropdown && <i className="fal fa-angle-down"></i>}</a>
           </Link>
-          {menu.has_dropdown && <ul className="submenu text-start">
+          {menu.has_dropdown && <ul className="submenu text-start " style={{ width:'250px', padding:' 15px 15px' }}>
             {menu.sub_menus.map((sub_m, i) => (
               <li key={i}>
                 <Link href={sub_m.link}>

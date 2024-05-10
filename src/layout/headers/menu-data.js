@@ -10,6 +10,14 @@ const menu_data = [
     {
         id: 2,
         mega_menu: false,
+        has_dropdown: false,
+        title: "About Us",
+        link: "/about-us",
+    },
+
+    {
+        id: 3,
+        mega_menu: false,
         has_dropdown: true,
         title: "Our Services",
         link: "./web-development-company-gurgaon",
@@ -42,25 +50,27 @@ const menu_data = [
         ],
     },
     {
-        id: 5,
+        id: 4,
         mega_menu: false,
         has_dropdown: false,
         title: "Blogs",
         link: "/blogs",
     },
+    
     {
-        id: 4,
+        id: 5,
         mega_menu: false,
-        has_dropdown: false,
-        title: "Contact Us",
-        link: "/contact-us",
+        has_dropdown: true,
+        title: "Location",
+        link: "",
+        sub_menus: [
+            {
+                link: "https://digitalcappuccino.ca/",
+                title: "Canada",
+            },
+          
+        ],
     },
-    {
-        id: 3,
-        mega_menu: false,
-        has_dropdown: false,
-        title: "About Us",
-        link: "/about-us",
-    },
+    
 ];
 export default menu_data;

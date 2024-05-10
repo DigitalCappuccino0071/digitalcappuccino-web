@@ -5,6 +5,8 @@ import Sidebar from "../../components/common/off-canvas";
 import NavMenus from "./nav-menus";
 import MobileMenu from "./mobile-menu";
 
+
+
 const Header = () => {
   const { headerSticky } = useSticky();
   const [sidebarOpen, setSidebarOpen] = React.useState(false);
@@ -31,7 +33,7 @@ const Header = () => {
                 </div>
               </div>
               <div className="col-xl-7 col-lg-7">
-                <div className="tp-main-menu">
+                <div className="tp-main-menu " >
                   <nav id="mobile-menu">
                     {/* nav menus start */}
                     <NavMenus />
