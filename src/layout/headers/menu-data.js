@@ -56,7 +56,7 @@ const menu_data = [
         title: "Blogs",
         link: "/blogs",
     },
-    
+
     {
         id: 5,
         mega_menu: false,
@@ -68,9 +68,7 @@ const menu_data = [
                 link: "https://digitalcappuccino.ca/",
                 title: "Canada",
             },
-          
         ],
     },
-    
 ];
 export default menu_data;
