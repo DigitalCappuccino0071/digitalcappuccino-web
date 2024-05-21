@@ -24,11 +24,12 @@ const ServiceSocialMediaMarketing = () => {
             <Head>
                 <title>
                     {" "}
-                    #1 Creative Social Media Marketing Agency in Gurgaon
+                    Social Media Marketing Company in Gurgaon|Social Media
+                    Agency in Gurgaon
                 </title>
                 <meta
                     name="description"
-                    content="Looking for a Social Media Marketing Agency in Gurgaon? Digital Cappuccino is the best social media marketing agency in Gurgaon. We offer professional social media services and marketing programs to reach your goals."
+                    content="Looking for a Social Media Marketing company & Agency in Gurgaon? Digital Cappuccino is the best social media marketing Company in Gurgaon. We offer professional social media services and marketing programs to reach your goals."
                 />
                 <link
                     rel="canonical"
@@ -36,11 +37,11 @@ const ServiceSocialMediaMarketing = () => {
                 />
                 <meta
                     property="og:title"
-                    content=" #1 Creative Social Media Marketing Agency in Gurgaon"
+                    content=" Social Media Marketing Company in Gurgaon | Social Media Agency in Gurgaon"
                 />
                 <meta
                     property="og:description"
-                    content="Looking for a Social Media Marketing Agency in Gurgaon? Digital Cappuccino is the best social media marketing agency in Gurgaon. We offer professional social media services and marketing programs to reach your goals."
+                    content="Looking for a Social Media Marketing company & Agency in Gurgaon? Digital Cappuccino is the best social media marketing Company in Gurgaon. We offer professional social media services and marketing programs to reach your goals."
                 />
                 <meta
                     property="og:url"
