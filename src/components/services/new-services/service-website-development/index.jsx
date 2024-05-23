@@ -48,38 +48,6 @@ Gurgaon that provides redesigning, web development, and digital marketing."
           property="og:image"
           content="https://www.digitalcappuccino.com/assets/img/service/1.png"
         />
-        <script type="application/ld+json">
-          {`
-{
-  "@context": "http://schema.org",
-  "@type": "WebPage",
-  "@id": "https://www.digitalcappuccino.com/web-development-company-gurgaon#webpage",
-  "url": "https://www.digitalcappuccino.com/web-development-company-gurgaon",
-  "inLanguage": "English",
-  "name": "Website Development",
-  "description": "Digital Cappuccino is the most trusted web development company in
-Gurgaon that provides redesigning, web development, and digital marketing.",
-  "isPartOf": {
-    "@id": "https://www.digitalcappuccino.com/digital-marketing-company-gurgaon#website"
-  },
-  "about": [
-    {
-      "@type": "Thing",
-      "name": "Digital Cappuccino",
-      "sameAs": "https://www.digitalcappuccino.com/"
-    }
-  ],
-  "mentions": [
-    {
-      "@type": "Thing",
-      "name": "Digital Cappuccino",
-      "sameAs": "https://www.digitalcappuccino.com/"
-    }
-  ]
-}
-
-`}
-        </script>
       </Head>
       <Header />
       <Breadcrumb
@@ -95,6 +63,43 @@ Gurgaon that provides redesigning, web development, and digital marketing.",
       <AccordionArea />
       <CtaTwo />
       <FooterFour />
+      <Script
+        id="structured-data"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              '@context': 'http://schema.org',
+              '@type': 'WebPage',
+              '@id':
+                'https://www.digitalcappuccino.com/web-development-company-gurgaon#webpage',
+              url: 'https://www.digitalcappuccino.com/web-development-company-gurgaon',
+              inLanguage: 'English',
+              name: 'Website Development',
+              description:
+                'Digital Cappuccino is the most trusted web development company in Gurgaon that provides redesigning, web development, and digital marketing.',
+              isPartOf: {
+                '@id':
+                  'https://www.digitalcappuccino.com/digital-marketing-company-gurgaon#website',
+              },
+              about: [
+                {
+                  '@type': 'Thing',
+                  name: 'Digital Cappuccino',
+                  sameAs: 'https://www.digitalcappuccino.com/',
+                },
+              ],
+              mentions: [
+                {
+                  '@type': 'Thing',
+                  name: 'Digital Cappuccino',
+                  sameAs: 'https://www.digitalcappuccino.com/',
+                },
+              ],
+            },
+          ]),
+        }}
+      />
     </Wrapper>
   );
 };

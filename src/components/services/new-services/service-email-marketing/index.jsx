@@ -9,6 +9,7 @@ import AccordionArea from './accordion';
 import TestimonialArea from './testimonial-area';
 import ClientFeedback from '../../../homes/home-5/client-feedback';
 import Head from 'next/head';
+import Script from 'next/script';
 
 const ServiceEmailMarketing = () => {
   useEffect(() => {
@@ -45,36 +46,6 @@ const ServiceEmailMarketing = () => {
           property="og:image"
           content="https://www.digitalcappuccino.com/assets/img/service/6.png"
         />
-        <script type="application/ld+json">
-          {`
-{
-  "@context": "http://schema.org",
-  "@type": "WebPage",
-  "@id": "https://www.digitalcappuccino.com/email-marketing-company-gurgaon#webpage",
-  "url": "https://www.digitalcappuccino.com/email-marketing-company-gurgaon",
-  "inLanguage": "English",
-  "name": "Email Marketing ",
-  "description": "Are you looking for the best email marketing company in Gurgaon? Digital Cappuccino is here to provide you with all the solutions.",
-  "isPartOf": {
-    "@id": "#website"
-  },
-  "about": [
-    {
-      "@type": "Thing",
-      "name": "Digital Cappuccino",
-      "sameAs": "https://www.digitalcappuccino.com/"
-    }
-  ],
-  "mentions": [
-    {
-      "@type": "Thing",
-      "name": "Digital Cappuccino",
-      "sameAs": "https://www.digitalcappuccino.com/"
-    }
-  ]
-}
-`}
-        </script>
       </Head>
       <Header />
       <Breadcrumb
@@ -92,6 +63,42 @@ const ServiceEmailMarketing = () => {
       <AccordionArea />
       <CtaTwo />
       <FooterFour />
+      <Script
+        id="structured-data"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              '@context': 'http://schema.org',
+              '@type': 'WebPage',
+              '@id':
+                'https://www.digitalcappuccino.com/email-marketing-company-gurgaon#webpage',
+              url: 'https://www.digitalcappuccino.com/email-marketing-company-gurgaon',
+              inLanguage: 'English',
+              name: 'Email Marketing ',
+              description:
+                'Are you looking for the best email marketing company in Gurgaon? Digital Cappuccino is here to provide you with all the solutions.',
+              isPartOf: {
+                '@id': '#website',
+              },
+              about: [
+                {
+                  '@type': 'Thing',
+                  name: 'Digital Cappuccino',
+                  sameAs: 'https://www.digitalcappuccino.com/',
+                },
+              ],
+              mentions: [
+                {
+                  '@type': 'Thing',
+                  name: 'Digital Cappuccino',
+                  sameAs: 'https://www.digitalcappuccino.com/',
+                },
+              ],
+            },
+          ]),
+        }}
+      />
     </Wrapper>
   );
 };

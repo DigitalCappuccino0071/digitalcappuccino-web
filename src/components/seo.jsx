@@ -5,10 +5,7 @@ import Script from 'next/script';
 const SEO = ({ pageTitle, font }) => (
   <>
     <Head>
-      <title>
-        {/* {pageTitle && `${pageTitle} || Digital Cappuccino - We Are Digital Marketing Advisors`} */}
-        Best Marketing Agency in Gurgaon | Digital Cappuccino
-      </title>
+      <title>Best Marketing Agency in Gurgaon | Digital Cappuccino</title>
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta
         name="description"
@@ -27,7 +24,7 @@ const SEO = ({ pageTitle, font }) => (
         property="og:description"
         content="Digital Cappuccino is the best marketing agency in Gurgaon. We synthesize marketing programs and merge techniques to reach your goals."
       />
-      {/* <meta name="google-site-verification" content="U9aKcrxVP2tdcuqCiLv34-jTZaj3CZ7Zew92miNTyIA" /> */}
+
       {font && <link href={font} rel="stylesheet" />}
       <link rel="icon" href="/favicon.ico" />
     </Head>
@@ -45,24 +42,31 @@ const SEO = ({ pageTitle, font }) => (
   gtag('config', 'AW-11192435865');
         `}
     </Script>
-    <script type="application/ld+json">
-      {`
-"@context": "https://schema.org",
-"@type": "Organization",
-"name": "Digital Cappuccino",
-"alternateName": "Advertising Agency",
-"url": "https://www.digitalcappuccino.com/",
-"logo": "https://www.digitalcappuccino.com/",
-"sameAs": [
-  "https://www.facebook.com/digitalcappuccino/",
-  "https://twitter.com/Digicappuccino",
-  "https://www.instagram.com/digitalcappuccino/",
-  "https://www.youtube.com/@Digitalcappuccino_",
-  "https://www.linkedin.com/company/digital-cappuccino/",
-  "https://in.pinterest.com/digital_cappuccinoggn/"
-]
-`}
-    </script>
+
+    <Script
+      id="structured-data"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify([
+          {
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            name: 'Digital Cappuccino',
+            alternateName: 'Advertising Agency',
+            url: 'https://www.digitalcappuccino.com/',
+            logo: 'https://www.digitalcappuccino.com/',
+            sameAs: [
+              'https://www.facebook.com/digitalcappuccino/',
+              'https://twitter.com/Digicappuccino',
+              'https://www.instagram.com/digitalcappuccino/',
+              'https://www.youtube.com/@Digitalcappuccino_',
+              'https://www.linkedin.com/company/digital-cappuccino/',
+              'https://in.pinterest.com/digital_cappuccinoggn/',
+            ],
+          },
+        ]),
+      }}
+    />
   </>
 );
 

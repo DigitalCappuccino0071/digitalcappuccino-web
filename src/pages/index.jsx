@@ -48,49 +48,51 @@ export default function index() {
   gtag('config', 'AW-11192435865');
         `}
         </script>
-        <script type="application/ld+json">
-          {`
-{
-  "@context": "https://schema.org",
-"@type": "Organization",
-"name": "Digital Cappuccino",
-"alternateName": "Advertising Agency",
-"url": "https://www.digitalcappuccino.com/",
-"logo": "https://www.digitalcappuccino.com/",
-"sameAs": [
-  "https://www.facebook.com/digitalcappuccino/",
-  "https://twitter.com/Digicappuccino",
-  "https://www.instagram.com/digitalcappuccino/",
-  "https://www.youtube.com/@Digitalcappuccino_",
-  "https://www.linkedin.com/company/digital-cappuccino/",
-  "https://in.pinterest.com/digital_cappuccinoggn/"
-]
-}
-`}
-        </script>
-        <script type="application/ld+json">
-          {`
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Digital Cappuccino",
-    "image": "https://www.digitalcappuccino.com/assets/img/hero/hero-5.1.png",
-    "@id": "",
-    "url": "https://www.digitalcappuccino.com/",
-    "telephone": "+91 9910190071",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Plot No. 136, 3rd Floor, Rider House, Sector 44",
-      "addressLocality": "Gurgaon",
-      "postalCode": "122003",
-      "addressCountry": "IN"
-    }
-  }
-  `}
-        </script>
       </Head>
 
       <HomeFiveMain />
+      <Script
+        id="structured-data"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              name: 'Digital Cappuccino',
+              alternateName: 'Advertising Agency',
+              url: 'https://www.digitalcappuccino.com/',
+              logo: 'https://www.digitalcappuccino.com/',
+              sameAs: [
+                'https://www.facebook.com/digitalcappuccino/',
+                'https://twitter.com/Digicappuccino',
+                'https://www.instagram.com/digitalcappuccino/',
+                'https://www.youtube.com/@Digitalcappuccino_',
+                'https://www.linkedin.com/company/digital-cappuccino/',
+                'https://in.pinterest.com/digital_cappuccinoggn/',
+              ],
+            },
+            {
+              '@context': 'https://schema.org',
+              '@type': 'LocalBusiness',
+              name: 'Digital Cappuccino',
+              image:
+                'https://www.digitalcappuccino.com/assets/img/hero/hero-5.1.png',
+              '@id': '',
+              url: 'https://www.digitalcappuccino.com/',
+              telephone: '+91 9910190071',
+              address: {
+                '@type': 'PostalAddress',
+                streetAddress:
+                  'Plot No. 136, 3rd Floor, Rider House, Sector 44',
+                addressLocality: 'Gurgaon',
+                postalCode: '122003',
+                addressCountry: 'IN',
+              },
+            },
+          ]),
+        }}
+      />
     </Wrapper>
   );
 }
