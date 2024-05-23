@@ -115,6 +115,76 @@ height="0" width="0" style="display:none;visibility:hidden"/>`,
             />`,
             }}
           />
+          <Script
+            id="structured-data"
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify([
+                {
+                  '@context': 'http://schema.org',
+                  '@type': 'WebPage',
+                  '@id':
+                    'https://www.digitalcappuccino.com/social-media-marketing-services-gurgaon#webpage',
+                  url: 'https://www.digitalcappuccino.com/social-media-marketing-services-gurgaon',
+                  inLanguage: 'English',
+                  name: 'Social Media Marketing',
+                  description:
+                    'Digital Cappuccino is the best social media marketing agency in Gurgaon. We offer social media services at the best prices to grow your brand.',
+                  isPartOf: {
+                    '@id': '#website',
+                  },
+                  about: [
+                    {
+                      '@type': 'Thing',
+                      name: 'Digital Cappuccino',
+                      sameAs: 'https://www.digitalcappuccino.com/',
+                    },
+                  ],
+                  mentions: [
+                    {
+                      '@type': 'Thing',
+                      name: 'Digital Cappuccino',
+                      sameAs: 'https://www.digitalcappuccino.com/',
+                    },
+                  ],
+                },
+                {
+                  '@context': 'https://schema.org',
+                  '@type': 'ProfessionalService',
+                  name: 'Digital Cappuccino',
+                  address: {
+                    '@type': 'PostalAddress',
+                    streetAddress:
+                      'Plot No. 136, 3rd Floor, Rider House, Sector 44',
+                    addressLocality: 'Gurgaon',
+                    addressRegion: 'Haryana',
+                    postalCode: '122003',
+                    addressCountry: 'India',
+                  },
+                  image:
+                    'https://www.digitalcappuccino.com/assets/img/offcanvas/2.jpeg',
+                  telephone: '+91 9910190071',
+                  url: 'https://www.digitalcappuccino.com/',
+                  logo: 'https://www.digitalcappuccino.com/assets/img/logo/logo-white.png',
+                  sameAs: [
+                    'https://www.instagram.com/digitalcappuccino/',
+                    'https://www.linkedin.com/company/digital-cappuccino/',
+                    'https://twitter.com/Digicappuccino',
+                    'https://www.facebook.com/digitalcappuccino/',
+                  ],
+                  description:
+                    'Digital Cappuccino is the best marketing agency in Gurgaon. We synthesize marketing programs and merge techniques to reach your goals.',
+                  openingHours: 'Mo,Tu,We,Th,Fr,Sat 09:00-18:00',
+                  geo: {
+                    '@type': 'GeoCoordinates',
+                    latitude: '28.45148344478403',
+                    longitude: '77.07517561712757',
+                  },
+                  priceRange: 'Best Price Guaranteed',
+                },
+              ]),
+            }}
+          />
         </body>
       </Html>
     );
