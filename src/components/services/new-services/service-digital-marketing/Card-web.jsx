@@ -6,9 +6,9 @@ const data = [
         id: 11,
         image: "/assets/img/breadcrum_1/youtube.png",
         alt: "Influencer marketing company",
-        title: "Watch Your Brand Flourish with Our Tailored Influencer Marketing Services",
+        title: "Watch Your Brand Flourish with Our Tailored Digital Marketing Services",
         peraOne:
-            "Customised influencer marketing services in Gurgaon that truly resonate among certain target markets are our specialty at Digital Cappuccino, the best influencer marketing agency in Gurgaon. To guarantee genuine and effective partnerships, we carefully choose influencers whose principles and audience are a great fit with your brand's. We assist companies in Gurgaon and beyond to increase their visibility, communicate with potential customers better, and produce actual results through smart influencer collaborations by leveraging our experience in the current digital trends and local market dynamics.",
+            "We are one of the leading digital marketing services in Gurgaon. We offer a comprehensive suite of services designed to elevate your brand's online presence. Our team is an expert in SEO, social media management, creative content development, and influencer marketing. We tailor our strategies on the basis of our client's needs, ensuring enhanced visibility, engagement, and better ROI. Trust Digital Cappuccino to brew the perfect blend of digital solutions, driving your business forward in the competitive online landscape.",
     },
 ];
 
