@@ -68,6 +68,14 @@ const menu_data = [
                 link: "https://digitalcappuccino.ca/",
                 title: "Canada",
             },
+            {
+                link: "/",
+                title: "London",
+            },
+            {
+                link: "/",
+                title: "Dubai",
+            },
         ],
     },
 ];
