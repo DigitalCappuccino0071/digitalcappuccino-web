@@ -22,12 +22,12 @@ const ServiceWebsiteDevelopment = () => {
         <Wrapper>
             <Head>
                 <title>
-                    Website Design & Web Development | Company in Gurgaon
+                    Website Development Company in Gurgaon | Web Design &
+                    Development Services
                 </title>
                 <meta
                     name="description"
-                    content="Digital Cappuccino is the most trusted web development company in
-Gurgaon that provides redesigning, web development, and digital marketing."
+                    content="Digital Cappuccino is Gurgaon's is one of the best web development company in Gurgaon. Our expert web developers and designers provide you website designing, website development, and digital marketing services."
                 />
                 <link
                     rel="canonical"
@@ -35,12 +35,11 @@ Gurgaon that provides redesigning, web development, and digital marketing."
                 />
                 <meta
                     property="og:title"
-                    content="Website Design & Web Development | Company in Gurgaon"
+                    content="Website Development Company in Gurgaon | Web Design & Development Services"
                 />
                 <meta
                     property="og:description"
-                    content="Digital Cappuccino is the most trusted web development company in
-Gurgaon that provides redesigning, web development, and digital marketing."
+                    content="Digital Cappuccino is Gurgaon's is one of the best web development company in Gurgaon. Our expert web developers and designers provide you website designing, website development, and digital marketing services."
                 />
                 <meta
                     property="og:url"
