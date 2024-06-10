@@ -24,12 +24,11 @@ const ServiceSocialMediaMarketing = () => {
         <Wrapper>
             <Head>
                 <title>
-                    Social Media Marketing Company in Gurgaon|Social Media
-                    Agency in Gurgaon
+                    Social Media Marketing Agency in Gurgaon | SMM Services
                 </title>
                 <meta
                     name="description"
-                    content="Looking for a Social Media Marketing company & Agency in Gurgaon? Digital Cappuccino is the best social media marketing Company in Gurgaon. We offer professional social media services and marketing programs to reach your goals."
+                    content="Looking for a Social Media Marketing company & Agency in Gurgaon? Digital Cappuccino is the best social media marketing Company in Gurgaon. We offer professional social media marketing services and marketing programs to reach your goals."
                 />
                 <link
                     rel="canonical"
@@ -37,11 +36,11 @@ const ServiceSocialMediaMarketing = () => {
                 />
                 <meta
                     property="og:title"
-                    content=" Social Media Marketing Company in Gurgaon | Social Media Agency in Gurgaon"
+                    content=" Social Media Marketing Agency in Gurgaon | SMM Services"
                 />
                 <meta
                     property="og:description"
-                    content="Looking for a Social Media Marketing company & Agency in Gurgaon? Digital Cappuccino is the best social media marketing Company in Gurgaon. We offer professional social media services and marketing programs to reach your goals."
+                    content="Looking for a Social Media Marketing company & Agency in Gurgaon? Digital Cappuccino is the best social media marketing Company in Gurgaon. We offer professional social media marketing services and marketing programs to reach your goals."
                 />
                 <meta
                     property="og:url"

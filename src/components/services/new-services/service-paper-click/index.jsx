@@ -22,7 +22,8 @@ const ServicePaperClick = () => {
         <Wrapper>
             <Head>
                 <title>
-                    Best PPC Company in Gurgaon | PPC Agency in Gurgaon{" "}
+                    PPC Company in Gurgaon | Pay Per Click Services (PPC) in
+                    Gurgaon
                 </title>
                 <meta
                     name="description"
@@ -34,7 +35,8 @@ const ServicePaperClick = () => {
                 />
                 <meta
                     property="og:title"
-                    content="Best PPC Agency in Gurgaon| PPC management services"
+                    content="PPC Company in Gurgaon | Pay Per Click Services (PPC) in
+                    Gurgaon"
                 />
                 <meta
                     property="og:description"
@@ -54,7 +56,7 @@ const ServicePaperClick = () => {
             <Breadcrumb
                 color={"#fec4c559"}
                 imagePath={"/assets/img/service/5.png"}
-                title={"PPC Marketing Company in Gurgaon"}
+                title={"PPC Company in Gurgaon"}
                 alt="PPC Marketing Company in Gurgaon"
             />
             <CardWeb />
