@@ -1,10 +1,9 @@
-import ServiceDigitalMarketing from "../components/services/new-services/service-digital-marketing";
-import LandingPage from "../components/services/new-services/service-digital-marketing/LandingPage";
+import ServiceInfluencerMarketing from "../components/services/new-services/service-influencer-marketing";
 
 export default function index() {
     return (
         <>
-            <LandingPage />
+            <ServiceInfluencerMarketing />
         </>
     );
 }
