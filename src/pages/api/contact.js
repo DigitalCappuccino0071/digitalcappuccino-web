@@ -1,24 +1,24 @@
-import { transporter, mailOptions } from '../../config/nodemailer';
+import { transporter, mailOptions } from "../../config/nodemailer";
 export default async function handler(req, res) {
-  console.log(req.body);
-  if (req.method === 'POST') {
-    const data = req.body;
-    if (
-      !data.fullName ||
-      !data.email ||
-      !data.phoneNumber ||
-      !data.services ||
-      !data.message
-    ) {
-      return res.status(400).json({ message: 'bad request!' });
-    }
+    console.log(req.body);
+    if (req.method === "POST") {
+        const data = req.body;
+        if (
+            !data.fullName ||
+            !data.email ||
+            !data.phoneNumber ||
+            !data.services ||
+            !data.message
+        ) {
+            return res.status(400).json({ message: "bad request!" });
+        }
 
-    try {
-      const info = await transporter.sendMail({
-        ...mailOptions,
-        subject: data.message,
-        text: 'test string',
-        html: `
+        try {
+            const info = await transporter.sendMail({
+                ...mailOptions,
+                subject: data.message,
+                text: "test string",
+                html: `
     <html>
       <head>
         <style>
@@ -63,13 +63,13 @@ export default async function handler(req, res) {
       </body>
     </html>
   `,
-      });
-      console.log('Email sent:', info.response);
-      return res.status(200).json({ success: true });
-    } catch (error) {
-      console.error('Error sending email:', error);
-      return res.status(400).json({ message: 'error' });
+            });
+            console.log("Email sent:", info.response);
+            return res.status(200).json({ success: true });
+        } catch (error) {
+            console.error("Error sending email:", error);
+            return res.status(400).json({ message: "error" });
+        }
     }
-  }
-  return res.status(400).json({ message: 'bad request!' });
+    return res.status(400).json({ message: "bad request!" });
 }
