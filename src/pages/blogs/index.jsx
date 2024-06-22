@@ -1,7 +1,7 @@
 import React from 'react';
-import { Wrapper } from '../layout';
-import BlogMain from '../components/blog';
+import BlogMain from '../../components/blog';
 import Head from 'next/head';
+import { Wrapper } from '../../layout';
 
 const index = () => {
   return (

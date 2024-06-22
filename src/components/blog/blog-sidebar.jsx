@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
 import { blog_data } from '../../data';
+import apiEndpoint from '../../services/apiEndpoint';
+import useQueryGet from '../../hooks/useQuery';
 
 const sidebar_contents = {
   widget_contents: [
@@ -12,83 +14,91 @@ const sidebar_contents = {
     { title: 'Graphic Design', count: '99' },
   ],
   rc_post: blog_data.slice(0, 3),
-  tags: ['landing', 'Charity', 'apps', 'Education', 'data', 'Design', 'website', 'landing page']
-}
+  tags: [
+    'landing',
+    'Charity',
+    'apps',
+    'Education',
+    'data',
+    'Design',
+    'website',
+    'landing page',
+  ],
+};
 
 const { widget_contents, rc_post, tags } = sidebar_contents;
 
+const BlogSidebar = ({ blog }) => {
+  const { data, isPending, isError, error, isSuccess } = useQueryGet({
+    apiEndpointUrl: apiEndpoint.CATEGORY,
+    queryKey: 'getAllCategory',
+  });
+  if (isPending) {
+    return <div>Loading</div>;
+  }
 
-const BlogSidebar = () => {
-  return (
-    <div className="sidebar__wrapper">
-      <div className="sidebar__widget mb-40">
-        <h3 className="sidebar__widget-title">Search Here</h3>
-        <div className="sidebar__widget-content">
-          <div className="sidebar__search">
-            <form>
-              <div className="sidebar__search-input-2">
-                <input type="text" placeholder="Search your keyword..." />
-                <button type="submit"><i className="far fa-search"></i></button>
-              </div>
-            </form>
+  if (isError) {
+    return <div>Error</div>;
+  }
+  if (isSuccess) {
+    const category = data?.data?.data ?? [];
+    console.log(category);
+    return (
+      <div className="sidebar__wrapper">
+        <div className="sidebar__widget mb-40">
+          <h3 className="sidebar__widget-title">Categories</h3>
+          <div className="sidebar__widget-content">
+            <ul>
+              {category.length > 0
+                ? category.map(cat => (
+                    <li key={cat._id}>
+                      <Link href="#">
+                        <a href="">
+                          {cat?.name ?? ''}{' '}
+                          <span>{cat?.blogs?.length ?? 0}</span>
+                        </a>
+                      </Link>
+                    </li>
+                  ))
+                : 'No Category Found'}
+            </ul>
           </div>
         </div>
-      </div>
-      <div className="sidebar__widget mb-40">
-        <h3 className="sidebar__widget-title">Categories</h3>
-        <div className="sidebar__widget-content">
-          <ul>
-            {widget_contents.map((widget, i) => (
-              <li key={i}>
-                <Link href="/blog">
-                  <a>{widget.title}<span>{widget.count}</span></a>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
 
-      <div className="sidebar__widget mb-40">
-        <h3 className="sidebar__widget-title">Recent Post</h3>
-        <div className="sidebar__widget-content">
-          <div className="sidebar__post rc__post">
-            {rc_post.map((post) => (
-              <div key={post.id} className="rc__post mb-20 d-flex align-items-center">
-                <div className="rc__post-thumb mr-20">
-                  <Link href={`/blog-details/${post.id}`}>
-                    <a>
-                      <img src={post.img} alt="" />
-                    </a>
-                  </Link>
-                </div>
-                <div className="rc__post-content">
-                  <div className="rc__meta">
-                    <span>{post.date}</span>
-                  </div>
-                  <h3 className="rc__post-title">
+        <div className="sidebar__widget mb-40">
+          <h3 className="sidebar__widget-title">Recent Post</h3>
+          <div className="sidebar__widget-content">
+            <div className="sidebar__post rc__post">
+              {rc_post.map(post => (
+                <div
+                  key={post.id}
+                  className="rc__post mb-20 d-flex align-items-center"
+                >
+                  <div className="rc__post-thumb mr-20">
                     <Link href={`/blog-details/${post.id}`}>
-                      <a>{post.title.substring(0, 35)}...</a>
+                      <a>
+                        <img src={post.img} alt="" />
+                      </a>
                     </Link>
-                  </h3>
+                  </div>
+                  <div className="rc__post-content">
+                    <div className="rc__meta">
+                      <span>{post.date}</span>
+                    </div>
+                    <h3 className="rc__post-title">
+                      <Link href={`/blog-details/${post.id}`}>
+                        <a>{post.title.substring(0, 35)}...</a>
+                      </Link>
+                    </h3>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </div>
-      <div className="sidebar__widget mb-40">
-        <h3 className="sidebar__widget-title">Tags</h3>
-        <div className="sidebar__widget-content">
-          <div className="tagcloud">
-            {tags.map((tag, i) => <Link key={i} href="/blog">
-              <a>{tag}</a>
-            </Link>)}
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+    );
+  }
 };
 
 export default BlogSidebar;

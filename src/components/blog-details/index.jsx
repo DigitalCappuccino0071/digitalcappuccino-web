@@ -4,9 +4,8 @@ import { animationCreate } from '../../utils/utils';
 import Breadcrumb from '../common/breadcrumb/breadcrumb';
 import BlogDetailsArea from './blog-details-area';
 
-
-const BlogDetails = ({blog}) => {
-
+const BlogDetails = ({ blog }) => {
+  console.log(blog);
   useEffect(() => {
     setTimeout(() => {
       animationCreate();
@@ -17,7 +16,7 @@ const BlogDetails = ({blog}) => {
     <Wrapper>
       <Header />
       <Breadcrumb title={'Blog Details'} />
-      <BlogDetailsArea blog={blog}/>
+      <BlogDetailsArea blog={blog} />
       <FooterThree />
     </Wrapper>
   );
