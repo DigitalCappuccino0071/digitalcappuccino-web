@@ -26,55 +26,54 @@ const BlogArea = () => {
   }
   if (isSuccess) {
     const blogs = data?.data?.data ?? [];
-    console.log(blogs);
+
     return (
       <>
         <div className="postbox__area pt-120 pb-120">
           <div className="container">
-            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
               {blogs.length > 0
                 ? blogs.map(blog => (
-                    <Link
+                    <a
                       href={`/blogs/${blog?.slug ?? '#'}`}
-                      className="col"
+                      className="col d-block"
                       style={{ cursor: 'pointer' }}
                       key={blog._id}
                     >
-                      <div>
-                        <div className="card">
-                          <img
-                            src={blog?.imageCover ?? ''}
-                            className="card-img-top"
-                            alt={blog.imageCoverAlt ?? ''}
-                            // layout="fill"
-                            // width={300}
-                            // height={300}
-                          />
-                          <div className="card-body">
-                            <span>
-                              Posted:{' '}
-                              {format(new Date(blog?.createdAt), 'dd-MM-yyyy')}
-                            </span>
-                            <h5 className="card-subtitle mt-2">
-                              {blog?.title ?? ''}
-                            </h5>
-                            <h5 className="card-title">{blog?.title ?? ''}</h5>
-                            <p className="card-text">{blog?.excerpt}</p>
-                          </div>
-                          <div className="card-body">
-                            <Link
-                              style={{
-                                backgroundColor: 'red!important',
-                              }}
-                              href={`/blogs/${blog?.slug ?? '#'}`}
-                              className="border border-primary"
-                            >
-                              Read More
-                            </Link>
-                          </div>
+                      <div className="card">
+                        <img
+                          src={blog?.imageCover ?? ''}
+                          className="card-img-top"
+                          alt={blog.imageCoverAlt ?? ''}
+                          // layout="fill"
+                          // width={300}
+                          // height={300}
+                        />
+                        <div className="card-body">
+                          <span>
+                            Posted:{' '}
+                            {format(new Date(blog?.createdAt), 'dd-MM-yyyy')}
+                          </span>
+                          <h5 className="card-title text-dark mt-2">
+                            {blog?.title ?? ''}
+                          </h5>
+                          <p className="card-text text-muted">
+                            {blog?.excerpt}
+                          </p>
+                        </div>
+                        <div className="card-body">
+                          <a
+                            style={{
+                              backgroundColor: '#FFDC60',
+                            }}
+                            href={`/blogs/${blog?.slug ?? '#'}`}
+                            className="p-3 rounded text-white"
+                          >
+                            Read More
+                          </a>
                         </div>
                       </div>
-                    </Link>
+                    </a>
                   ))
                 : 'No Blogs found'}
             </div>

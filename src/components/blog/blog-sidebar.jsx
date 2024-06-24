@@ -65,7 +65,7 @@ const BlogSidebar = ({ blog }) => {
           </div>
         </div>
 
-        <div className="sidebar__widget mb-40">
+        {/* <div className="sidebar__widget mb-40">
           <h3 className="sidebar__widget-title">Recent Post</h3>
           <div className="sidebar__widget-content">
             <div className="sidebar__post rc__post">
@@ -95,7 +95,7 @@ const BlogSidebar = ({ blog }) => {
               ))}
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }
