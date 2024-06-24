@@ -1,9 +1,10 @@
 import React from 'react';
+import ReactQueryProvider from '../components/ReactQueryProvider';
 
-const Wrapper = ({children}) => {
+const Wrapper = ({ children }) => {
   return (
     <>
-      {children}
+      <ReactQueryProvider>{children}</ReactQueryProvider>
     </>
   );
 };

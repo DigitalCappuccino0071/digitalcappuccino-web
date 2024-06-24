@@ -3,6 +3,7 @@ import { ToastContainer } from 'react-toastify';
 import { store } from '../redux/store';
 import '../styles/index.scss';
 import { HubspotProvider } from 'next-hubspot';
+import ReactQueryProvider from '../components/ReactQueryProvider';
 
 if (typeof window !== 'undefined') {
   require('bootstrap/dist/js/bootstrap');
@@ -11,12 +12,14 @@ if (typeof window !== 'undefined') {
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <HubspotProvider>
-        <Provider store={store}>
-          <Component {...pageProps} />
-          <ToastContainer />
-        </Provider>
-      </HubspotProvider>
+      <ReactQueryProvider>
+        <HubspotProvider>
+          <Provider store={store}>
+            <Component {...pageProps} />
+            <ToastContainer />
+          </Provider>
+        </HubspotProvider>
+      </ReactQueryProvider>
     </>
   );
 }
