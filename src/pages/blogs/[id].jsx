@@ -6,6 +6,7 @@ import { blog_data } from '../../data';
 import BlogDetailsMain from '../../components/blog-details';
 import useQueryGet from '../../hooks/useQuery';
 import apiEndpoint from '../../services/apiEndpoint';
+import SEONew from '../../components/SEONew';
 
 const BlogDynamicDetails = () => {
   const router = useRouter();
@@ -27,7 +28,14 @@ const BlogDynamicDetails = () => {
     console.log(blog);
     return (
       <Wrapper>
-        <SEO pageTitle={blog?.title ?? 'blog title'} />
+        <SEONew
+          metaTitle={blog?.title ?? 'blog title'}
+          metaDescription={blog?.description ?? ''}
+          // meta={blog?.tags?.join(', ') ?? ''}
+          canonical={`https://www.digitalcappuccino.com/blogs/${
+            blog?.slug ?? ''
+          }`}
+        />
         <BlogDetailsMain blog={blog} />
       </Wrapper>
     );
@@ -35,9 +43,3 @@ const BlogDynamicDetails = () => {
 };
 
 export default BlogDynamicDetails;
-
-export async function getServerSideProps(context) {
-  return {
-    props: {},
-  };
-}
