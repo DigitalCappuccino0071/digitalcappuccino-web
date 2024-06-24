@@ -10,6 +10,7 @@
     "deploy": "./node_modules/.bin/serverless"
   },
   "dependencies": {
+    "@docs.plus/extension-hyperlink": "^1.5.2",
     "@popperjs/core": "^2.11.6",
     "@reduxjs/toolkit": "^1.8.5",
     "@tanstack/react-query": "^5.45.0",

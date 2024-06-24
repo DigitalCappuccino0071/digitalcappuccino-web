@@ -17,7 +17,7 @@ const Breadcrumb = ({ title, color, imagePath, back_home, alt = false }) => {
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 tp-hero-section-box-five">
             <div className="breadcrumb__content p-relative z-index-1">
-              <h1 className="breadcrumb__title">{title}</h1>
+              <h2 className="breadcrumb__title">{title}</h2>
               {!back_home && (
                 <Link href="/contact-us">
                   <a className="tp-btn-white-border">
