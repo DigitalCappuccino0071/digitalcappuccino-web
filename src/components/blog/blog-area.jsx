@@ -54,7 +54,7 @@ const BlogArea = () => {
                             Posted:{' '}
                             {format(new Date(blog?.createdAt), 'dd-MM-yyyy')}
                           </span>
-                          <h5 className="card-title text-dark mt-2">
+                          <h5 className="card-title text-dark mt-2 text-capitalize">
                             {blog?.title ?? ''}
                           </h5>
                           <p className="card-text text-muted">
