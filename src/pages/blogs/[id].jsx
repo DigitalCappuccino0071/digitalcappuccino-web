@@ -9,7 +9,7 @@ import apiEndpoint from '../../services/apiEndpoint';
 import SEONew from '../../components/SEONew';
 import Script from 'next/script';
 
-const blogPostingData = [
+const blogPostingSchemaData = [
   {
     slug: 'top-10-indian-influencer-marketing-agencies-in-india',
     headline: 'Top 10 Indian Influencer Marketing Agencies in India',
@@ -143,7 +143,7 @@ const BlogDynamicDetails = () => {
     const blogDetailFaqSchema = blogDetailFaqSchemaData.filter(
       item => item.slug === blog.slug
     );
-    const blogPostingSchema = blogDetailFaqSchemaData.filter(
+    const blogPostingSchema = blogPostingSchemaData.filter(
       item => item.slug === blog.slug
     );
     console.log(blogPostingSchema);
