@@ -143,6 +143,8 @@ const BlogDynamicDetails = () => {
     const blogDetailFaqSchema = blogDetailFaqSchemaData.filter(
       item => item.slug === blog.slug
     );
+
+    console.log(blogDetailFaqSchema);
     const blogPostingSchema = blogPostingSchemaData.filter(
       item => item.slug === blog.slug
     );
@@ -166,34 +168,32 @@ const BlogDynamicDetails = () => {
                 id="structured-data-blog-posting"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
-                  __html: JSON.stringify([
-                    {
-                      '@context': 'https://schema.org',
-                      '@type': 'BlogPosting',
-                      mainEntityOfPage: {
-                        '@type': 'WebPage',
-                        '@id': blogPostingItem.mainEntityOfPage['@id'],
-                      },
-                      headline: blogPostingItem.headline,
-                      description: blogPostingItem.description,
-                      image: blogPostingItem.image,
-                      author: {
-                        '@type': 'Organization',
-                        name: 'Digital Cappuccino',
-                        url: blogPostingItem.author.url,
-                      },
-                      publisher: {
-                        '@type': 'Organization',
-                        name: 'Digital Cappuccino',
-                        logo: {
-                          '@type': 'ImageObject',
-                          url: blogPostingItem.logo.url,
-                        },
-                      },
-                      datePublished: '2024-06-21',
-                      dateModified: '2024-07-02',
+                  __html: JSON.stringify({
+                    '@context': 'https://schema.org',
+                    '@type': 'BlogPosting',
+                    mainEntityOfPage: {
+                      '@type': 'WebPage',
+                      '@id': blogPostingItem.mainEntityOfPage['@id'],
                     },
-                  ]),
+                    headline: blogPostingItem.headline,
+                    description: blogPostingItem.description,
+                    image: blogPostingItem.image,
+                    author: {
+                      '@type': 'Organization',
+                      name: 'Digital Cappuccino',
+                      url: blogPostingItem.author.url,
+                    },
+                    publisher: {
+                      '@type': 'Organization',
+                      name: 'Digital Cappuccino',
+                      logo: {
+                        '@type': 'ImageObject',
+                        url: blogPostingItem.logo.url,
+                      },
+                    },
+                    datePublished: '2024-06-21',
+                    dateModified: '2024-07-02',
+                  }),
                 }}
               />
             ))
@@ -206,13 +206,11 @@ const BlogDynamicDetails = () => {
                 id="structured-data-blog-faq"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
-                  __html: JSON.stringify([
-                    {
-                      '@context': 'https://schema.org',
-                      '@type': 'FAQPage',
-                      mainEntity: item.mainEntity,
-                    },
-                  ]),
+                  __html: JSON.stringify({
+                    '@context': 'https://schema.org',
+                    '@type': 'FAQPage',
+                    mainEntity: item.mainEntity,
+                  }),
                 }}
               />
             ))
