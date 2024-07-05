@@ -203,7 +203,7 @@ const BlogDynamicDetails = () => {
           ? blogDetailFaqSchema.map(item => (
               <Script
                 key={item.slug}
-                id="structured-data-blog-posting"
+                id="structured-data-blog-faq"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
                   __html: JSON.stringify([
