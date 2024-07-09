@@ -1,8 +1,6 @@
 import React from 'react';
-import SEO from '../../components/seo';
 import { Wrapper } from '../../layout';
 import { useRouter } from 'next/router';
-import { blog_data } from '../../data';
 import BlogDetailsMain from '../../components/blog-details';
 import useQueryGet from '../../hooks/useQuery';
 import apiEndpoint from '../../services/apiEndpoint';
@@ -30,6 +28,28 @@ const blogPostingSchemaData = [
       '@id':
         'https://www.digitalcappuccino.com/blogs/top-10-indian-influencer-marketing-agencies-in-india',
     },
+  },
+  {
+    slug: 'best-social-media-marketing-company-in-gurgaon',
+    headline: 'Best Social Media Marketing Company in Gurgaon',
+    description:
+      'If you want to revolutionise the way businesses connect with their audience, boost their online visibility, and turbocharge their sales, a killer social media campaign can tap into the channels your audience loves. They offer their expertise, strategies, tools, and experience for social media management.',
+    image:
+      'https://storagedc.s3.ap-south-1.amazonaws.com/1719919287076-48783669-1600-01.jpg',
+    author: {
+      '@type': 'Organization',
+      name: 'Digital Cappuccino',
+      url: 'https://www.digitalcappuccino.com/',
+    },
+    logo: {
+      url: 'https://www.digitalcappuccino.com/assets/img/logo/new-logo-design-v1-old.png',
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id':
+        'https://www.digitalcappuccino.com/blogs/best-social-media-marketing-company-in-gurgaon',
+    },
+    datePublished: '2024-06-21',
   },
 ];
 
@@ -121,6 +141,53 @@ const blogDetailFaqSchemaData = [
       },
     ],
   },
+  {
+    slug: 'best-social-media-marketing-company-in-gurgaon',
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'Q1: What does social media marketing do?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'You can promote your products and services, create awareness, drive your website traffic and build a loyal community by writing content on famous social media apps that resonate with your target audience.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Q2: Can I ask a social media marketing agency to share their previous works?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Most companies love to share their case studies, customer testimonials. You can directly ask the agency to share their portfolio as well.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Q3: Can a social media marketing agency help my small business?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes, especially for small enterprises, an agency can bring a lot of customers by increasing the number of followers on social media. They can also drive more traffic to your website, ultimately enhancing your sales.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Q4: what social media platforms should I use for my business?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'It totally depends on your target audience and industry. Most clothing and luxury businesses love to be on Instagram and share updated content on a daily basis.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Q5: How much time will it take for an agency to show results for my business?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'It can vary from company to company, it can take months or even a year to get significant engagement and conversions for a long-term success.',
+        },
+      },
+    ],
+  },
 ];
 
 const BlogDynamicDetails = () => {
@@ -144,11 +211,10 @@ const BlogDynamicDetails = () => {
       item => item.slug === blog.slug
     );
 
-    console.log(blogDetailFaqSchema);
     const blogPostingSchema = blogPostingSchemaData.filter(
       item => item.slug === blog.slug
     );
-    console.log(blogPostingSchema);
+
     return (
       <Wrapper>
         <SEONew
@@ -191,7 +257,8 @@ const BlogDynamicDetails = () => {
                         url: blogPostingItem.logo.url,
                       },
                     },
-                    datePublished: '2024-06-21',
+                    datePublished:
+                      blogPostingItem?.datePublished ?? '2024-06-21',
                     dateModified: '2024-07-02',
                   }),
                 }}
