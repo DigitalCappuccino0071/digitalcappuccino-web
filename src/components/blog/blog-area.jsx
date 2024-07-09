@@ -36,7 +36,7 @@ const BlogArea = () => {
                 ? blogs.map(blog => (
                     <a
                       href={`/blogs/${blog?.slug ?? '#'}`}
-                      className="col d-block"
+                      className="col d-block mb-4"
                       style={{ cursor: 'pointer' }}
                       key={blog._id}
                     >
