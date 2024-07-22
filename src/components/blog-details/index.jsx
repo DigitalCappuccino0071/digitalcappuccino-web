@@ -18,6 +18,7 @@ const BlogDetails = ({ blog }) => {
       <div style={{ paddingTop: '90px' }}>
         <BlogDetailsArea blog={blog} />
       </div>
+
       <FooterThree />
     </Wrapper>
   );

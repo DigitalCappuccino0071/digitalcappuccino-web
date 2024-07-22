@@ -1,8 +1,6 @@
-import Link from 'next/link';
+import { format } from 'date-fns';
 import React from 'react';
 import BlogSidebar from '../blog/blog-sidebar';
-import BlogDetailsForm from '../forms/blog-details-form';
-import { format } from 'date-fns';
 
 const post_comments = [
   {
@@ -55,6 +53,19 @@ const BlogDetailsArea = ({ blog }) => {
                       className="postbox__text"
                       dangerouslySetInnerHTML={{ __html: blog?.content ?? '' }}
                     ></div>
+                    <div>
+                      <a
+                        style={{
+                          color: '#000!important',
+                          border: '1px solid #000',
+                          borderRadius: '100px',
+                          padding: '10px 20px',
+                        }}
+                        href="/contact-us"
+                      >
+                        Enquiry Now
+                      </a>
+                    </div>
                   </div>
                 </article>
               </div>
