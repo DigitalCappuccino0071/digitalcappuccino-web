@@ -31,12 +31,11 @@ const ServicePaperClick = () => {
         />
         <meta
           property="og:title"
-          content="PPC Company in Gurgaon | Pay Per Click Services (PPC) in
-                    Gurgaon"
+          content="PPC company in Gurgaon | PPC services in Gurgaon"
         />
         <meta
           property="og:description"
-          content="Maximize Sales with the best PPC management services With Digital Cappucino, it’s known as one of the best PPC marketing agencies in Gurgaon that offers PPC services and marketing programs. CONTACT US NOW."
+          content="Digital Cappuccino is the best PPC company & agency in Gurgaon. We offer the affordable PPC services and synthesize marketing programs and merge techniques to reach your goals."
         />
         <meta
           property="og:url"

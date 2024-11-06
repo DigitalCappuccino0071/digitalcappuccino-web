@@ -1,8 +1,8 @@
-import React from "react";
-import { Wrapper } from "../layout";
-import AboutMain from "../components/about";
-import Head from "next/head";
-import Script from "next/script";
+import React from 'react';
+import { Wrapper } from '../layout';
+import AboutMain from '../components/about';
+import Head from 'next/head';
+import Script from 'next/script';
 
 const index = () => {
   return (
@@ -20,7 +20,7 @@ const index = () => {
         <meta property="og:title" content="About - US - Digital Cappuccino" />
         <meta
           property="og:description"
-          content="About Us Digital Cappuccino - Advertising Agency."
+          content="About Us Digital Cappuccino - Advertising Agency"
         />
         <meta
           property="og:url"
