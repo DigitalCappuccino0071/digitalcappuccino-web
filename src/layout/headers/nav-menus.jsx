@@ -4,22 +4,33 @@ import menu_data from './menu-data';
 
 const NavMenus = () => {
   return (
-    <ul  className={"flex  justify-content-center"}>
+    <ul className={'flex  justify-content-center'}>
       {menu_data.map((menu, i) => (
-        <li key={i} className={`${menu.has_dropdown ? 'has-dropdown' : ''}
-      ${menu.mega_menu ? 'has-mega-menu' : ''}`}>
+        <li
+          key={i}
+          className={`${menu.has_dropdown ? 'has-dropdown' : ''}
+      ${menu.mega_menu ? 'has-mega-menu' : ''}`}
+        >
           <Link href={menu.link}>
-            <a>{menu.title} {menu.has_dropdown && <i className="fal fa-angle-down"></i>}</a>
+            <a>
+              {menu.title}{' '}
+              {menu.has_dropdown && <i className="fal fa-angle-down"></i>}
+            </a>
           </Link>
-          {menu.has_dropdown && <ul className="submenu text-start " style={{ width:'250px', padding:' 15px 15px' }}>
-            {menu.sub_menus.map((sub_m, i) => (
-              <li key={i}>
-                <Link href={sub_m.link}>
-                  <a>{sub_m.title}</a>
-                </Link>
-              </li>
-            ))}
-          </ul>}
+          {menu.has_dropdown && (
+            <ul
+              className="submenu text-start "
+              style={{ width: '250px', padding: ' 15px 15px' }}
+            >
+              {menu.sub_menus.map((sub_m, i) => (
+                <li key={i}>
+                  <Link href={sub_m.link}>
+                    <a>{sub_m.title}</a>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          )}
         </li>
       ))}
     </ul>
