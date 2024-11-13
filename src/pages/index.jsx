@@ -11,12 +11,13 @@ export default function index() {
             <Head>
                 <title>
                     {/* {pageTitle && `${pageTitle} || Digital Cappuccino - We Are Digital Marketing Advisors`} */}
-                    Best Marketing Agency in Gurgaon | Digital Cappuccino
+                    Website Development & Design Services Company in Gurgaon -
+                    Digital Cappuccino
                 </title>
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta
                     name="description"
-                    content="Digital Cappuccino is the best marketing agency in Gurgaon. We synthesize marketing programs and merge techniques to reach your goals."
+                    content="Digital Cappuccino is the leading website development company & agency in Gurgaon. Our expert team of website developers and designers provides you with professional website designing & website development services. CONTACT US NOW."
                 />
                 <meta name="robots" content="index, follow" />
                 <meta
@@ -25,11 +26,11 @@ export default function index() {
                 />
                 <meta
                     property="og:title"
-                    content="Best Marketing Agency in Gurgaon | Digital Cappuccino"
+                    content="Website Development & Design Services Company in Gurgaon - Digital Cappuccino"
                 />
                 <meta
                     property="og:description"
-                    content="Digital Cappuccino is the best marketing agency in Gurgaon. We synthesize marketing programs and merge techniques to reach your goals."
+                    content="Digital Cappuccino is the leading website development company & agency in Gurgaon. Our expert team of website developers and designers provides you with professional website designing & website development services. CONTACT US NOW."
                 />
                 <link
                     rel="canonical"
