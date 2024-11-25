@@ -36,7 +36,7 @@ const index = () => {
       </Head>
       <ChildWrapper>
         <div className="privacy-policy">
-          <h2>Privacy Policy</h2>
+          <h2 className="text-black">Privacy Policy</h2>
           <p>
             Digital Cappuccino respects and honors your privacy. This Privacy
             Policy outlines how we collect, process, and protect information
@@ -44,7 +44,7 @@ const index = () => {
             who access this website give their consent to the practices listed
             here.
           </p>
-          <h3>Information Collection and Use</h3>
+          <h3 className="text-black">Information Collection and Use</h3>
           <p>
             We obtain only the information you have given to us voluntarily.
             This could range from contact information to details relevant to the
@@ -55,7 +55,7 @@ const index = () => {
             necessary to administer our obligations or requirements with the
             law.
           </p>
-          <h3>Data Security</h3>
+          <h3 className="text-black">Data Security</h3>
           <p>
             Digital Cappuccino ensures that proper care is taken with regard to
             your private information. Data safety, both online and offline, is
@@ -63,7 +63,7 @@ const index = () => {
             receive access to your information. In this way, your information
             will be kept safe and confidential.
           </p>
-          <h3>Cookies</h3>
+          <h3 className="text-black">Cookies</h3>
           <p>
             Our website uses cookies to give you a richer experience browsing on
             our site. Cookies are small data files stored in your local machine
@@ -72,13 +72,13 @@ const index = () => {
             such cookies when accessing your browser. However, it might make
             some services of this website unavailable in your utilization.
           </p>
-          <h3>Amendments to This Privacy Policy</h3>
+          <h3 className="text-black">Amendments to This Privacy Policy</h3>
           <p>
             Digital Cappuccino reserves the right to update this Privacy Policy
             as needed. Any changes will be posted on this page, and continued
             use of or services signifies acceptance of these updates.
           </p>
-          <h3>Contact Us</h3>
+          <h3 className="text-black">Contact Us</h3>
           <p>
             If you have any questions regarding the privacy policy, please write
             to us at info@digitalcappuccino.com
