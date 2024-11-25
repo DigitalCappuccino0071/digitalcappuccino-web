@@ -9,45 +9,16 @@ export default class MyDocument extends Document {
             name="google-site-verification"
             content="JWLU4Y0DwH2eo1adty_AJMbmqBRWIKhZbuv_Qo6ZwEg"
           />
-          {/* <title>
-                        Digital Marketing & Website Development Company |
-                        Digital Cappuccino
-                    </title> */}
 
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-          {/* <meta
-                        name="title"
-                        content="Advertising Agency in Delhi - Digital Cappuccino"
-                    /> */}
-          {/* <meta
-                        name="description"
-                        content="Digital Cappuccino is a  Advertising Agency in Delhi agency in Delhi that helps businesses of all sizes grow their online presence. including web design, SEO, PPC."
-                        key="desc"
-                    /> */}
+
           <meta name="robots" content="index, follow" />
-          {/* <link
-            rel="canonical"
-            href="https://www.digitalcappuccino.com/"
-            key="canonical"
-          /> */}
-          {/* <meta property="og:title" content="Social Title for Cool Page" /> */}
-          {/* <meta
-            property="og:description"
-            content="And a social description for our cool page"
-          /> */}
+
           <meta
             property="og:image"
             content="https://www.digitalcappuccino.com/assets/img/logo/new-logo-design-v1-old.png"
           />
-          {/* <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@YOUR_TWITTER_USERNAME" />
-          <meta name="twitter:title" content="TITLE_FOR_YOUR_PAGE" />
-          <meta
-            name="twitter:description"
-            content="DESCRIPTION_FOR_YOUR_PAGE"
-          /> */}
-          {/* <meta name="twitter:image" content="URL_FOR_YOUR_IMAGE" /> */}
-          {/* Google Tag Manager */}
+
           <script
             dangerouslySetInnerHTML={{
               __html: `(function (w, d, s, l, i) {
