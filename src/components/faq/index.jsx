@@ -16,7 +16,8 @@ const Faq = () => {
     <Wrapper>
       <Header />
       <Breadcrumb title={'Ask Question'} />
-
+      <FaqArea />
+      <Cta />
       <FooterThree />
     </Wrapper>
   );
