@@ -1,25 +1,39 @@
 import React from 'react';
 
-const CopyrightArea = ({copy_right_text='',conditions=[],color=''}) => {
+const CopyrightArea = ({
+  copy_right_text = '',
+  conditions = [],
+  color = '',
+}) => {
   return (
     <div className="tp-copyright-area">
-    <div className="container">
-      <div className="copyright-border pt-30 wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".7s">
-        <div className="row">
-          <div className="col-xl-6 col-lg-6 col-12">
-            <div className="tp-copyright-left text-lg-start text-start text-md-center">
-              <p className={`${color?'text-black':''}`}>{copy_right_text}</p>
+      <div className="container">
+        <div
+          className="copyright-border pt-30 wow tpfadeUp"
+          data-wow-duration=".5s"
+          data-wow-delay=".7s"
+        >
+          <div className="row">
+            <div className="col-xl-6 col-lg-6 col-12">
+              <div className="tp-copyright-left text-lg-start text-start text-md-center">
+                <p className={`${color ? 'text-black' : ''}`}>
+                  {copy_right_text}
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="col-xl-6 col-lg-6 col-12">
-            <div className={`tp-copyright-right ${color} text-start text-md-center text-lg-end`}>
-              {conditions.map((c, i) => <a key={i} href="#">{c.text}</a>)}
+            <div className="col-xl-6 col-lg-6 col-12">
+              <div
+                className={`tp-copyright-right ${color} text-start text-md-center text-lg-end`}
+              >
+                {/* {conditions.map((c, i) => <a key={i} href="#">{c.text}</a>)} */}
+                <a href="/terms-and-conditions">Terms and conditions</a>
+                <a href="/privacy-policy">Privacy policy</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
   );
 };
 

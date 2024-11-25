@@ -5,9 +5,7 @@ import Breadcrumb from '../common/breadcrumb/breadcrumb';
 import Cta from '../common/cta/cta';
 import FaqArea from './faq-area';
 
-
 const Faq = () => {
-
   useEffect(() => {
     setTimeout(() => {
       animationCreate();
@@ -18,8 +16,7 @@ const Faq = () => {
     <Wrapper>
       <Header />
       <Breadcrumb title={'Ask Question'} />
-      <FaqArea />
-      <Cta/>
+
       <FooterThree />
     </Wrapper>
   );
