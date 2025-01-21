@@ -54,7 +54,7 @@ const ServiceSEO = () => {
             <Breadcrumb
                 color={"#fec4c559"}
                 imagePath={"/assets/img/service/4.png"}
-                title={"SEO Company in Gurgaon"}
+                title={"SEO Services"}
                 alt="SEO Service Company in Gurgaon"
             />
             <CardWeb />
