@@ -8,7 +8,7 @@ const data = [
         alt: "PPC Marketing Agency",
         title: "Get More Customers with Our PPC Marketing Services",
         peraOne:
-            "Leading PPC agency in Gurgaon, Digital Cappuccino provides excellent PPC solutions to enable you to maximise your online visibility and ROI. Being the top PPC Management Agencyin Gurgaon, we expertise in developing and maximising PPC campaigns that yield results. As a recognised PPC expert in Gurgaon, our team shines in keyword research, creative ad copy, and exact audience targeting. We run your PPC campaigns to deliver targeted traffic, boost conversions, and beat your advertising expenditure. Trust us, the best PPC agency in Gurgaon, to improve your digital marketing plan and get concrete results. Our expertise will make sure the correct audience sees your brand at the correct time.",
+            "Leading PPC agency in Gurgaon, Digital Cappuccino provides excellent PPC solutions to enable you to maximise your online visibility and ROI. Being the top PPC Management Agency in Gurgaon, we expertise in developing and maximising PPC campaigns that yield results. As a recognised PPC expert in Gurgaon, our team shines in keyword research, creative ad copy, and exact audience targeting. We run your PPC campaigns to deliver targeted traffic, boost conversions, and beat your advertising expenditure. Trust us, the best PPC agency in Gurgaon, to improve your digital marketing plan and get concrete results. Our expertise will make sure the correct audience sees your brand at the correct time.",
     },
 ];
 
