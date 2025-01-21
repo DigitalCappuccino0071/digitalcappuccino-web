@@ -53,7 +53,7 @@ const ServicePaperClick = () => {
             <Breadcrumb
                 color={"#fec4c559"}
                 imagePath={"/assets/img/service/5.png"}
-                title={"PPC Company in Gurgaon"}
+                title={"PPC Marketing"}
                 alt="PPC Marketing Company in Gurgaon"
             />
             <CardWeb />
