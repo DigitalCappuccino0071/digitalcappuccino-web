@@ -21,7 +21,7 @@ const ServicePaperClick = () => {
         <Wrapper>
             <Head>
                 <title>
-                    PPC Management Agencyin Gurgaon | PPC services in Gurgaon
+                    PPC Management Agency in Gurgaon | PPC services in Gurgaon
                 </title>
                 <meta
                     name="description"
