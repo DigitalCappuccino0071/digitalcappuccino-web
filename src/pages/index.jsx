@@ -10,7 +10,6 @@ export default function index() {
             {/* <SEO pageTitle={'Digital Cappuccino'} /> */}
             <Head>
                 <title>
-                    {/* {pageTitle && `${pageTitle} || Digital Cappuccino - We Are Digital Marketing Advisors`} */}
                     Website Development & Design Services Company in Gurgaon -
                     Digital Cappuccino
                 </title>
