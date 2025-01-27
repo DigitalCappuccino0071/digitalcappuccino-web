@@ -5,12 +5,12 @@ export const transporter = nodemailer.createTransport({
   port: 465,
   secure: true,
   auth: {
-    user: process.env.GMAIL_USERNAME,
-    pass: process.env.GMAIL_PASSWORD,
+    user: process.env.GMAIL_USERNAME_NEW,
+    pass: process.env.GMAIL_PASSWORD_NEW,
   },
 });
 
 export const mailOptions = {
-  from: process.env.GMAIL_USERNAME,
-  // to: process.env.GMAIL_USERNAME,
+  from: process.env.GMAIL_USERNAME_NEW,
+  // to: process.env.GMAIL_USERNAME_NEW,
 };
