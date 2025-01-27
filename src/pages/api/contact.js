@@ -19,7 +19,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const dcEmail = process.env.GMAIL_USERNAME;
+    const dcEmail = process.env.GMAIL_USERNAME_NEW;
     const tusharEmail = 'tushar@digitalcappuccino.com';
     const archanaEmail = 'archana@digitalcappuccino.com';
     const mailArray = [dcEmail, tusharEmail, archanaEmail];
