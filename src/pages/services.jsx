@@ -3,10 +3,10 @@ import SEO from "../components/seo";
 import ServiceMain from "../components/services/service-1";
 
 export default function index() {
-  return (
-    <Wrapper>
-      <SEO pageTitle={'Our Service'} />
-      <ServiceMain/>
-    </Wrapper>
-  )
+    return (
+        <Wrapper>
+            <SEO pageTitle={"Our Service"} />
+            <ServiceMain />
+        </Wrapper>
+    );
 }

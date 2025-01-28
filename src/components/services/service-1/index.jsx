@@ -22,7 +22,7 @@ const Service = () => {
                 imagePath={"/assets/img/service/service-girl.png"}
             />
             <ServiceArea />
-            <CardDetails />
+            {/* <CardDetails /> */}
             {/* <CaseArea/> */}
             {/* <TestimonialArea style_2={true}/> */}
             <CtaTwo />
