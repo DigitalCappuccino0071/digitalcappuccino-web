@@ -21,7 +21,7 @@ const BlogHero = ({ title, color, imagePath, back_home, alt = false }) => {
                             {!back_home && (
                                 <Link href="/contact-us">
                                     <a className="tp-btn-white-border">
-                                        {"let's Connect"}{" "}
+                                        {"Free Consultation"}{" "}
                                         <i className="far fa-arrow-right"></i>
                                     </a>
                                 </Link>

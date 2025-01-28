@@ -43,7 +43,7 @@ const HeaderFive = () => {
                                     <div className="tp-header-yellow-button">
                                         <Link href="/contact-us">
                                             <a className="tp-btn-sky">
-                                                {"let's connect"}
+                                                {"Free Consultation"}
                                             </a>
                                         </Link>
                                     </div>
