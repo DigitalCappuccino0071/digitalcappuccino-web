@@ -56,7 +56,7 @@ const hero_contents = {
             link: "https://twitter.com/Digicappuccino",
         },
     ],
-    submit_text: "let's Connect",
+    submit_text: "Free Consultation",
 };
 
 const {
@@ -120,7 +120,7 @@ const HeroArea = () => {
                                 <div className="tp-header-yellow-button">
                                     <Link href="/contact-us">
                                         <a className="tp-btn-sky">
-                                            {"let's connect"}
+                                            {"Free Consultation"}
                                         </a>
                                     </Link>
                                 </div>
