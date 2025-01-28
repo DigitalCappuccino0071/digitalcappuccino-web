@@ -49,8 +49,15 @@ export default function index() {
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'AW-11192435865');
+  gtag('config', 'AW-11559614744');
         `}
+                </script>
+                <script id="gtag-init2" strategy="afterInteractive">
+                    {`gtag('event', 'conversion', {
+      'send_to': 'AW-11559614744/5gt9CJ67-pUaEJjyhogr',
+      'value': 40.0,
+      'currency': 'INR'
+  })`}
                 </script>
             </Head>
 

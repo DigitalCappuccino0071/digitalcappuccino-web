@@ -34,6 +34,14 @@ const SEONew = ({ metaTitle, font, metaDescription, canonical }) => (
         `}
         </Script>
 
+        <script id="gtag-init2" strategy="afterInteractive">
+            {`gtag('event', 'conversion', {
+      'send_to': 'AW-11559614744/5gt9CJ67-pUaEJjyhogr',
+      'value': 40.0,
+      'currency': 'INR'
+  })`}
+        </script>
+
         {/* <Script
       id="structured-data"
       type="application/ld+json"
