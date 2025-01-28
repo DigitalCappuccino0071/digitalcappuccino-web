@@ -2,8 +2,7 @@
 /*  24. service CSS START
 /*----------------------------------------*/
 
-
-@use '../utils' as *;
+@use "../utils" as *;
 
 .tp-service-item {
     background-color: var(--tp-common-white);
@@ -34,20 +33,19 @@
             margin-bottom: 20px;
         }
     }
-    &:hover{
+    &:hover {
         & .tp-sv-img {
             @include top-to-bottom-hover();
         }
     }
 }
 
-
 .tp-sv-box {
     position: relative;
 
     &:before {
         content: "";
-        background-image: linear-gradient(-90deg, #5956E9 0%, #FFDC60 100%);
+        background-image: linear-gradient(-90deg, #5956e9 0%, #ffdc60 100%);
         opacity: 0.3;
         height: 27px;
         width: 84%;
@@ -58,13 +56,12 @@
         right: 0;
         margin: auto;
         z-index: 1;
-        transition: .4s;
+        transition: 0.4s;
     }
 
     &:hover {
         &:before {
             bottom: -20px;
-
         }
     }
 }
@@ -172,7 +169,7 @@
 }
 
 .tp-sv-item-two {
-    border: 1px solid #3F3F47;
+    border: 1px solid #3f3f47;
     border-radius: 20px;
     padding-top: 90px;
     padding-bottom: 90px;
@@ -210,11 +207,10 @@
     }
 
     &:hover {
-        border-color: #3F3F47;
+        border-color: #3f3f47;
 
         &::after {
             height: 100%;
-
         }
 
         & .tp-sv-icon-two {
@@ -232,7 +228,7 @@
     left: 0;
     height: 101%;
     width: 100%;
-    background-color: #3F3F47;
+    background-color: #3f3f47;
     border-radius: 20px;
     opacity: 0;
     transition: 0.3s;
@@ -241,14 +237,14 @@
 
     & i {
         font-size: 165px;
-        -webkit-text-stroke: 1px #8D8D9C;
+        -webkit-text-stroke: 1px #8d8d9c;
         color: transparent;
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%)rotate(45deg);
+        transform: translate(-50%, -50%) rotate(45deg);
     }
-    & a{
+    & a {
         height: 100%;
         width: 100%;
         display: block;
@@ -267,7 +263,7 @@
         font-size: 18px;
         font-weight: 400;
         line-height: 30px;
-        color: #B5B8C1;
+        color: #b5b8c1;
         margin-bottom: 0;
 
         @media #{$xl} {
@@ -277,7 +273,7 @@
 }
 
 .tp-sv-blue-color {
-    border-bottom: 3px solid #5956E9;
+    border-bottom: 3px solid #5956e9;
 }
 
 .tp-sv-sky-color {
@@ -285,7 +281,7 @@
 }
 
 .tp-sv-pink-color {
-    border-bottom: 3px solid #FFADAD;
+    border-bottom: 3px solid #ffadad;
 }
 
 .service-color-1 {
@@ -303,7 +299,6 @@
 .tp-services-item {
     padding: 30px 30px;
     border-radius: 20px;
-
 
     @media #{$xl} {
         padding: 20px 30px;
@@ -326,20 +321,18 @@
     }
 
     &__content {
-
         & p {
             font-size: 18px;
             font-weight: 400;
             line-height: 30px;
             color: #000000;
             margin-bottom: 0;
-              @media #{$lg} {
-        font-size: 15px;
-    }
+            @media #{$lg} {
+                font-size: 15px;
+            }
         }
-
     }
-    &:hover{
+    &:hover {
         & .tp-services-item__icon {
             animation: icon-bounce 0.8s 1;
         }
@@ -364,11 +357,11 @@
 .tp-service-item-four {
     background-color: var(--tp-common-white);
     box-shadow: 0px 4px 4px rgba(100, 109, 152, 0.06);
-    padding: 0px 55px;
+    padding: 10px 10px;
     padding-top: 65px;
-    padding-bottom: 55px;
+    padding-bottom: 30px;
     border-radius: 20px;
-    transition: .3s;
+    transition: 0.3s;
     position: relative;
     z-index: 2;
 
@@ -379,7 +372,7 @@
         line-height: 60px;
         text-align: center;
         border-radius: 6px;
-        transition: .6s;
+        transition: 0.6s;
     }
 }
 
@@ -392,7 +385,6 @@
     @media #{$xl} {
         font-size: 20px;
     }
-
 }
 
 .tp-sv-border-effect {
@@ -400,14 +392,14 @@
 
     &::after {
         position: absolute;
-        content: '';
+        content: "";
         bottom: 3px;
         left: 0;
         height: 40px;
         width: 100%;
-        background-color: #1EE2CF;
+        background-color: #1ee2cf;
         border-radius: 20px;
-        transition: .4s;
+        transition: 0.4s;
     }
 
     &:hover {
@@ -423,37 +415,37 @@
 
 .sv-border-effect-1 {
     &::after {
-        background-color: #8B40E5;
+        background-color: #8b40e5;
     }
 }
 
 .sv-border-effect-2 {
     &::after {
-        background-color: #FF885A;
+        background-color: #ff885a;
     }
 }
 
 .sv-border-effect-3 {
     &::after {
-        background-color: #FD346E;
+        background-color: #fd346e;
     }
 }
 
 .sv-border-effect-4 {
     &::after {
-        background-color: #0D88FF;
+        background-color: #0d88ff;
     }
 }
 
 .sv-border-effect-5 {
     &::after {
-        background-color: #0CD68A;
+        background-color: #0cd68a;
     }
 }
 
 .sv-border-effect-6 {
     &::after {
-        background-color: #FCDC02;
+        background-color: #fcdc02;
     }
 }
 
@@ -465,7 +457,7 @@
     & .tp-service-item-four__title {
         &:hover {
             & h3 {
-                color: #1EE2CF;
+                color: #1ee2cf;
             }
             & .tp-service-item-four__img {
                 background-color: rgba(30, 226, 207, 0.15);
@@ -482,7 +474,7 @@
     & .tp-service-item-four__title {
         &:hover {
             & h3 {
-                color: #8B40E5;
+                color: #8b40e5;
             }
         }
     }
@@ -496,7 +488,7 @@
     & .tp-service-item-four__title {
         &:hover {
             & h3 {
-                color: #FF885A;
+                color: #ff885a;
             }
         }
     }
@@ -510,7 +502,7 @@
     & .tp-service-item-four__title {
         &:hover {
             & h3 {
-                color: #FD346E;
+                color: #fd346e;
             }
         }
     }
@@ -524,7 +516,7 @@
     & .tp-service-item-four__title {
         &:hover {
             & h3 {
-                color: #0D88FF;
+                color: #0d88ff;
             }
         }
     }
@@ -538,7 +530,7 @@
     & .tp-service-item-four__title {
         &:hover {
             & h3 {
-                color: #0CD68A;
+                color: #0cd68a;
             }
         }
     }
@@ -552,14 +544,14 @@
     & .tp-service-item-four__title {
         &:hover {
             & h3 {
-                color: #FCDC02;
+                color: #fcdc02;
             }
         }
     }
 }
 
 .sv-color-eight {
-    background-color: rgba(130, 206, 253, .15);
+    background-color: rgba(130, 206, 253, 0.15);
     padding-top: 65px;
     padding-bottom: 65px;
     border-radius: 20px;
@@ -581,7 +573,7 @@
             font-weight: 900;
             font-size: 110px;
             transform: rotate(45deg);
-            transition: .3s;
+            transition: 0.3s;
 
             @media #{$lg} {
                 font-size: 100px;
@@ -603,7 +595,7 @@
 }
 
 .tp-sv-button {
-    & img{
+    & img {
         animation: rotate2 15s linear infinite;
     }
     @media #{$xs} {
@@ -621,7 +613,7 @@
     &__icon {
         & i {
             font-size: 66px;
-            color: rgba(0, 0, 0, .30);
+            color: rgba(0, 0, 0, 0.3);
         }
 
         & .angle-right-svg {
@@ -659,8 +651,7 @@
 .sv-border-bottom {
     border-bottom: 2px solid var(--tp-common-black);
 }
-.tp-sv-space-wrapper{
-
+.tp-sv-space-wrapper {
     @media #{$lg} {
         margin-left: 0;
     }
@@ -688,7 +679,6 @@
         margin-left: 0;
         padding: 16px 5px;
     }
-    
 }
 
 .tp-sv-button {
@@ -698,11 +688,11 @@
 }
 
 .bg-white-wrapper {
-    transition: .3s;
+    transition: 0.3s;
     position: relative;
     z-index: 2;
     overflow: hidden;
-    &:before{
+    &:before {
         content: "";
         background: #fff;
         height: 100%;
@@ -712,13 +702,13 @@
         left: 0;
         z-index: -1;
         // transition: width 0.4s cubic-bezier(0.34, 1.81, 0.64, 1);
-        
-        transition: .5s;
+
+        transition: 0.5s;
     }
     &:hover {
         // background-color: var(--tp-common-white);
-        &:before{
-            animation: bounceRight 2s; 
+        &:before {
+            animation: bounceRight 2s;
             width: 100%;
         }
         .tpservices {
@@ -731,12 +721,11 @@
     }
 }
 
-
 .circle-animation {
     &.service {
         top: 5%;
         left: 8%;
-        border: 1px solid #E8ECF2;
+        border: 1px solid #e8ecf2;
         width: 757px;
         height: 757px;
         position: absolute;
@@ -752,7 +741,6 @@
             height: 300px;
             width: 300px;
         }
-
     }
 }
 
@@ -810,7 +798,7 @@
                 border-radius: 50%;
                 top: -25px;
                 right: -12px;
-                background-color: #FFADAD;
+                background-color: #ffadad;
             }
         }
     }
@@ -839,7 +827,7 @@
     &.service-two {
         bottom: -3%;
         right: 9%;
-        border: 1px solid #E8ECF2;
+        border: 1px solid #e8ecf2;
         width: 488px;
         height: 488px;
         position: absolute;
@@ -854,7 +842,6 @@
             height: 200px;
             width: 200px;
         }
-
     }
 }
 
@@ -891,7 +878,7 @@
                 border-radius: 50%;
                 top: -25px;
                 right: -12px;
-                background-color: #82CEFD;
+                background-color: #82cefd;
             }
         }
     }
@@ -948,12 +935,12 @@
     background-color: transparent;
     border-radius: 10px;
     padding: 20px;
-    transition: .3s;
+    transition: 0.3s;
     &__item {
         padding: 55px 35px;
         border-radius: 10px;
         border: 1px solid transparent;
-        transition: .3s;
+        transition: 0.3s;
 
         @media #{$lg} {
             padding: 35px 15px;
@@ -1004,7 +991,6 @@
                 font-size: 25px;
                 margin-bottom: 25px;
             }
-
         }
 
         & P {
@@ -1013,12 +999,13 @@
         }
     }
 
-    &:hover,&.active {
+    &:hover,
+    &.active {
         box-shadow: 0px 26px 50px rgba(206, 210, 225, 0.24);
         background-color: var(--tp-common-white);
 
         & .bpservice__item {
-            border: 1px solid #F0F0F7;
+            border: 1px solid #f0f0f7;
         }
 
         & .bpservice__icon {
@@ -1060,7 +1047,7 @@
 }
 
 .sv-1-border {
-    border: 1px solid #F3F3F3;
+    border: 1px solid #f3f3f3;
 }
 
 .svcase {
@@ -1074,9 +1061,9 @@
             transition: 1s;
         }
     }
-    &:hover{
-        & .svcase__img{
-            & img{
+    &:hover {
+        & .svcase__img {
+            & img {
                 transform: scale(1.1);
             }
         }
@@ -1112,20 +1099,20 @@
 }
 
 .sv-2-border {
-    border: 1px solid #F3F3F3;
+    border: 1px solid #f3f3f3;
 }
 
-.service-details-space{
+.service-details-space {
     margin-bottom: 200px;
     @media #{$md,$xs} {
-       margin-bottom: 80px;
+        margin-bottom: 80px;
     }
 }
-.service-pt-pb{
+.service-pt-pb {
     padding-top: 125px;
     padding-bottom: 100px;
 }
-.sd-service-details-paragraph{
+.sd-service-details-paragraph {
     padding-left: 60px;
     @media #{$xl} {
         padding-left: 45px;
@@ -1142,18 +1129,18 @@
         text-decoration-line: underline;
         color: var(--tp-common-black);
         display: inline-block;
-        transition: .3s;
+        transition: 0.3s;
         @media #{$md,$xs} {
-           margin-bottom: 50px;
+            margin-bottom: 50px;
         }
         @media #{$xs} {
-           margin-bottom: 50px;
-           font-size: 16px;
+            margin-bottom: 50px;
+            font-size: 16px;
         }
-        &:hover{
+        &:hover {
             color: var(--tp-common-blue);
         }
-        &::before{
+        &::before {
             content: "";
             height: 19px;
             width: 19px;
@@ -1161,50 +1148,54 @@
             background-color: var(--tp-common-blue);
             display: inline-block;
             transform: translateY(4px);
-            margin-right: 10px; 
+            margin-right: 10px;
         }
-        & i{
+        & i {
             font-size: 14px;
             padding-left: 10px;
         }
     }
 }
-.sd-big-img{
+.sd-big-img {
     margin-bottom: 100px;
-    & img{
+    & img {
         border-radius: 20px;
         max-width: 100%;
     }
 }
 
-.sv-four-color{
-    background-color: rgba(130, 206, 253, .10);
+.sv-four-color {
+    background-color: rgba(130, 206, 253, 0.1);
 }
-.sv-five-color{
-    background-color: rgba(30, 226, 207, .10);
+.sv-five-color {
+    background-color: rgba(30, 226, 207, 0.1);
 }
-.sv-six-color{
-    background-color: rgba(253, 52, 110, .10);
+.sv-six-color {
+    background-color: rgba(253, 52, 110, 0.1);
 }
 
 // additional css
 .rowLeft {
     display: flex;
     flex-direction: row-reverse;
-  }
-  .rowRight {
-   display: flex;
-  }
-  
-  .animationGirl {
+}
+.rowRight {
+    display: flex;
+}
+
+.animationGirl {
     animation: slide-in 1.5s forwards;
     animation-duration: 1.5s;
     // animation-delay: 0.5s;
     @media #{$xs} {
         animation: none;
-     }
+    }
 }
 @keyframes slide-in {
-    0% { -webkit-transform: translateX(100%); }
-    100% { -webkit-transform: translateX(0%); }
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateX(0%);
+    }
 }
