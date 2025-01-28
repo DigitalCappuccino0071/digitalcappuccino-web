@@ -40,7 +40,7 @@ export default function index() {
                 <link rel="icon" href="/favicon.ico" />
                 {/* Global Site Tag (gtag.js) - Google Analytics */}
                 <script
-                    src={`https://www.googletagmanager.com/gtag/js?id=AW-11192435865`}
+                    src={`https://www.googletagmanager.com/gtag/js?id=AW-11559614744`}
                     strategy="afterInteractive"
                 />
                 <script id="gtag-init" strategy="afterInteractive">

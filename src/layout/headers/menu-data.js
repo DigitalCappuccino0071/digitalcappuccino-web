@@ -20,7 +20,7 @@ const menu_data = [
         mega_menu: false,
         has_dropdown: true,
         title: "Our Services",
-        link: "#",
+        link: "/services",
         sub_menus: [
             {
                 link: "/web-development-company-gurgaon",

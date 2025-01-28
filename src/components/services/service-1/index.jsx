@@ -7,25 +7,29 @@ import ServiceArea from "./service-area";
 import CardDetails from "./card-details";
 
 const Service = () => {
-  useEffect(() => {
-    setTimeout(() => {
-      animationCreate();
-    }, 500);
-  }, []);
+    useEffect(() => {
+        setTimeout(() => {
+            animationCreate();
+        }, 500);
+    }, []);
 
-  return (
-    <Wrapper>
-      <Header />
-      <Breadcrumb title={"Our Services"} color={"#fec4c559"} imagePath={"/assets/img/service/service-girl.png"}/>
-      <ServiceArea />
-      <CardDetails />
-      {/* <CaseArea/> */}
-      {/* <TestimonialArea style_2={true}/> */}
-      <CtaTwo />
-      {/* <FooterThree /> */}
-      <FooterFour />
-    </Wrapper>
-  );
+    return (
+        <Wrapper>
+            <Header />
+            <Breadcrumb
+                title={"Our Services"}
+                color={"#fec4c559"}
+                imagePath={"/assets/img/service/service-girl.png"}
+            />
+            <ServiceArea />
+            <CardDetails />
+            {/* <CaseArea/> */}
+            {/* <TestimonialArea style_2={true}/> */}
+            <CtaTwo />
+            {/* <FooterThree /> */}
+            <FooterFour />
+        </Wrapper>
+    );
 };
 
 export default Service;
