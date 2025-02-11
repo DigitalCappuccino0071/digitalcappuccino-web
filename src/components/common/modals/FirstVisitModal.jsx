@@ -43,7 +43,7 @@ const FirstVisitModal = () => {
     // Show popup after 2 seconds for smoother appearance
     const timer = setTimeout(() => {
       setModalIsOpen(true);
-    }, 2000);
+    }, 800);
     return () => clearTimeout(timer);
   }, []);
 
@@ -55,7 +55,7 @@ const FirstVisitModal = () => {
     // Close modal after 2 seconds of successful submission
     setTimeout(() => {
       setModalIsOpen(false);
-    }, 600);
+    }, 800);
   };
 
   return (
