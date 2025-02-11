@@ -139,7 +139,10 @@
   position: relative;
   max-height: 90vh;
   overflow-y: auto;
+  overflow-x: hidden;
   padding: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 @keyframes dcModalFadeIn {
@@ -159,6 +162,8 @@
   margin-bottom: 15px;
   text-align: center;
   border-bottom: 2px solid #f5f5f5;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .dc-modal-header h3 {
@@ -166,6 +171,7 @@
   font-size: 22px !important;
   margin-bottom: 8px !important;
   font-weight: 600;
+  word-wrap: break-word;
 }
 
 .dc-modal-header p {
@@ -173,6 +179,7 @@
   font-size: 14px !important;
   line-height: 1.5;
   margin-bottom: 0;
+  word-wrap: break-word;
 }
 
 .dc-modal-header:after {
@@ -199,11 +206,15 @@
 /* Modal Contact Form Styles */
 .dc-modal-form {
   margin-top: 12px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .dc-modal-form-group {
   margin-bottom: 16px;
   position: relative;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .dc-modal-form-input,
@@ -215,6 +226,7 @@
   font-size: 14px;
   transition: all 0.2s ease;
   background: white;
+  box-sizing: border-box;
 }
 
 .dc-modal-form-input:focus,
@@ -228,6 +240,8 @@
   height: 90px;
   resize: none;
   border-radius: 8px;
+  min-height: 90px;
+  max-height: 150px;
 }
 
 .dc-modal-form select.dc-modal-form-input {
@@ -237,6 +251,8 @@
   background-position: right 12px center;
   background-size: 14px;
   padding-right: 35px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .dc-modal-submit-btn {
@@ -252,6 +268,7 @@
   transition: all 0.2s ease;
   text-align: center;
   margin-top: 5px;
+  box-sizing: border-box;
 }
 
 .dc-modal-submit-btn:hover {
@@ -278,6 +295,8 @@
   position: absolute;
   bottom: -16px;
   left: 12px;
+  width: calc(100% - 24px);
+  box-sizing: border-box;
 }
 
 .dc-modal-success {
@@ -289,6 +308,8 @@
   margin-bottom: 12px;
   border-radius: 6px;
   background: rgba(0, 200, 81, 0.1);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .dc-modal-form-input::placeholder,
