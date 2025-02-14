@@ -358,3 +358,1420 @@
     padding: 5px 10px;
   }
 }
+
+/* Digital Agency About Section Styles */
+.dc-agency-about {
+  padding: 80px 0;
+  background-color: #0b0f19;
+  color: #fff;
+  overflow: hidden;
+}
+
+.dc-agency-about-img {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.dc-agency-about-main-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.dc-agency-about-content {
+  padding-left: 30px;
+}
+
+.dc-agency-about-subtitle {
+  display: inline-block;
+  color: #ffdc60;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.dc-agency-about-title {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+.dc-agency-about-text {
+  margin-bottom: 30px;
+}
+
+.dc-agency-about-text p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #b4b7c0;
+}
+
+.dc-agency-about-closing {
+  font-style: italic;
+  color: #ffdc60 !important;
+}
+
+.dc-agency-about-stats {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.dc-agency-stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dc-agency-stat-number {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffdc60;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.dc-agency-stat-label {
+  font-size: 14px;
+  color: #b4b7c0;
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+  .dc-agency-about {
+    padding: 60px 0;
+  }
+
+  .dc-agency-about-content {
+    padding-left: 0;
+    margin-top: 40px;
+  }
+
+  .dc-agency-about-title {
+    font-size: 36px;
+  }
+
+  .dc-agency-about-stats {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .dc-agency-about {
+    padding: 40px 0;
+  }
+
+  .dc-agency-about-title {
+    font-size: 32px;
+  }
+
+  .dc-agency-about-stats {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .dc-agency-stat-item {
+    flex-basis: calc(50% - 10px);
+  }
+
+  .dc-agency-stat-number {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 575px) {
+  .dc-agency-about-title {
+    font-size: 28px;
+  }
+
+  .dc-agency-about-text p {
+    font-size: 15px;
+  }
+
+  .dc-agency-stat-item {
+    flex-basis: 100%;
+  }
+}
+
+/* Digital Agency Services Section Styles */
+.dc-agency-services {
+  padding: 80px 0;
+  background-color: #0b0f19;
+  color: #fff;
+}
+
+.dc-agency-services-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+}
+
+.dc-agency-services-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+
+.dc-agency-services-subtitle {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #b4b7c0;
+}
+
+.dc-agency-services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.dc-agency-service-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 30px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.dc-agency-service-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.dc-agency-service-icon {
+  position: relative;
+  margin-bottom: 25px;
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 220, 96, 0.1);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dc-agency-service-icon svg {
+  width: 28px;
+  height: 28px;
+  stroke: #ffdc60;
+}
+
+.dc-agency-service-number {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #ffdc60;
+  color: #0b0f19;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 20px;
+  line-height: 1;
+}
+
+.dc-agency-service-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.dc-agency-service-description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #b4b7c0;
+  margin-bottom: 25px;
+}
+
+.dc-agency-service-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 25px;
+}
+
+.dc-agency-service-feature {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  color: #b4b7c0;
+  line-height: 1.5;
+}
+
+.dc-agency-service-feature::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 8px;
+  height: 8px;
+  background: #ffdc60;
+  border-radius: 50%;
+}
+
+.dc-agency-service-cta {
+  font-size: 15px;
+  color: #ffdc60;
+  font-style: italic;
+  margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .dc-agency-services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+@media (max-width: 991px) {
+  .dc-agency-services {
+    padding: 60px 0;
+  }
+
+  .dc-agency-services-title {
+    font-size: 42px;
+  }
+
+  .dc-agency-services-subtitle {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 767px) {
+  .dc-agency-services {
+    padding: 40px 0;
+  }
+
+  .dc-agency-services-header {
+    margin-bottom: 40px;
+  }
+
+  .dc-agency-services-title {
+    font-size: 36px;
+  }
+
+  .dc-agency-services-subtitle {
+    font-size: 16px;
+  }
+
+  .dc-agency-services-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .dc-agency-services-title {
+    font-size: 32px;
+  }
+
+  .dc-agency-service-card {
+    padding: 25px;
+  }
+
+  .dc-agency-service-title {
+    font-size: 22px;
+  }
+
+  .dc-agency-service-description {
+    font-size: 15px;
+  }
+}
+
+/* Digital Agency Hero Section Styles */
+.dc-agency-hero {
+  min-height: 100vh;
+  padding: 100px 0;
+  background: linear-gradient(
+      to right,
+      rgba(11, 15, 25, 0.95),
+      rgba(11, 15, 25, 0.8)
+    ),
+    url('/images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.dc-agency-hero-content {
+  padding-right: 50px;
+}
+
+.dc-agency-hero-welcome {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffdc60;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.dc-agency-hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.dc-agency-hero-form-wrapper {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.dc-agency-hero-form-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffdc60;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.dc-agency-hero-form-subtitle {
+  font-size: 14px;
+  color: #b4b7c0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dc-agency-hero-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dc-agency-hero-form-group {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.dc-agency-hero-form-input,
+.dc-agency-hero-form-select,
+.dc-agency-hero-form-textarea {
+  width: 100%;
+  padding: 10px 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  margin-bottom: 0;
+}
+
+.dc-agency-hero-form-input::placeholder,
+.dc-agency-hero-form-textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dc-agency-hero-form-input:focus,
+.dc-agency-hero-form-select:focus,
+.dc-agency-hero-form-textarea:focus {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: #ffdc60;
+  outline: none;
+}
+
+.dc-agency-hero-form-textarea {
+  height: 80px;
+  resize: none;
+}
+
+.dc-agency-hero-form-select {
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 16px;
+  padding-right: 40px;
+}
+
+.dc-agency-hero-form-select option {
+  background: #0b0f19;
+  color: #fff;
+}
+
+.dc-agency-hero-form-error {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  color: #ff4444;
+  font-size: 11px;
+  margin-top: 2px;
+  padding-left: 5px;
+}
+
+.dc-agency-hero-form-success {
+  text-align: center;
+  color: #00c851;
+  font-size: 14px;
+  padding: 10px;
+  background: rgba(0, 200, 81, 0.1);
+  border-radius: 8px;
+}
+
+.dc-agency-hero-form-submit {
+  background: #ffdc60;
+  color: #0b0f19;
+  border: none;
+  border-radius: 12px;
+  padding: 16px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dc-agency-hero-form-submit:hover {
+  background: #ffd333;
+  transform: translateY(-2px);
+}
+
+.dc-agency-hero-form-submit:disabled {
+  background: rgba(255, 255, 255, 0.1);
+  cursor: not-allowed;
+  transform: none;
+}
+
+.dc-agency-hero-form-submit .icon {
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.dc-agency-hero-form-submit:hover .icon {
+  transform: translateX(5px);
+}
+
+.spinner {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(11, 15, 25, 0.3);
+  border-radius: 50%;
+  border-top-color: #0b0f19;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Thank You Page Styles */
+.dc-thank-you {
+  min-height: 100vh;
+  background: #0b0f19;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.dc-thank-you-content {
+  text-align: center;
+  max-width: 500px;
+  padding: 60px 40px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.dc-thank-you-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 30px;
+  background: rgba(255, 220, 96, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dc-thank-you-icon svg {
+  width: 40px;
+  height: 40px;
+  stroke: #ffdc60;
+}
+
+.dc-thank-you-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.dc-thank-you-message {
+  font-size: 18px;
+  color: #b4b7c0;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.dc-thank-you-timer {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+}
+
+.dc-thank-you-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  background: #ffdc60;
+  color: #0b0f19;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.dc-thank-you-button:hover {
+  background: #ffd333;
+  transform: translateY(-2px);
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+  .dc-agency-hero {
+    padding: 80px 0;
+  }
+
+  .dc-agency-hero-content {
+    padding-right: 0;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .dc-agency-hero-title {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 767px) {
+  .dc-agency-hero-title {
+    font-size: 36px;
+  }
+
+  .dc-agency-hero-form-wrapper {
+    padding: 30px 20px;
+  }
+
+  .dc-agency-hero-form-group {
+    margin-bottom: 30px;
+  }
+
+  .dc-thank-you-content {
+    padding: 40px 20px;
+  }
+
+  .dc-thank-you-title {
+    font-size: 32px;
+  }
+
+  .dc-thank-you-message {
+    font-size: 16px;
+  }
+
+  .dc-agency-hero-form-error {
+    font-size: 11px;
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: 575px) {
+  .dc-agency-hero-title {
+    font-size: 32px;
+  }
+
+  .dc-agency-hero-form-title {
+    font-size: 28px;
+  }
+}
+
+/* Digital Agency Header Styles */
+.dc-agency-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 20px 0;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.dc-agency-header.scrolled {
+  background: rgba(11, 15, 25, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 15px 0;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.dc-agency-header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo display styles */
+.dc-agency-header-logo-desktop {
+  display: block;
+}
+
+.dc-agency-header-logo-mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .dc-agency-header-logo-desktop {
+    display: none;
+  }
+
+  .dc-agency-header-logo-mobile {
+    display: block;
+  }
+}
+
+.dc-agency-header-logo {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.dc-agency-header-logo:hover {
+  transform: translateY(-2px);
+}
+
+.dc-agency-header-logo img {
+  width: 145px;
+  height: 45;
+}
+
+.dc-agency-header-contact {
+  display: flex;
+  gap: 30px;
+}
+
+.dc-agency-header-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.dc-agency-header-contact-icon {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 220, 96, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.dc-agency-header-contact-icon svg {
+  width: 20px;
+  height: 20px;
+  stroke: #ffdc60;
+}
+
+.dc-agency-header-contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.dc-agency-header-contact-label {
+  font-size: 13px;
+  color: #b4b7c0;
+  margin-bottom: 2px;
+}
+
+.dc-agency-header-contact-value {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.dc-agency-header-contact-value:hover {
+  color: #ffdc60;
+}
+
+.dc-agency-header-contact-item:hover .dc-agency-header-contact-icon {
+  background: rgba(255, 220, 96, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Responsive Header Styles */
+@media (max-width: 991px) {
+  .dc-agency-header {
+    background: rgba(11, 15, 25, 0.95);
+    padding: 12px 0;
+  }
+
+  .dc-agency-header-contact {
+    gap: 15px;
+  }
+
+  .dc-agency-header-logo img {
+    width: 145px !important;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .dc-agency-header {
+    padding: 10px 0;
+  }
+
+  .dc-agency-header-content {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .dc-agency-header-contact {
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .dc-agency-header-contact-item {
+    padding: 5px;
+  }
+
+  .dc-agency-header-contact-icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .dc-agency-header-contact-icon svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .dc-agency-header-contact-info {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .dc-agency-header {
+    padding: 8px 0;
+  }
+
+  .dc-agency-header-logo img {
+    width: 110px !important;
+  }
+
+  .dc-agency-header-contact-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .dc-agency-header-contact-icon svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .dc-agency-header-contact {
+    gap: 8px;
+  }
+}
+
+/* Digital Agency Why Choose Us Section Styles */
+.dc-agency-why-choose {
+  padding: 80px 0;
+  background-color: #0b0f19;
+  color: #fff;
+  overflow: hidden;
+}
+
+.dc-agency-why-choose-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+}
+
+.dc-agency-why-choose-subtitle {
+  display: inline-block;
+  color: #ffdc60;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.dc-agency-why-choose-title {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.dc-agency-why-choose-description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #b4b7c0;
+  margin-bottom: 40px;
+}
+
+.dc-agency-why-choose-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.dc-agency-why-choose-feature {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 30px;
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dc-agency-why-choose-feature:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.dc-agency-why-choose-feature-icon {
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 220, 96, 0.1);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.dc-agency-why-choose-feature-icon svg {
+  width: 24px;
+  height: 24px;
+  stroke: #ffdc60;
+}
+
+.dc-agency-why-choose-feature-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.dc-agency-why-choose-feature-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.dc-agency-why-choose-feature-description {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #b4b7c0;
+  margin-bottom: 15px;
+}
+
+.dc-agency-why-choose-feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0;
+}
+
+.dc-agency-why-choose-feature-list li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #b4b7c0;
+  line-height: 1.5;
+}
+
+.dc-agency-why-choose-feature-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 6px;
+  height: 6px;
+  background: #ffdc60;
+  border-radius: 50%;
+}
+
+/* Featured section styles */
+.dc-agency-why-choose-main {
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.dc-agency-why-choose-image {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.dc-agency-why-choose-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.dc-agency-why-choose-image-shape {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #ffdc60;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.dc-agency-why-choose-content {
+  padding-left: 50px;
+}
+
+.dc-agency-why-choose-feature.featured {
+  background: rgba(255, 220, 96, 0.05);
+  border: 1px solid rgba(255, 220, 96, 0.2);
+  padding: 40px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.dc-agency-why-choose-feature.featured .dc-agency-why-choose-feature-icon {
+  width: 70px;
+  height: 70px;
+  background: rgba(255, 220, 96, 0.1);
+  margin-bottom: 25px;
+}
+
+.dc-agency-why-choose-feature.featured .dc-agency-why-choose-feature-icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.dc-agency-why-choose-feature.featured .dc-agency-why-choose-feature-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.dc-agency-why-choose-feature.featured
+  .dc-agency-why-choose-feature-description {
+  font-size: 16px;
+}
+
+/* Responsive styles */
+@media (max-width: 991px) {
+  .dc-agency-why-choose-main {
+    margin-bottom: 60px;
+  }
+
+  .dc-agency-why-choose-content {
+    padding-left: 0;
+    margin-top: 40px;
+  }
+
+  .dc-agency-why-choose-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  .dc-agency-why-choose {
+    padding: 60px 0;
+  }
+
+  .dc-agency-why-choose-title {
+    font-size: 36px;
+  }
+
+  .dc-agency-why-choose-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dc-agency-why-choose-feature {
+    padding: 25px;
+  }
+}
+
+@media (max-width: 575px) {
+  .dc-agency-why-choose {
+    padding: 40px 0;
+  }
+
+  .dc-agency-why-choose-title {
+    font-size: 32px;
+  }
+
+  .dc-agency-why-choose-feature {
+    padding: 20px;
+  }
+}
+
+/* Digital Agency Testimonials Section Styles */
+.dc-agency-testimonials {
+  padding: 80px 0;
+  background-color: #0b0f19;
+  color: #fff;
+  overflow: hidden;
+}
+
+.dc-agency-testimonials-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+}
+
+.dc-agency-testimonials-subtitle {
+  display: inline-block;
+  color: #ffdc60;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.dc-agency-testimonials-title {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.dc-agency-testimonials-container {
+  position: relative;
+  padding: 0 50px;
+  margin: 0 auto;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.dc-agency-testimonials-grid {
+  display: flex;
+  gap: 30px;
+  padding: 20px 0;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  width: 100%;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 0 20px;
+}
+
+.dc-agency-testimonials-grid::-webkit-scrollbar {
+  display: none;
+}
+
+.dc-agency-testimonial-card {
+  flex: 0 0 400px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 30px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.dc-agency-testimonial-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.dc-agency-testimonial-content {
+  flex-grow: 1;
+  position: relative;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dc-agency-testimonial-quote {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  stroke: #ffdc60;
+  opacity: 0.5;
+}
+
+.dc-agency-testimonial-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #b4b7c0;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.dc-agency-testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: auto;
+}
+
+.dc-agency-testimonial-info {
+  flex-grow: 1;
+}
+
+.dc-agency-testimonial-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.dc-agency-testimonial-role {
+  font-size: 14px;
+  color: #ffdc60;
+}
+
+.dc-agency-testimonials-nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 220, 96, 0.1);
+  color: #ffdc60;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 2;
+}
+
+.dc-agency-testimonials-nav-btn:hover {
+  background: rgba(255, 220, 96, 0.2);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.dc-agency-testimonials-nav-btn.prev {
+  left: 0;
+}
+
+.dc-agency-testimonials-nav-btn.next {
+  right: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .dc-agency-testimonial-card {
+    flex: 0 0 350px;
+  }
+}
+
+@media (max-width: 991px) {
+  .dc-agency-testimonials {
+    padding: 60px 0;
+  }
+
+  .dc-agency-testimonials-title {
+    font-size: 36px;
+  }
+
+  .dc-agency-testimonial-card {
+    flex: 0 0 300px;
+    min-height: 280px;
+  }
+}
+
+@media (max-width: 767px) {
+  .dc-agency-testimonials {
+    padding: 40px 0;
+  }
+
+  .dc-agency-testimonials-container {
+    padding: 0 35px;
+  }
+
+  .dc-agency-testimonials-title {
+    font-size: 32px;
+  }
+
+  .dc-agency-testimonial-card {
+    flex: 0 0 280px;
+    padding: 25px;
+    min-height: 260px;
+  }
+
+  .dc-agency-testimonial-text {
+    font-size: 15px;
+  }
+
+  .dc-agency-testimonials-nav-btn {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 575px) {
+  .dc-agency-testimonials-container {
+    padding: 0 30px;
+  }
+
+  .dc-agency-testimonials-grid {
+    gap: 15px;
+    scroll-padding: 0 10px;
+  }
+
+  .dc-agency-testimonial-card {
+    flex: 0 0 calc(100% - 60px);
+    padding: 20px;
+    min-height: 240px;
+  }
+
+  .dc-agency-testimonial-name {
+    font-size: 16px;
+  }
+
+  .dc-agency-testimonial-role {
+    font-size: 13px;
+  }
+
+  .dc-agency-testimonials-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 380px) {
+  .dc-agency-testimonial-card {
+    flex: 0 0 calc(100% - 50px);
+    min-height: 220px;
+  }
+
+  .dc-agency-testimonials-container {
+    padding: 0 25px;
+  }
+
+  .dc-agency-testimonials-grid {
+    gap: 10px;
+  }
+
+  .dc-agency-testimonial-text {
+    font-size: 14px;
+  }
+}
+
+/* Logo styles */
+.logo-wrapper {
+  position: relative;
+}
+
+.logo-wrapper .desktop-logo {
+  display: block;
+}
+
+.logo-wrapper .mobile-logo {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .logo-wrapper .desktop-logo {
+    display: none;
+  }
+
+  .logo-wrapper .mobile-logo {
+    display: block;
+  }
+}
+
+/* Digital Agency Footer Styles */
+.dc-agency-footer {
+  background-color: #0b0f19;
+  padding: 20px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dc-agency-footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.dc-agency-footer-copyright {
+  color: #b4b7c0;
+  font-size: 14px;
+}
+
+.dc-agency-footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.dc-agency-footer-link {
+  color: #b4b7c0;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.dc-agency-footer-link:hover {
+  color: #ffdc60;
+}
+
+@media (max-width: 575px) {
+  .dc-agency-footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .dc-agency-footer-links {
+    justify-content: center;
+  }
+}

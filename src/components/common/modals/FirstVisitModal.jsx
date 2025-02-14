@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Modal from 'react-modal';
 import ModalContactForm from '../../forms/modal-contact-form';
+import { useRouter } from 'next/router';
 
 // Custom styles for the modal
 const customStyles = {
@@ -38,6 +39,10 @@ if (typeof window !== 'undefined') {
 
 const FirstVisitModal = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const router = useRouter();
+
+  // List of paths where modal should not appear
+  // const excludedPaths = ['/thank-you', '/top-digital-marketing-agency-india'];
 
   useEffect(() => {
     // Show popup after 2 seconds for smoother appearance
@@ -57,6 +62,13 @@ const FirstVisitModal = () => {
       setModalIsOpen(false);
     }, 800);
   };
+
+  if (
+    router.pathname === '/thank-you' ||
+    router.pathname === '/top-digital-marketing-agency-india'
+  ) {
+    return null;
+  }
 
   return (
     <Modal
