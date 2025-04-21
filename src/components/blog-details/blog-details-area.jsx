@@ -45,7 +45,7 @@ const BlogDetailsArea = ({ blog }) => {
                       <span>
                         <a href="#">
                           <i className="fal fa-clock"></i>
-                          {format(new Date(blog?.createdAt), 'dd-MM-yyyy')}
+                          {format(new Date(blog?.updatedAt), 'dd-MM-yyyy')}
                         </a>
                       </span>
                     </div>

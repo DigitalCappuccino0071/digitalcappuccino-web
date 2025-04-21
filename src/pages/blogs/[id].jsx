@@ -387,7 +387,7 @@ const BlogDynamicDetails = () => {
     const blogPostingSchema = blogPostingSchemaData.filter(
       item => item.slug === blog.slug
     );
-    console.log(blog?.title);
+
     return (
       <Wrapper>
         <SEONew
