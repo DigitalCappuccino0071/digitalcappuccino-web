@@ -19,6 +19,9 @@ const CopyrightArea = ({
                 <p className={`${color ? 'text-black' : ''}`}>
                   {copy_right_text}
                 </p>
+                <p className={`${color ? 'text-black' : ''} mt-1 fs-sm`}>
+                  Powered by jv creatives pvt ltd.
+                </p>
               </div>
             </div>
             <div className="col-xl-6 col-lg-6 col-12">

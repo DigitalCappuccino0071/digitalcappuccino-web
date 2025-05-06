@@ -1,47 +1,47 @@
-import Link from "next/link";
-import React from "react";
-import SocialLinks from "../social-links";
-import CopyrightArea from "./component/copyright-area";
+import Link from 'next/link';
+import React from 'react';
+import SocialLinks from '../social-links';
+import CopyrightArea from './component/copyright-area';
 
 const footer_contents = {
-  logo: "/assets/img/logo/logo-white.png",
+  logo: '/assets/img/logo/logo-white.png',
   widget_desc:
-    "Digital Cappuccino is the digital marketing partner for all businesses looking forward to playing with online media and growing their businesses with successive results.",
+    'Digital Cappuccino is the digital marketing partner for all businesses looking forward to playing with online media and growing their businesses with successive results.',
   footer_widgets: [
     {
-      w_class: "d-flex justify-content-lg-center",
-      title: "Useful Links",
+      w_class: 'd-flex justify-content-lg-center',
+      title: 'Useful Links',
       widget_lists: [
-        "Contact us",
-        "How it Works",
-        "Create",
-        "Explore",
-        "Terms & Services",
+        'Contact us',
+        'How it Works',
+        'Create',
+        'Explore',
+        'Terms & Services',
       ],
     },
     {
-      padd: "pl-20",
-      title: "Community",
+      padd: 'pl-20',
+      title: 'Community',
       widget_lists: [
-        "Help Center",
-        "Partners",
-        "Suggestions",
-        "Blog",
-        "Newsletters",
+        'Help Center',
+        'Partners',
+        'Suggestions',
+        'Blog',
+        'Newsletters',
       ],
     },
   ],
-  subscribe_title: "Subscribe Newsletter",
+  subscribe_title: 'Subscribe Newsletter',
   subscribe_text:
-    "By registering or subscribing to our services, The user accepts receiving the subscription email about digitalcappuccino.com " +
-    " service updates or other promotional offers.",
+    'By registering or subscribing to our services, The user accepts receiving the subscription email about digitalcappuccino.com ' +
+    ' service updates or other promotional offers.',
   copy_right_text: (
     <>
       © Copyright ©{new Date().getFullYear()} Digital Cappuccino. All Rights
       Reserved Copyright
     </>
   ),
-  conditions: ["Terms and conditions", "Privacy policy", "Login / Signup"],
+  conditions: ['Terms and conditions', 'Privacy policy', 'Login / Signup'],
 };
 
 const {
@@ -95,10 +95,10 @@ const FooterThree = ({ home_four = false }) => {
                   <div
                     key={i}
                     className={`col-xl-3 col-lg-2 col-md-6 ${
-                      w_class ? w_class : ""
+                      w_class ? w_class : ''
                     }`}
                   >
-                    <div className={`tp-footer-widget ${padd ? padd : ""}`}>
+                    <div className={`tp-footer-widget ${padd ? padd : ''}`}>
                       <div className="tp-footer-widget__title pb-15">
                         <h3 className="footer-title">{title}</h3>
                       </div>
@@ -125,7 +125,7 @@ const FooterThree = ({ home_four = false }) => {
                       <p>{subscribe_text}</p>
                     </div>
                     <div className="tp-footer-widget__input">
-                      <form onSubmit={(e) => e.preventDefault()}>
+                      <form onSubmit={e => e.preventDefault()}>
                         <input type="text" placeholder="Enter Mail" />
                         <button type="submit">
                           <i className="fas fa-paper-plane"></i>
@@ -142,12 +142,12 @@ const FooterThree = ({ home_four = false }) => {
                       <h3 className="footer-title">Instagram post</h3>
                     </div>
                     <div className="row gx-3">
-                      <InstagramItem img={"1"} />
-                      <InstagramItem img={"2"} />
-                      <InstagramItem img={"3"} />
-                      <InstagramItem img={"4"} />
-                      <InstagramItem img={"5"} />
-                      <InstagramItem img={"6"} />
+                      <InstagramItem img={'1'} />
+                      <InstagramItem img={'2'} />
+                      <InstagramItem img={'3'} />
+                      <InstagramItem img={'4'} />
+                      <InstagramItem img={'5'} />
+                      <InstagramItem img={'6'} />
                     </div>
                   </div>
                 </div>
